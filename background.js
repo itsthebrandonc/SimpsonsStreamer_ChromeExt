@@ -1,14 +1,15 @@
 try { importScripts("constants.js"); } catch (e) { console.error(e); }
 
 const HOMEPAGE_URL = "https://www.disneyplus.com/en-gb/browse/entity-cac75c8f-a9e2-4d95-ac73-1cf1cc7b9568";
+const EP_URL_HEADER = "https://www.disneyplus.com/en-gb/play/";
 
 var contentPort = undefined;
 var portReady = false;
+var episodeID = episodeID = "ffb14e5a-38db-4522-a559-3cfa52bcf4df"; //First episode
 
 function navigateToEpisode(tabID)
 {
-    let episodeURL = "https://www.disneyplus.com/en-gb/play/ffb14e5a-38db-4522-a559-3cfa52bcf4df"; //First episode
-    chrome.tabs.update( tabID, { url: episodeURL, 'muted':false } ); 
+    chrome.tabs.update( tabID, { url: EP_URL_HEADER + episodeID, 'muted':false } ); 
 }
 
 function SendMessageToPopup(type,value)
@@ -78,12 +79,20 @@ chrome.tabs.onUpdated.addListener(
     if (!changeInfo.status || !tab.url)
       return;
 
-    if (changeInfo.status == "complete" && tab.url && tab.url == HOMEPAGE_URL) {
-      console.log("Tab OnUpdate::HOMEPAGE_URL");
-      chrome.tabs.sendMessage( thisTabID, {
-        type: MessageType.UPDURL,
-        value: {"url":tab.url,"isHomePage":(tab.url == HOMEPAGE_URL)}
-      });
+    if (changeInfo.status == "complete" && tab.url) { 
+      if (tab.url == HOMEPAGE_URL) {
+        console.log("Tab OnUpdate::HOMEPAGE_URL");
+        chrome.tabs.sendMessage( thisTabID, {
+          type: MessageType.UPDURL,
+          value: {"url":tab.url,"isHomePage":(tab.url == HOMEPAGE_URL)}
+        });
+      } else if (tab.url == EP_URL_HEADER + episodeID) {
+        console.log("Tab OnUpdate::EP_URL");
+        chrome.tabs.sendMessage( thisTabID, {
+          type: MessageType.UPDURL,
+          value: {"url":tab.url,"isEpisode":(tab.url == EP_URL_HEADER + episodeID)}
+        });
+      }
     }
   }
 );

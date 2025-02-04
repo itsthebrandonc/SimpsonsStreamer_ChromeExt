@@ -9,3 +9,4 @@
 
 v.0.0.1 - 250203 - Initial commit, added new button to Simpsons home page  
 v.0.0.1 - 250203 - Updates the home page again when navigating back from episode
+v.0.1.0 - 250203 - Split home page and episode content scripts. Episode script grabs video element and changes title.

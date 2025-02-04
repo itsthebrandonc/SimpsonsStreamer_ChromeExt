@@ -6,8 +6,13 @@
     "host_permissions": ["*://www.disneyplus.com/*"],
     "content_scripts": [
       {
-        "matches": ["*://www.disneyplus.com/*"],
-        "js": ["constants.js", "contentScript.js"],
+        "matches": ["*://www.disneyplus.com/en-gb/browse/entity-cac75c8f-a9e2-4d95-ac73-1cf1cc7b9568"],
+        "js": ["constants.js", "homeContent.js"],
+        "css": ["content.css"]
+      },
+      {
+        "matches": ["*://www.disneyplus.com/en-gb/play/*"],
+        "js": ["constants.js", "epContent.js"],
         "css": ["content.css"]
       }
     ],
