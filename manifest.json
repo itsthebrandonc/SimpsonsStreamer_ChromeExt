@@ -7,7 +7,7 @@
     "content_scripts": [
       {
         "matches": ["*://www.disneyplus.com/*"],
-        "js": ["contentScript.js"],
+        "js": ["constants.js", "contentScript.js"],
         "css": ["content.css"]
       }
     ],

@@ -1,10 +1,4 @@
 (() => {
-    const MessageType = Object.freeze({
-        PORT: "PORT",
-        HELLO: "HELLO",
-        UPDURL: "UPDURL",
-        LOADEP: "LOADEP"
-      });
 
     const HOMEPAGE_TITLE = "The Simpsons | Disney+";
 
@@ -20,9 +14,9 @@
         console.log("Content::CheckPageLoaded");
         if (isHomePage && !loadedPage)
         {
-            if (window.document.title != HOMEPAGE_TITLE)
+            if (window.document.title != HOMEPAGE_TITLE || !document.querySelector('[data-testid="details-featured-actions"]'))
             {
-                loadedPageInterval = setInterval(checkPageLoaded, 2000);
+                loadedPageInterval = setInterval(checkPageLoaded, 1000);
             }
             else
             {

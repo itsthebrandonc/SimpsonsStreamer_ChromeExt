@@ -1,9 +1,4 @@
-const MessageType = Object.freeze({
-  PORT: "PORT",
-  HELLO: "HELLO",
-  UPDURL: "UPDURL",
-  LOADEP: "LOADEP"
-});
+try { importScripts("constants.js"); } catch (e) { console.error(e); }
 
 const HOMEPAGE_URL = "https://www.disneyplus.com/en-gb/browse/entity-cac75c8f-a9e2-4d95-ac73-1cf1cc7b9568";
 
@@ -18,10 +13,13 @@ function navigateToEpisode(tabID)
 
 function SendMessageToPopup(type,value)
 {
-    chrome.runtime.sendMessage({
-        type: type,
-        value: value
-    });
+    chrome.runtime.sendMessage(
+      {type: type,value: value}, 
+      function(response) {
+        var lastError = chrome.runtime.lastError;
+        if (lastError)
+          console.log(lastError.message);
+      });
 }
 
 function SendMessageToContent(type,value)
