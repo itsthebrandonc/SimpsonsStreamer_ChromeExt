@@ -1,0 +1,13 @@
+#btnWatchMarathon {
+    height: 56px;
+    height: 56px;
+    color: #000000;
+    background-color: #FBDD0A;
+    border: none;
+    backdrop-filter: blur(20px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 16px;
+    font-weight: bold;
+}
