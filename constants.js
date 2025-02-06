@@ -1,6 +1,6 @@
 const MessageType = Object.freeze({
-    PORT: "PORT",
+    PORT: "SIMPSONS_STREAMER_PORT",
     HELLO: "HELLO",
     UPDURL: "UPDURL",
-    LOADEP: "LOADEP"
+    OPENEP: "OPENEP"
 });

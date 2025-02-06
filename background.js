@@ -5,11 +5,44 @@ const EP_URL_HEADER = "https://www.disneyplus.com/en-gb/play/";
 
 var contentPort = undefined;
 var portReady = false;
-var episodeID = episodeID = "ffb14e5a-38db-4522-a559-3cfa52bcf4df"; //First episode
+var portTimer = false;
+
+var episodeID;
+var startDate;
+
+function loadEpisodeInfo()
+{
+  episodeID = "ffb14e5a-38db-4522-a559-3cfa52bcf4df"; //First episode
+  startDate = new Date();
+  //startDate.setHours(21,54,0,0);
+  testSetNearestHalfHour();
+}
+
+function testSetNearestHalfHour()
+{
+  startDate.setHours(startDate.getHours(),startDate.getMinutes() >= 30 ? 30 : 0,0,0);
+}
 
 function navigateToEpisode(tabID)
 {
+    loadEpisodeInfo();
     chrome.tabs.update( tabID, { url: EP_URL_HEADER + episodeID, 'muted':false } ); 
+}
+
+function sendSyncRequest()
+{
+  clearTimeout(portTimer);
+  if (!portReady)
+    return;
+
+  let timestamp = new Date().getTime();
+  let epTime = (timestamp - startDate.getTime()) / 10000;
+
+  //console.log("Sync Times:: Start Time: " + startDate.getTime() + " Timestamp: " + new Date().getTime() + " EpTime: " + epTime);
+
+  SendMessageToContent(MessageType.SYNC,{"epTime":epTime,"timestamp":timestamp});
+
+  portTimer = setTimeout(sendSyncRequest,5000);
 }
 
 function SendMessageToPopup(type,value)
@@ -58,7 +91,7 @@ chrome.runtime.onConnect.addListener(function(port) {
     contentPort.onMessage.addListener(function(obj) {
       const {type, value} = obj;
 
-      console.log("Port Message: Sender: " + port.sender.tab.id);
+      //console.log("Port Message: Sender: " + port.sender.tab.id);
 
       switch (type)
       {
@@ -66,8 +99,11 @@ chrome.runtime.onConnect.addListener(function(port) {
             portReady = true;
             contentPort.postMessage({type: MessageType.HELLO, value: null});
             break;
-        case MessageType.LOADEP:
+        case MessageType.OPENEP:
           navigateToEpisode(port.sender.tab.id);
+          break;
+        case MessageType.SYNC:
+          sendSyncRequest();
           break;
       }
     });
@@ -87,16 +123,18 @@ chrome.tabs.onUpdated.addListener(
           value: {"url":tab.url,"isHomePage":(tab.url == HOMEPAGE_URL)}
         });
       } else if (tab.url == EP_URL_HEADER + episodeID) {
-        console.log("Tab OnUpdate::EP_URL");
+        loadEpisodeInfo();
+        console.log("Tab OnUpdate::EP_URL , startDate: " + startDate);
         chrome.tabs.sendMessage( thisTabID, {
           type: MessageType.UPDURL,
-          value: {"url":tab.url,"isEpisode":(tab.url == EP_URL_HEADER + episodeID)}
+          value: {"url":tab.url,"isEpisode":true,"episodeID":episodeID,"startDate":startDate,"duration":1441000}
         });
       }
     }
   }
 );
 
+/*
 chrome.alarms.onAlarm.addListener((alarm) => {
   switch (alarm)
   {
@@ -113,3 +151,4 @@ function refreshExtension()
 }
 
 refreshExtension();
+*/

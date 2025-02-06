@@ -39,7 +39,7 @@
         disneyPageActions.appendChild(btnWatchMarathon);
 
         btnWatchMarathon.addEventListener("click", function() {
-            SendMessageToBackground(MessageType.LOADEP,null);
+            SendMessageToBackground(MessageType.OPENEP,null);
         });
 
         console.log("Home Page Ext Loaded");
