@@ -13,6 +13,9 @@
     var epDuration;
     var clickDelay;
     var isSyncing = false;
+    var isSyncCooldown = false;
+    var syncTimeout;
+    var nextSyncTimeout;
 
     function checkPageLoaded()
     {
@@ -85,14 +88,32 @@
         });
 
         disneyPlayer.addEventListener('timeupdate', () => {
-        if (!isBuffering) {
-            syncEpisode();
-        }
+            if (!isBuffering && !isSyncing && !isSyncCooldown) {
+                syncEpisode();
+            }
         });
         
-        disneyPlayer.addEventListener('ratechange', function() { //Prevents changing playback rate 
+        disneyPlayer.addEventListener('ratechange', () => { //Prevents changing playback rate 
             //if (controlVideo)
-            disneyPlayer.playbackRate = vidPlaybackRate;
+            //disneyPlayer.playbackRate = vidPlaybackRate;
+        });
+
+        disneyPlayer.addEventListener('onplay', () => {
+            console.log("onplay");
+            if (isSyncing)
+            {
+                console.log("Force pause");
+                disneyPlayer.pause();
+            }
+        });
+
+        disneyPlayer.addEventListener('onplaying', () => {
+            console.log("onpause");
+            if (isSyncing)
+            {
+                console.log("Force pause");
+                disneyPlayer.pause();
+            }
         });
 
         let disneyEpTitle = document.querySelector('div.title-field > span');
@@ -102,13 +123,20 @@
         }
 
         console.log("Episode Loaded");
+        disneyPlayer.pause()
+        syncEpisode();
     }
 
+    //Positive = Ahead
+    //Negative = Behind
     function checkOffsync()
     {
         let correctEpTime = new Date() - epStartDate;
         if (correctEpTime > epDuration)
+        {
+            console.log("Episode has ended");
             return 0;
+        }
 
         let currEpTime = getCurrEpisodeTime();
     
@@ -116,7 +144,7 @@
 
         //console.log("CheckEpisodeTime:: Correct: " + (correctEpTime/1000) + " Current: " + (currEpTime/1000));
 
-        return currEpTime > 0 ? (correctEpTime - currEpTime) / 1000 : 0;
+        return currEpTime > 0 ? (currEpTime - correctEpTime) / 1000 : 0;
     }
 
     function getCurrEpisodeTime() {
@@ -144,7 +172,7 @@
 
     function syncEpisode()
     {
-        if (isSyncing)
+        if (isSyncing || isSyncCooldown)
             return;
 
         if (!disneyPlayer)
@@ -154,41 +182,77 @@
         }
 
         let offsync = checkOffsync();
-        if (Math.abs(offsync) < 5)
+        isSyncCooldown = true;
+        clearTimeout(nextSyncTimeout);
+        nextSyncTimeout = setTimeout(() => {
+            isSyncCooldown = false;
+        }, 5000);
+
+        //console.log("           SyncEpisode:: " + offsync);
+
+        if (Math.abs(offsync) < 1)
             return;
 
         console.log("SyncEpisode:: " + offsync);
 
         isSyncing = true;
+        disneyPlayer.pause();
 
-        if (offsync > 0) {
-            let skipsFF = Math.ceil(offsync/10);
+        if (offsync < 0) {
+            let skipsFF = Math.ceil(-1*offsync/10);
             const btnFF = document.querySelector('quick-fast-forward').shadowRoot.querySelector('info-tooltip button');
 
             console.log("FF x" + skipsFF);
             //clearTimeout(clickDelay);
             //clickDelay = setTimeout(() => {
-                for (let i=0; i<skipsFF;i++)
-                {
-                    btnFF.click();
-                }
+            for (let i=0; i<skipsFF;i++)
+            {
+                btnFF.click();
+            }
             //}, 1500);
+
+            offsync += (skipsFF * 10);
             
-        } else if (offsync < 0) {
-            let skipsRW = Math.floor(-1*offsync/10);
+        } else if (offsync >= 10) {
+            let skipsRW = Math.floor(offsync/10);
             const btnRW = document.querySelector('quick-rewind').shadowRoot.querySelector('info-tooltip button');
 
             console.log("RW x" + skipsRW);
             //clearTimeout(clickDelay);
             //clickDelay = setTimeout(() => {
-                for (let i=0; i<skipsRW;i++)
-                {
-                    btnRW.click();
-                }
+            for (let i=0; i<skipsRW;i++)
+            {
+                btnRW.click();
+            }
             //}, 1500);
+
+            offsync -= (skipsRW * 10);
         }
 
-        isSyncing = false;
+        console.log("Remaining Offsync: " + offsync);
+        if (offsync >= 1)
+        {
+            disneyPlayer.pause(); //TODO: This for some reason is not staying paused.
+                                    // I think the button presses are causing the video to play again
+                                    // Once the timeout ends, the sync triggers again and this time it does pause successfully
+            
+            console.log("Starting timeout for " + offsync);
+
+            clearTimeout(syncTimeout);
+            syncTimeout = setTimeout(() => {
+                console.log("Timeout ended");
+                isSyncing = false;
+                isSyncCooldown = false;
+                disneyPlayer.play();
+            }, offsync * 1000);
+            
+        }
+        else
+        {
+            isSyncing = false;
+            isSyncCooldown = false;
+            disneyPlayer.play();
+        }
     }
     
 
