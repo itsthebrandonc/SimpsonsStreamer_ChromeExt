@@ -1,0 +1,14 @@
+{
+    "season" : 1,
+    "duration" : 1441000,
+    "startDate" : "2025-02-07 21:00:00,000",
+    "episodes" :
+    [
+        {
+            "id" : "ffb14e5a-38db-4522-a559-3cfa52bcf4df",
+            "season" : 1,
+            "episode" : 1,
+            "duration" : 1441000
+        }
+    ]
+}

@@ -16,6 +16,7 @@
     var isSyncCooldown = false;
     var syncTimeout;
     var nextSyncTimeout;
+    var  endSyncTimeout;
 
     function checkPageLoaded()
     {
@@ -81,6 +82,7 @@
 
         disneyPlayer.addEventListener('canplay', () => {
             isBuffering = false;
+            syncEpisode();
         });
 
         disneyPlayer.addEventListener('canplaythrough', () => {
@@ -97,7 +99,7 @@
             //if (controlVideo)
             //disneyPlayer.playbackRate = vidPlaybackRate;
         });
-
+        /*
         disneyPlayer.addEventListener('onplay', () => {
             console.log("onplay");
             if (isSyncing)
@@ -115,16 +117,19 @@
                 disneyPlayer.pause();
             }
         });
+        */
 
-        let disneyEpTitle = document.querySelector('div.title-field > span');
-        if (disneyEpTitle)
-        {
-            disneyEpTitle.innerHTML = '24/7 Simpsons Streamer';
-        }
+        disneyPlayer.muted = true;
 
-        console.log("Episode Loaded");
-        disneyPlayer.pause()
-        syncEpisode();
+        setTimeout(() => {
+            let disneyEpTitle = document.querySelector('div.title-field > span');
+            if (disneyEpTitle)
+                disneyEpTitle.innerHTML = '24/7 Simpsons Streamer';
+    
+            console.log("Episode Loaded");
+            disneyPlayer.muted = true;
+            syncEpisode();
+        }, 1500);
     }
 
     //Positive = Ahead
@@ -196,6 +201,7 @@
         console.log("SyncEpisode:: " + offsync);
 
         isSyncing = true;
+        disneyPlayer.muted = true;
         disneyPlayer.pause();
 
         if (offsync < 0) {
@@ -230,27 +236,32 @@
         }
 
         console.log("Remaining Offsync: " + offsync);
+        disneyPlayer.pause();
         if (offsync >= 1)
         {
-            disneyPlayer.pause(); //TODO: This for some reason is not staying paused.
-                                    // I think the button presses are causing the video to play again
-                                    // Once the timeout ends, the sync triggers again and this time it does pause successfully
-            
-            console.log("Starting timeout for " + offsync);
+            clearTimeout(endSyncTimeout);
+            endSyncTimeout = setTimeout(() => {
+                disneyPlayer.pause(); //TODO: This for some reason is not staying paused.
+                                        // I think the button presses are causing the video to play again
+                                        // Once the timeout ends, the sync triggers again and this time it does pause successfully
+                
+                console.log("Starting timeout for " + offsync);
 
-            clearTimeout(syncTimeout);
-            syncTimeout = setTimeout(() => {
-                console.log("Timeout ended");
-                isSyncing = false;
-                isSyncCooldown = false;
-                disneyPlayer.play();
-            }, offsync * 1000);
-            
+                clearTimeout(syncTimeout);
+                syncTimeout = setTimeout(() => {
+                    console.log("Timeout ended");
+                    isSyncing = false;
+                    isSyncCooldown = false;
+                    disneyPlayer.muted = false;
+                    disneyPlayer.play();
+                }, offsync * 1000);
+            }, 1000);
         }
         else
         {
             isSyncing = false;
             isSyncCooldown = false;
+            disneyPlayer.muted = false;
             disneyPlayer.play();
         }
     }
