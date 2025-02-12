@@ -1,4 +1,4 @@
-try { importScripts("constants.js"); } catch (e) { console.error(e); }
+try { importScripts("constants.js", "episodeInfo.js"); } catch (e) { console.error(e); }
 
 const HOMEPAGE_URL = "https://www.disneyplus.com/en-gb/browse/entity-cac75c8f-a9e2-4d95-ac73-1cf1cc7b9568";
 const EP_URL_HEADER = "https://www.disneyplus.com/en-gb/play/";
@@ -10,17 +10,12 @@ var portTimer = false;
 var episodeID;
 var startDate;
 
-function loadEpisodeInfo()
+async function loadEpisodeInfo()
 {
-  episodeID = "ffb14e5a-38db-4522-a559-3cfa52bcf4df"; //First episode
-  startDate = new Date();
-  //startDate.setHours(21,54,0,0);
-  testSetNearestHalfHour();
-}
-
-function testSetNearestHalfHour()
-{
-  startDate.setHours(startDate.getHours(),startDate.getMinutes() >= 30 ? 30 : 0,0,0);
+  await getCurrentEpisode(new Date().getTime());
+  console.log("Ep: " + currentEpisode.episode + ", Time: " + timeIntoEpisode);
+  episodeID = currentEpisode.id;
+  //episodeID = "ffb14e5a-38db-4522-a559-3cfa52bcf4df"; //First episode
 }
 
 function navigateToEpisode(tabID)
@@ -97,6 +92,7 @@ chrome.runtime.onConnect.addListener(function(port) {
       {
         case MessageType.HELLO:
             portReady = true;
+            loadEpisodeInfo();
             contentPort.postMessage({type: MessageType.HELLO, value: null});
             break;
         case MessageType.OPENEP:

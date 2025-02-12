@@ -1,0 +1,12 @@
+{
+    "totalSeasons" : 1,
+    "totalDuration" : 1441000,
+    "startDate" : "2025-02-11 21:43:00:000",
+    "seasons" :
+    [
+        {
+            "seasonNo" : 1,
+            "duration" : 1441000
+        }
+    ]
+}

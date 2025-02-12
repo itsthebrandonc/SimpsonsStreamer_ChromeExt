@@ -5,13 +5,15 @@
 - Unchecked runtime.lastError: The page keeping the extension port is moved into back/forward cache, so the message channel is closed.
 - Big thanks to https://thomaspark.co/
 - The pause to sync is not being held until the second timeout, possibly due to the button presses happening before the first timeout.
+- Scale the json data up to all of season 1 to test calculations
 
 ---
 ## Changelog
 
 v.0.0.1 - 250203 - Initial commit, added new button to Simpsons home page  
-v.0.0.1 - 250203 - Updates the home page again when navigating back from episode
-v.0.1.0 - 250203 - Split home page and episode content scripts. Episode script grabs video element and changes title.
-v.0.2.0 - 250204 - Added rough time skip automation to align with established start date. Spams forwards/backwards buttons.
-v.0.2.1 - 250206 - Made video synchronization more precise, to the second.
-v.0.2.2 - 250207 - Changed timing of video synchronization. Added basic json and parsing.
+v.0.0.1 - 250203 - Updates the home page again when navigating back from episode  
+v.0.1.0 - 250203 - Split home page and episode content scripts. Episode script grabs video element and changes title.  
+v.0.2.0 - 250204 - Added rough time skip automation to align with established start date. Spams forwards/backwards buttons.  
+v.0.2.1 - 250206 - Made video synchronization more precise, to the second.  
+v.0.2.2 - 250207 - Changed timing of video synchronization. Added basic json and parsing.  
+v.0.3.0 - 250211 - Added working calculations for current season and episode based entirely on json data and current timestamp.  
