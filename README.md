@@ -18,3 +18,4 @@ v.0.2.1 - 250206 - Made video synchronization more precise, to the second.
 v.0.2.2 - 250207 - Changed timing of video synchronization. Added basic json and parsing.  
 v.0.3.0 - 250211 - Added working calculations for current season and episode based entirely on json data and current timestamp.  
 v.0.4.0 - 250212 - Added PowerShell script for generating episode data based on Disney data dumps. Added seasons 1-2  
+v.0.4.1 - 250212 - Enhanced PowerShell script to allow adding additional episodes separately after discovering data dumps cap out at 15 episodes.  

@@ -3,17 +3,27 @@
 #Quickly inspect the page and go to the Network tab
 #Search for "durationMs"
 
-#Update this number manually
-$seasonObj = [PSCustomObject]@{
-    season = 2
-    duration = 0
-    episodes = @()
+#Update this season number manually
+$seasonNo = 2;
+
+if (Test-Path "./episodeData/season$($seasonNo).json")
+{
+    $seasonObj = Get-Content -Raw -Path "./episodeData/season$($seasonNo).json" | ConvertFrom-Json
 }
 
 #Grabs data-dump from disney-Raw.json, creates season file
 $json = Get-Content -Raw -Path ./episodeData/disney-Raw.json | ConvertFrom-Json
 foreach ($item in $json.data.season.items)
 {
+    if ([int]$($item.visuals.episodeNumber) -eq 1)
+    {
+        $seasonObj = [PSCustomObject]@{
+            season = $seasonNo
+            duration = 0
+            episodes = @()
+        }
+    }
+
     $episode = [PSCustomObject]@{
         id = $($item.actions.upNextID)[0]
         season = [int]$($item.visuals.seasonNumber)
