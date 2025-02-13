@@ -17,3 +17,4 @@ v.0.2.0 - 250204 - Added rough time skip automation to align with established st
 v.0.2.1 - 250206 - Made video synchronization more precise, to the second.  
 v.0.2.2 - 250207 - Changed timing of video synchronization. Added basic json and parsing.  
 v.0.3.0 - 250211 - Added working calculations for current season and episode based entirely on json data and current timestamp.  
+v.0.4.0 - 250212 - Added PowerShell script for generating episode data based on Disney data dumps. Added seasons 1-2  
