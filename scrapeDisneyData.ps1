@@ -4,7 +4,7 @@
 #Search for "durationMs"
 
 #Update this season number manually
-$seasonNo = 2;
+$seasonNo = 17;
 
 if (Test-Path "./episodeData/season$($seasonNo).json")
 {
