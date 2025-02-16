@@ -23,3 +23,4 @@ v.0.4.0 - 250212 - Added PowerShell script for generating episode data based on 
 v.0.4.1 - 250212 - Enhanced PowerShell script to allow adding additional episodes separately after discovering data dumps cap out at 15 episodes.  
 v.0.4.2 - 250213 - Added seasons 3-17, as well as missing episode placeholder for S2E1  
 v.0.5.0 - 250216 - Corrected JSON encoding, improved passing data and debugging information  
+v.0.5.1 - 250216 - Added syncing text to timeline  

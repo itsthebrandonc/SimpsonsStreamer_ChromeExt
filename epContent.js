@@ -128,6 +128,26 @@
             let disneyEpTitle = document.querySelector('div.title-field > span');
             if (disneyEpTitle)
                 disneyEpTitle.innerHTML = '24/7 Simpsons Streamer';
+            else
+                console.error("DisneyEpTitle not found");
+
+            let disneyFooter = document.querySelector('div.controls__footer.display-flex');
+            if (disneyFooter)
+            {
+                let divFooterWrapper = document.createElement("div");
+                divFooterWrapper.classList.add("controls__footer__wrapper","display-flex");
+                disneyFooter.insertBefore(divFooterWrapper,disneyFooter.children[0]);
+                let divSyncing = document.createElement("div");
+                divSyncing.classList.add("controls__center");
+                divSyncing.setAttribute("id","simpsonsStreamer-syncing");
+                divSyncing.style.visibility = "hidden";
+                divSyncing.style.width = '100%';
+                divSyncing.style.backgroundColor = 'yellow';
+                divSyncing.innerHTML = "Syncing...";
+                divFooterWrapper.appendChild(divSyncing);
+            }
+            else
+                console.error("DisneyFooter not found");
     
             console.log("Episode Loaded");
             disneyPlayer.muted = true;
@@ -207,6 +227,12 @@
         disneyPlayer.muted = true;
         disneyPlayer.pause();
 
+        let divSyncing = document.querySelector("div#simpsonsStreamer-syncing");
+        if (divSyncing)
+            divSyncing.style.visibility = "visible";
+        else
+            console.error("DisneySyncing not found");
+
         if (offsync < 0) {
             let skipsFF = Math.ceil(-1*offsync/10);
             const btnFF = document.querySelector('quick-fast-forward').shadowRoot.querySelector('info-tooltip button');
@@ -259,6 +285,12 @@
                     isSyncCooldown = false;
                     disneyPlayer.muted = false;
                     disneyPlayer.play();
+
+                    let divSyncing = document.querySelector("div#simpsonsStreamer-syncing");
+                    if (divSyncing)
+                        divSyncing.style.visibility = "hidden";
+                    else
+                        console.error("DisneySyncing not found");
                 }, offsync * 1000);
             }, 1000);
         }
@@ -268,6 +300,12 @@
             isSyncCooldown = false;
             disneyPlayer.muted = false;
             disneyPlayer.play();
+
+            let divSyncing = document.querySelector("div#simpsonsStreamer-syncing");
+            if (divSyncing)
+                divSyncing.style.visibility = "hidden";
+            else
+                console.error("DisneySyncing not found");
         }
     }
     
