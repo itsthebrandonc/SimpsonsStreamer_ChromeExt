@@ -7,21 +7,26 @@ var contentPort = undefined;
 var portReady = false;
 var portTimer = false;
 
-var episodeID;
-var startDate;
+//var currentEpisode;
+var episodeInfo = undefined;
 
-async function loadEpisodeInfo()
+async function loadEpisodeInfo(_callback,...callbackParams)
 {
-  await getCurrentEpisode(new Date().getTime());
-  console.log("Ep: " + currentEpisode.episode + ", Time: " + timeIntoEpisode);
-  episodeID = currentEpisode.id;
+  episodeInfo = await getCurrentEpisode(new Date().getTime());
+  //console.log("Ep: " + episodeInfo.episode + ", Time: " + timeIntoEpisode);
+  //episodeID = currentEpisode.id;
+  //epDuration = currentEpisode.duration;
   //episodeID = "ffb14e5a-38db-4522-a559-3cfa52bcf4df"; //First episode
+
+  _callback.apply(callbackParams);
 }
 
 function navigateToEpisode(tabID)
 {
-    loadEpisodeInfo();
-    chrome.tabs.update( tabID, { url: EP_URL_HEADER + episodeID, 'muted':false } ); 
+    loadEpisodeInfo((...callbackParams) => {
+      chrome.tabs.update( tabID, { url: EP_URL_HEADER + episodeInfo.id, 'muted':false } ); 
+    },tabID);
+    
 }
 
 function sendSyncRequest()
@@ -91,10 +96,11 @@ chrome.runtime.onConnect.addListener(function(port) {
       switch (type)
       {
         case MessageType.HELLO:
-            portReady = true;
-            loadEpisodeInfo();
+          portReady = true;
+          loadEpisodeInfo(() => {
             contentPort.postMessage({type: MessageType.HELLO, value: null});
-            break;
+          },null);
+          break;
         case MessageType.OPENEP:
           navigateToEpisode(port.sender.tab.id);
           break;
@@ -118,13 +124,14 @@ chrome.tabs.onUpdated.addListener(
           type: MessageType.UPDURL,
           value: {"url":tab.url,"isHomePage":(tab.url == HOMEPAGE_URL)}
         });
-      } else if (tab.url == EP_URL_HEADER + episodeID) {
-        loadEpisodeInfo();
-        console.log("Tab OnUpdate::EP_URL , startDate: " + startDate);
-        chrome.tabs.sendMessage( thisTabID, {
-          type: MessageType.UPDURL,
-          value: {"url":tab.url,"isEpisode":true,"episodeID":episodeID,"startDate":startDate,"duration":1441000}
-        });
+      } else if (tab.url == EP_URL_HEADER + episodeInfo.id) {
+        loadEpisodeInfo((...callbackParams) => {
+          console.log("Tab OnUpdate::EP_URL , TabID: " + thisTabID + " Episode: " + episodeInfo.id);
+          chrome.tabs.sendMessage( thisTabID, {
+            type: MessageType.UPDURL,
+            value: {"url":tab.url,"isEpisode":true,"episode":episodeInfo}
+          });
+        },tab.url,thisTabID);
       }
     }
   }

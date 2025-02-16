@@ -8,9 +8,7 @@
     var disneyPlayer;
     var lastPlayerTime = 0;
     var vidPlaybackRate = 1;
-    var episodeID;
-    var epStartDate;
-    var epDuration;
+    var episodeInfo = undefined;
     var clickDelay;
     var isSyncing = false;
     var isSyncCooldown = false;
@@ -73,6 +71,9 @@
         disneyPlayer.addEventListener('seeking', () => {
             isBuffering = true;
             isSeeking = true;
+            console.log("Video Player: seeking");
+            //if (!isSyncing)
+            //    syncEpisode();
         });
 
         disneyPlayer.addEventListener('waiting', () => {
@@ -91,13 +92,15 @@
 
         disneyPlayer.addEventListener('timeupdate', () => {
             if (!isBuffering && !isSyncing && !isSyncCooldown) {
+                console.log("Video Player: timeupdate");
                 syncEpisode();
             }
         });
         
         disneyPlayer.addEventListener('ratechange', () => { //Prevents changing playback rate 
             //if (controlVideo)
-            //disneyPlayer.playbackRate = vidPlaybackRate;
+            if (disneyPlayer.playbackRate != vidPlaybackRate)
+                disneyPlayer.playbackRate = vidPlaybackRate;
         });
         /*
         disneyPlayer.addEventListener('onplay', () => {
@@ -136,10 +139,10 @@
     //Negative = Behind
     function checkOffsync()
     {
-        let correctEpTime = new Date() - epStartDate;
-        if (correctEpTime > epDuration)
+        let correctEpTime = new Date() - episodeInfo.startDate;
+        if (correctEpTime > episodeInfo.epDuration)
         {
-            console.log("Episode has ended");
+            console.log("Offsync::Episode has ended. CurrEpTime: " + new Date().getTime() + ", StartDate: " + unixToString(episodeInfo.startDate) + ", Duration: " + episodeInfo.epDuration);
             return 0;
         }
 
@@ -147,15 +150,15 @@
     
         //console.log("CorrectEpTime:: " + new Date() + " - " + epStartDate + " = " + (new Date() - epStartDate));
 
-        //console.log("CheckEpisodeTime:: Correct: " + (correctEpTime/1000) + " Current: " + (currEpTime/1000));
+        console.log("CheckEpisodeTime:: Correct: " + (correctEpTime/1000) + " Current: " + (currEpTime/1000));
 
         return currEpTime > 0 ? (currEpTime - correctEpTime) / 1000 : 0;
     }
 
     function getCurrEpisodeTime() {
-        if (!episodeID || !epDuration)
+        if (!episodeInfo)
         {
-            console.error("Episode data not set:: Episode ID: " + episodeID + " , Duration: " + epDuration);
+            console.error("Episode data not set");
             return -1;
         }
     
@@ -172,7 +175,7 @@
 
         //console.log("CurrentEpTime:: Width: " + width + " ... " + rawPercentage + " * " + epDuration + " = " + (percentage * epDuration));
 
-        return percentage * epDuration;
+        return percentage * episodeInfo.duration;
     }
 
     function syncEpisode()
@@ -239,6 +242,8 @@
         disneyPlayer.pause();
         if (offsync >= 1)
         {
+            offsync *= 0.5; //Correct time moves forward as we stay paused, so only half of the pause is needed for it to catch up
+
             clearTimeout(endSyncTimeout);
             endSyncTimeout = setTimeout(() => {
                 disneyPlayer.pause(); //TODO: This for some reason is not staying paused.
@@ -322,14 +327,13 @@
                 }
                 if (!isEpisode && value.isEpisode)
                 {
-                    console.log("Setting episode: " + value.episodeID);
+                    console.log("Setting episode: " + value.episode.id);
+                    console.log(value.episode);
                     isEpisode = true;
                     loadedPage = false;
-                    episodeID = value.episodeID;
-                    epStartDate = new Date(value.startDate);
-                    epDuration = value.duration;
+                    episodeInfo = value.episode;
 
-                    console.log("Content::Start Date: " + epStartDate + "(" + value.startDate + ")");
+                    console.log("Content::Start Date: " + unixToString(value.episode.startDate));
                     checkPageLoaded();
                 }
                 isEpisode = value.isEpisode;

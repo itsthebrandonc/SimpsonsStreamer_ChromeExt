@@ -5,7 +5,9 @@
 - Unchecked runtime.lastError: The page keeping the extension port is moved into back/forward cache, so the message channel is closed.
 - Big thanks to https://thomaspark.co/
 - The pause to sync is not being held until the second timeout, possibly due to the button presses happening before the first timeout.
-- Scale the json data up to all of season 1 to test calculations
+- Catch user trying to skip around and trigger sync.
+- Visual indicator that syncing is in progress.
+- Grab info for all episodes.
 
 ---
 ## Changelog
@@ -20,3 +22,4 @@ v.0.3.0 - 250211 - Added working calculations for current season and episode bas
 v.0.4.0 - 250212 - Added PowerShell script for generating episode data based on Disney data dumps. Added seasons 1-2  
 v.0.4.1 - 250212 - Enhanced PowerShell script to allow adding additional episodes separately after discovering data dumps cap out at 15 episodes.  
 v.0.4.2 - 250213 - Added seasons 3-17, as well as missing episode placeholder for S2E1  
+v.0.5.0 - 250216 - Corrected JSON encoding, improved passing data and debugging information  

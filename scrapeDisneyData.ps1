@@ -37,7 +37,7 @@ foreach ($item in $json.data.season.items)
 }
 
 $seasonObj.episodes
-$seasonObj | ConvertTo-Json -depth 100 | Out-File "./episodeData/season$($seasonObj.season).json"
+$seasonObj | ConvertTo-Json -depth 100 | Out-File "./episodeData/season$($seasonObj.season).json" -Encoding utf8
 
 #Update Master Data
 $masterJson = Get-Content -Raw -Path ./episodeData/masterData.json | ConvertFrom-Json
@@ -56,4 +56,4 @@ foreach ($season in $(Get-ChildItem -Path ./episodeData -Filter "season*.json"))
     $masterJson.totalSeasons += 1
     $masterJson.totalDuration += $json.duration
 }
-$masterJson | ConvertTo-Json -depth 100 | Out-File "./episodeData/masterData.json"
+$masterJson | ConvertTo-Json -depth 100 | Out-File "./episodeData/masterData.json" -Encoding utf8

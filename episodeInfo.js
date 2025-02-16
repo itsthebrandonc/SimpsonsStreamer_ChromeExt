@@ -11,29 +11,33 @@ var timeIntoEpisode;
 
 async function getCurrentEpisode(currTime)
 {
-    await new Promise(async (resolve) => {
+    return new Promise(async (resolve) => {
         if (seasons.length == 0)
             await getMasterData();
         if (seasonNo == 0 || seasonEndDate <= currTime)
             await getCurrentSeason(currTime);
 
-        let epStartDate = seasonStartDate;
-        episodes.forEach(ep => {
+        let epStartDate = parseInt(seasonStartDate);
+        for (var i=0; i<episodes.length; ++i)
+        {
+            ep = episodes[i];
             if (epStartDate + parseInt(ep.duration) > currTime)
             {
-                console.log("Ep " + ep.episode + ": StartDate: " + epStartDate + ", EndDate: " + epStartDate + parseInt(ep.duration));
+                console.log("Current Episode: S" + ep.season + "E" + ep.episode + ": StartDate: " + unixToString(epStartDate) + ", EndDate: " + unixToString(epStartDate + parseInt(ep.duration)));
                 currentEpisode = ep;
+                currentEpisode.startDate = epStartDate;
                 timeIntoEpisode = currTime - epStartDate;
-                resolve();
+                break;
             }
             epStartDate += parseInt(ep.duration);
-        });
+        }
+        resolve(currentEpisode);
     });
 }
 
 async function getCurrentSeason(currTime)
 {
-    console.log("CurrTime/StartDate:: " + currTime + " / " + startDate);
+    console.log("CurrTime/StartDate:: " + unixToString(currTime) + " / " + unixToString(startDate));
     var timeSinceStart = currTime - startDate;
     if (timeSinceStart < 0)
     {
@@ -44,7 +48,7 @@ async function getCurrentSeason(currTime)
     if (timeSinceStart > totalDuration)
     {
         marathonLoop = Math.floor(timeSinceStart / totalDuration);
-        seasonStartDate = startDate + (totalDuration*marathonLoop);
+        seasonStartDate = startDate + totalDuration*marathonLoop;
         seasonEndDate = seasonStartDate;
     }
     else
@@ -58,11 +62,13 @@ async function getCurrentSeason(currTime)
         if (newSeason == 0)
         {
             seasonEndDate += parseInt(szn.duration);
-            console.log("GetCurrentSeason:: S" + szn.seasonNo + ", EndDate: " + seasonEndDate);
+            //console.log("GetCurrentSeason:: S" + szn.seasonNo + ", EndDate: " + unixToString(seasonEndDate));
             if (seasonEndDate > currTime)
             {
                 if (szn.seasonNo == seasonNo)
+                {
                     return;
+                }
                 newSeason = szn.seasonNo;
             }
             else
@@ -78,8 +84,8 @@ async function getCurrentSeason(currTime)
         return;
     }
 
-    console.log("GetCurrentSeason:: " + newSeason + ", Marathon: " + marathonLoop +
-        ", SeasonStartDate: " + seasonStartDate + ", SeasonEndDate: " + seasonEndDate);
+    console.log("GetCurrentSeason:: S" + newSeason + ", Marathon: " + marathonLoop +
+        ", SeasonStartDate: " + unixToString(seasonStartDate) + ", SeasonEndDate: " + unixToString(seasonEndDate));
 
     seasonNo = newSeason;
     await getEpisodeObjects(seasonNo);
@@ -109,17 +115,22 @@ function getDateFromString(strDate)
     return newDate.getTime();
 }
 
+function unixToString(unixTime)
+{
+    return new Date(unixTime).toLocaleString();
+}
+
 async function getMasterData()
 {
-    return new Promise((resolve) => {  
-        fetch("episodeData/masterData.json")
+    return new Promise((resolve) => {
+        fetch("/episodeData/masterData.json")
         .then(response => {
             if (!response.ok)
-                console.log("HTTP Error: " + Response.status);
+                console.error("HTTP Error: " + Response.status);
             return response.json();
         })
-        .catch(function () {
-            console.error("Failed to grab master data");
+        .catch(err => {
+            console.error("Failed to grab master data: " + err);
         })
         .then(json => {
             console.log("Master Data JSON loaded");
@@ -135,6 +146,9 @@ async function getMasterData()
 
 function getEpisodeObjects(sznNo)
 {
+    if (sznNo.toString().length == 1)
+        sznNo = "0" + sznNo;
+        
     return new Promise((resolve) => {
         episodes.length = 0;
 
