@@ -1,5 +1,8 @@
 function $(id) { return document.getElementById(id); }
 
+var episodeInfo = undefined;
+var timeIntoEpisode = 0;
+
 function SendMessageToContent(type,value)
 {
     chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
@@ -26,6 +29,11 @@ function SendMessageToBackground(type,value)
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
+    SendMessageToBackground(MessageType.GETINFO,null);
+
+    $("btnRefresh").addEventListener("click", () => {
+        SendMessageToBackground(MessageType.GETINFO,null);
+    });
 });
 
 chrome.runtime.onMessage.addListener((obj, sender, response) => {
@@ -33,5 +41,10 @@ chrome.runtime.onMessage.addListener((obj, sender, response) => {
 
     switch (type)
     {
+        case "GETINFO":
+            episodeInfo = value.episodeInfo;
+            $("epTitle").innerHTML = "S" + episodeInfo.season + "E" + episodeInfo.episode + " : " + episodeInfo.title;
+            $("epTime").innerHTML = episodeInfo.time + " / " + episodeInfo.duration;
+        break;
     }
 });

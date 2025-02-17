@@ -27,6 +27,7 @@ async function getCurrentEpisode(currTime)
                 currentEpisode = ep;
                 currentEpisode.startDate = epStartDate;
                 timeIntoEpisode = currTime - epStartDate;
+                currentEpisode.time = timeIntoEpisode;
                 break;
             }
             epStartDate += parseInt(ep.duration);

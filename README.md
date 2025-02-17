@@ -24,3 +24,4 @@ v.0.4.1 - 250212 - Enhanced PowerShell script to allow adding additional episode
 v.0.4.2 - 250213 - Added seasons 3-17, as well as missing episode placeholder for S2E1  
 v.0.5.0 - 250216 - Corrected JSON encoding, improved passing data and debugging information  
 v.0.5.1 - 250216 - Added syncing text to timeline  
+v.0.5.2 - 250216 - Added extension icon, basic structure of popup data passing (not functional)  

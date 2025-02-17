@@ -45,6 +45,13 @@ function sendSyncRequest()
   portTimer = setTimeout(sendSyncRequest,5000);
 }
 
+function sendInfoToPopup()
+{
+  loadEpisodeInfo((...callbackParams) => {
+    SendMessageToPopup(MessageType.GETINFO,{episodeInfo:episodeInfo});
+  });
+}
+
 function SendMessageToPopup(type,value)
 {
     chrome.runtime.sendMessage(
@@ -106,6 +113,9 @@ chrome.runtime.onConnect.addListener(function(port) {
           break;
         case MessageType.SYNC:
           sendSyncRequest();
+          break;
+        case MessageType.GETINFO:
+          sendInfoToPopup();
           break;
       }
     });

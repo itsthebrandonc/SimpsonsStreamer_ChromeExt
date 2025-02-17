@@ -1,6 +1,6 @@
 {
     "name": "24/7 Simpsons Streamer",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "description": "An UNOFFICAL constantly-running marathon of The Simpsons on Disney+.",
     "permissions": ["tabs", "alarms", "storage", "activeTab"],
     "host_permissions": ["*://www.disneyplus.com/*"],
@@ -27,7 +27,9 @@
       }
     ],
     "action": {
-        "default_title": "24/7 Simpsons Streamer"
+        "default_title": "24/7 Simpsons Streamer",
+        "default_popup": "popup.html",
+        "default_icon": "simpsonsStreamer-exticon.png"
     },
     "manifest_version": 3
 }
