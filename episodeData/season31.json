@@ -1,0 +1,160 @@
+﻿{
+    "season":  31,
+    "duration":  30699405,
+    "episodes":  [
+                     {
+                         "id":  "531213f3-e287-4580-8d94-47f730ff65b8",
+                         "season":  31,
+                         "episode":  1,
+                         "title":  "The Winter of Our Monetized Content",
+                         "duration":  1396853
+                     },
+                     {
+                         "id":  "b33c1b3b-bb9e-4d66-8c5d-23384b3620e0",
+                         "season":  31,
+                         "episode":  2,
+                         "title":  "Go Big or Go Homer",
+                         "duration":  1376166
+                     },
+                     {
+                         "id":  "b9c9a8b4-2a80-4c9d-a80f-febcc3f54714",
+                         "season":  31,
+                         "episode":  3,
+                         "title":  "The Fat Blue Line",
+                         "duration":  1384174
+                     },
+                     {
+                         "id":  "9a4ed8fe-cefc-486b-9d12-9c08281584b5",
+                         "season":  31,
+                         "episode":  4,
+                         "title":  "Treehouse of Horror XXX",
+                         "duration":  1376833
+                     },
+                     {
+                         "id":  "92bb133c-34ea-4e30-92d0-c12775185faf",
+                         "season":  31,
+                         "episode":  5,
+                         "title":  "Gorillas On the Mast",
+                         "duration":  1388845
+                     },
+                     {
+                         "id":  "0b9be123-df51-4212-9717-413dad9485f4",
+                         "season":  31,
+                         "episode":  6,
+                         "title":  "Marge the Lumberjill",
+                         "duration":  1387511
+                     },
+                     {
+                         "id":  "730d25ee-287f-454d-ad1d-adc704c11ff0",
+                         "season":  31,
+                         "episode":  7,
+                         "title":  "Livin' la Pura Vida",
+                         "duration":  1380837
+                     },
+                     {
+                         "id":  "2beb3fab-8b3b-4801-9614-7aaca26fd3fd",
+                         "season":  31,
+                         "episode":  8,
+                         "title":  "Thanksgiving of Horror",
+                         "duration":  1591548
+                     },
+                     {
+                         "id":  "4c6298e0-db42-411c-8195-e6a5d8df22bd",
+                         "season":  31,
+                         "episode":  9,
+                         "title":  "Todd, Todd, Why Hast Thou Forsaken Me?",
+                         "duration":  1384841
+                     },
+                     {
+                         "id":  "3524467d-1d11-437c-bb34-6b9bfaf1471e",
+                         "season":  31,
+                         "episode":  10,
+                         "title":  "Bobby, It's Cold Outside",
+                         "duration":  1384841
+                     },
+                     {
+                         "id":  "3b5a31a2-4beb-4b67-9349-b8b286baa984",
+                         "season":  31,
+                         "episode":  11,
+                         "title":  "Hail to the Teeth",
+                         "duration":  1387427
+                     },
+                     {
+                         "id":  "e8034597-892a-4696-91ab-85ee8ed7502b",
+                         "season":  31,
+                         "episode":  12,
+                         "title":  "The Miseducation of Lisa Simpson",
+                         "duration":  1384841
+                     },
+                     {
+                         "id":  "b63435ec-9962-42b7-a8f3-3e97a3aefbdd",
+                         "season":  31,
+                         "episode":  13,
+                         "title":  "Frinkcoin",
+                         "duration":  1384758
+                     },
+                     {
+                         "id":  "59a0141c-8de2-4838-a1ee-fb695c1c479a",
+                         "season":  31,
+                         "episode":  14,
+                         "title":  "Bart the Bad Guy",
+                         "duration":  1403819
+                     },
+                     {
+                         "id":  "a782c9ae-c79d-4a37-99c7-08fd3430dfbf",
+                         "season":  31,
+                         "episode":  15,
+                         "title":  "Screenless",
+                         "duration":  1384758
+                     },
+                     {
+                         "id":  "75edfe98-be48-4f93-bd97-48498f3d8044",
+                         "season":  31,
+                         "episode":  16,
+                         "title":  "Better Off Ned",
+                         "duration":  1384841
+                     },
+                     {
+                         "id":  "983dc0ab-1a0f-4aac-b0b8-50693f904ee5",
+                         "season":  31,
+                         "episode":  17,
+                         "title":  "Highway to Well",
+                         "duration":  1384966
+                     },
+                     {
+                         "id":  "cc52bdbf-5517-4266-9b86-e9436af1cdac",
+                         "season":  31,
+                         "episode":  18,
+                         "title":  "The Incredible Lightness of Being a Baby",
+                         "duration":  1382964
+                     },
+                     {
+                         "id":  "c8a5f345-809c-4d99-a28b-6eb9e7299663",
+                         "season":  31,
+                         "episode":  19,
+                         "title":  "Warrin' Priests",
+                         "duration":  1383423
+                     },
+                     {
+                         "id":  "0e35713d-eb50-4d08-a3df-d2de787fbb1c",
+                         "season":  31,
+                         "episode":  20,
+                         "title":  "Warrin' Priests Part Two",
+                         "duration":  1383715
+                     },
+                     {
+                         "id":  "a2166748-496d-4265-9f22-c809584b1a66",
+                         "season":  31,
+                         "episode":  21,
+                         "title":  "The Hateful Eight-Year-Olds",
+                         "duration":  1391681
+                     },
+                     {
+                         "id":  "aad42e71-6a48-4909-85dd-280b45899fdd",
+                         "season":  31,
+                         "episode":  22,
+                         "title":  "The Way of the Dog",
+                         "duration":  1389763
+                     }
+                 ]
+}

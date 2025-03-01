@@ -1,0 +1,160 @@
+﻿{
+    "season":  27,
+    "duration":  29558061,
+    "episodes":  [
+                     {
+                         "id":  "71a02af3-cdf2-472d-9cba-1de170eed658",
+                         "season":  27,
+                         "episode":  1,
+                         "title":  "Every Man's Dream",
+                         "duration":  1347721
+                     },
+                     {
+                         "id":  "5a814855-e744-4117-83c0-2a9cf02df4cd",
+                         "season":  27,
+                         "episode":  2,
+                         "title":  "'Cue Detective",
+                         "duration":  1359858
+                     },
+                     {
+                         "id":  "1481bc33-fa0b-4418-9328-75ea613f83da",
+                         "season":  27,
+                         "episode":  3,
+                         "title":  "Puffless",
+                         "duration":  1354728
+                     },
+                     {
+                         "id":  "8b48a1db-2ee9-4835-88fe-55adca3a4691",
+                         "season":  27,
+                         "episode":  4,
+                         "title":  "Halloween of Horror",
+                         "duration":  1353769
+                     },
+                     {
+                         "id":  "b592fa3f-fd15-4fcc-91af-a03c682299bb",
+                         "season":  27,
+                         "episode":  5,
+                         "title":  "Treehouse of Horror XXVI",
+                         "duration":  1345761
+                     },
+                     {
+                         "id":  "6c62d228-6e72-4348-b9ef-a955e7ff77a7",
+                         "season":  27,
+                         "episode":  6,
+                         "title":  "Friend with Benefit",
+                         "duration":  1351725
+                     },
+                     {
+                         "id":  "1824df2f-089c-4391-bd39-f8d3b9cde19b",
+                         "season":  27,
+                         "episode":  7,
+                         "title":  "Lisa with an 'S'",
+                         "duration":  1336752
+                     },
+                     {
+                         "id":  "651d3c95-c3dd-4f09-bb13-3e389c164e6e",
+                         "season":  27,
+                         "episode":  8,
+                         "title":  "'Paths of Glory",
+                         "duration":  1355729
+                     },
+                     {
+                         "id":  "caef22d5-0702-46bf-8c29-f9c7902ca956",
+                         "season":  27,
+                         "episode":  9,
+                         "title":  "Barthood",
+                         "duration":  1353727
+                     },
+                     {
+                         "id":  "eccad6be-407f-464e-9764-2fdf4a4db0c7",
+                         "season":  27,
+                         "episode":  10,
+                         "title":  "The Girl Code",
+                         "duration":  1353727
+                     },
+                     {
+                         "id":  "436d9ae0-efc2-4c65-8864-303d128ca9c0",
+                         "season":  27,
+                         "episode":  11,
+                         "title":  "Teenage Mutant Milk-Caused Hurdles",
+                         "duration":  1323697
+                     },
+                     {
+                         "id":  "ca8a5708-9c04-4f4a-8da2-249f83ebc18f",
+                         "season":  27,
+                         "episode":  12,
+                         "title":  "Much Apu About Something",
+                         "duration":  1340714
+                     },
+                     {
+                         "id":  "1fc261ce-2be2-472e-a7cf-5ce894253b92",
+                         "season":  27,
+                         "episode":  13,
+                         "title":  "Love Is in the N2-O2-Ar-Co2-Ne-He-Ch4",
+                         "duration":  1326700
+                     },
+                     {
+                         "id":  "1c518649-55f4-4b13-9092-0cec7b380eea",
+                         "season":  27,
+                         "episode":  14,
+                         "title":  "Gal of Constant Sorrow",
+                         "duration":  1345760
+                     },
+                     {
+                         "id":  "c9823276-128c-41d6-b5d4-0e4d5f3c17d7",
+                         "season":  27,
+                         "episode":  15,
+                         "title":  "Lisa the Veterinarian",
+                         "duration":  1353727
+                     },
+                     {
+                         "id":  "1d26a9df-3085-4579-b7da-40bdb11257ee",
+                         "season":  27,
+                         "episode":  16,
+                         "title":  "The Marge-Ian Chronicles",
+                         "duration":  1351725
+                     },
+                     {
+                         "id":  "ba4dbeb8-4f96-4542-96cc-9f7aff23ee40",
+                         "season":  27,
+                         "episode":  17,
+                         "title":  "The Burns Cage",
+                         "duration":  1323738
+                     },
+                     {
+                         "id":  "06a1eace-519b-4977-bc0e-5de0b32e2501",
+                         "season":  27,
+                         "episode":  18,
+                         "title":  "How Lisa Got Her Marge Back",
+                         "duration":  1340714
+                     },
+                     {
+                         "id":  "f4ddf8d1-5711-4db0-9d77-4157fbdc3f3e",
+                         "season":  27,
+                         "episode":  19,
+                         "title":  "Fland Canyon",
+                         "duration":  1316690
+                     },
+                     {
+                         "id":  "e4ad4866-5b90-451b-9518-ab74788019b9",
+                         "season":  27,
+                         "episode":  20,
+                         "title":  "To Courier with Love",
+                         "duration":  1317691
+                     },
+                     {
+                         "id":  "84d4e109-62b3-49c8-a00e-2d13073dbf50",
+                         "season":  27,
+                         "episode":  21,
+                         "title":  "Simprovised",
+                         "duration":  1375749
+                     },
+                     {
+                         "id":  "e0385199-5057-40b1-93c3-386e8ef9ce1d",
+                         "season":  27,
+                         "episode":  22,
+                         "title":  "Orange Is the New Yellow",
+                         "duration":  1327659
+                     }
+                 ]
+}

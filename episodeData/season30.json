@@ -1,0 +1,167 @@
+﻿{
+    "season":  30,
+    "duration":  30979024,
+    "episodes":  [
+                     {
+                         "id":  "75da373e-6af9-473a-a745-2bf6a711747c",
+                         "season":  30,
+                         "episode":  1,
+                         "title":  "Bart's Not Dead",
+                         "duration":  1320694
+                     },
+                     {
+                         "id":  "ea21c090-f915-4625-b5a4-d2e068644e10",
+                         "season":  30,
+                         "episode":  2,
+                         "title":  "Heartbreak Hotel",
+                         "duration":  1356355
+                     },
+                     {
+                         "id":  "37df3a07-1d18-49b9-98e0-199ae187c758",
+                         "season":  30,
+                         "episode":  3,
+                         "title":  "My Way or the Highway to Heaven",
+                         "duration":  1357731
+                     },
+                     {
+                         "id":  "2a843004-24b9-495c-84aa-9fe95761d405",
+                         "season":  30,
+                         "episode":  4,
+                         "title":  "Treehouse of Horror XXIX",
+                         "duration":  1355729
+                     },
+                     {
+                         "id":  "071b06da-2137-485d-a8c9-0d7f59b29e22",
+                         "season":  30,
+                         "episode":  5,
+                         "title":  "Baby You Can't Drive My Car",
+                         "duration":  1345052
+                     },
+                     {
+                         "id":  "0d8803ee-b0cf-4e72-95cf-cdc0d901941e",
+                         "season":  30,
+                         "episode":  6,
+                         "title":  "From Russia Without Love",
+                         "duration":  1358732
+                     },
+                     {
+                         "id":  "9640b024-3c8b-436f-b294-620f21ee87c8",
+                         "season":  30,
+                         "episode":  7,
+                         "title":  "Werking Mom",
+                         "duration":  1370744
+                     },
+                     {
+                         "id":  "46e47b8b-d396-40d7-bd9a-d0be34d1f0fe",
+                         "season":  30,
+                         "episode":  8,
+                         "title":  "Krusty the Clown",
+                         "duration":  1375874
+                     },
+                     {
+                         "id":  "c2e87774-50de-4efd-8a20-38796d6ec13a",
+                         "season":  30,
+                         "episode":  9,
+                         "title":  "Daddicus Finch",
+                         "duration":  1326325
+                     },
+                     {
+                         "id":  "2cb01074-e67f-4056-92d8-88ae04d069a8",
+                         "season":  30,
+                         "episode":  10,
+                         "title":  "\u0027Tis the 30th Season",
+                         "duration":  1321320
+                     },
+                     {
+                         "id":  "fe00c56e-4605-4c54-86ae-95acdff97476",
+                         "season":  30,
+                         "episode":  11,
+                         "title":  "Mad About the Toy",
+                         "duration":  1354770
+                     },
+                     {
+                         "id":  "b0e8c490-1524-419a-8e46-916ab0881bcf",
+                         "season":  30,
+                         "episode":  12,
+                         "title":  "The Girl on the Bus",
+                         "duration":  1354394
+                     },
+                     {
+                         "id":  "b4df0712-0464-4ea1-87b9-8da177d6cfa2",
+                         "season":  30,
+                         "episode":  13,
+                         "title":  "I'm Dancing as Fat as I Can",
+                         "duration":  1357189
+                     },
+                     {
+                         "id":  "aea5b264-8c6e-47db-8b42-0a4ba1706571",
+                         "season":  30,
+                         "episode":  14,
+                         "title":  "The Clown Stays in the Picture",
+                         "duration":  1356104
+                     },
+                     {
+                         "id":  "5932553b-bdb2-4b9e-ac98-a474bfc863fe",
+                         "season":  30,
+                         "episode":  15,
+                         "title":  "101 Mitigations",
+                         "duration":  1329661
+                     },
+                     {
+                         "id":  "8313809f-268c-404e-abf6-a09c3b361cc2",
+                         "season":  30,
+                         "episode":  16,
+                         "title":  "I Want You (She's So Heavy)",
+                         "duration":  1336376
+                     },
+                     {
+                         "id":  "5cc89f2f-c9ee-4fbf-9e32-a90bcbc8b653",
+                         "season":  30,
+                         "episode":  17,
+                         "title":  "E My Sports",
+                         "duration":  1366448
+                     },
+                     {
+                         "id":  "dde3348d-88e0-43d2-a182-c86b21f6ed50",
+                         "season":  30,
+                         "episode":  18,
+                         "title":  "Bart vs. Itchy & Scratchy",
+                         "duration":  1359149
+                     },
+                     {
+                         "id":  "db78ac4a-5ab7-4c39-b6ff-cb59318b1523",
+                         "season":  30,
+                         "episode":  19,
+                         "title":  "Girl's in the Band",
+                         "duration":  1336335
+                     },
+                     {
+                         "id":  "516e492e-a924-40ff-ae4e-d23b823f66e2",
+                         "season":  30,
+                         "episode":  20,
+                         "title":  "I'm Just a Girl Who Can't Say D'oh",
+                         "duration":  1328535
+                     },
+                     {
+                         "id":  "b9ad416c-8a62-4ece-aa0b-222949b03a24",
+                         "season":  30,
+                         "episode":  21,
+                         "title":  "D'oh Canada",
+                         "duration":  1324740
+                     },
+                     {
+                         "id":  "4bfe9a07-377e-4f75-a18f-48c8d6e2acc0",
+                         "season":  30,
+                         "episode":  22,
+                         "title":  "Woo-Hoo Dunnit?",
+                         "duration":  1352351
+                     },
+                     {
+                         "id":  "2443582d-7871-4182-ac09-5ad0ba4241f0",
+                         "season":  30,
+                         "episode":  23,
+                         "title":  "Crystal Blue-Haired Persuasion",
+                         "duration":  1334416
+                     }
+                 ]
+}

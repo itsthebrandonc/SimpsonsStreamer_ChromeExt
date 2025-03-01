@@ -1,0 +1,153 @@
+﻿{
+    "season":  29,
+    "duration":  28278561,
+    "episodes":  [
+                     {
+                         "id":  "3d01352c-298a-4989-b731-037c76723bd7",
+                         "season":  29,
+                         "episode":  1,
+                         "title":  "The Serfsons",
+                         "duration":  1368658
+                     },
+                     {
+                         "id":  "deb0534a-f902-4d07-adaa-a684909ab9fa",
+                         "season":  29,
+                         "episode":  2,
+                         "title":  "Springfield Splendor",
+                         "duration":  1380837
+                     },
+                     {
+                         "id":  "d21e9d5e-bcb7-43fe-a481-7ba9778a72fe",
+                         "season":  29,
+                         "episode":  3,
+                         "title":  "Whistler's Father",
+                         "duration":  1332789
+                     },
+                     {
+                         "id":  "f7afb747-ca04-43f5-86a4-1fb49ac87992",
+                         "season":  29,
+                         "episode":  4,
+                         "title":  "Treehouse of Horror XXVIII",
+                         "duration":  1346761
+                     },
+                     {
+                         "id":  "c3032318-9534-4d0a-9fde-b8fa73149315",
+                         "season":  29,
+                         "episode":  5,
+                         "title":  "Grampy Can Ya Hear Me",
+                         "duration":  1328743
+                     },
+                     {
+                         "id":  "17596c52-12a8-4a76-8029-4a60e0ca6c59",
+                         "season":  29,
+                         "episode":  6,
+                         "title":  "The Old Blue Mayor She Ain't What She Used to Be",
+                         "duration":  1330787
+                     },
+                     {
+                         "id":  "577678ca-5b02-4104-ad51-81f0fefb7776",
+                         "season":  29,
+                         "episode":  7,
+                         "title":  "Singin' in the Lane",
+                         "duration":  1345510
+                     },
+                     {
+                         "id":  "f4dbc711-c255-45f3-a134-71d1538e325b",
+                         "season":  29,
+                         "episode":  8,
+                         "title":  "Mr. Lisa's Opus",
+                         "duration":  1329744
+                     },
+                     {
+                         "id":  "c883acfc-c701-4ce2-86ed-4a987004d9a3",
+                         "season":  29,
+                         "episode":  9,
+                         "title":  "Gone Boy",
+                         "duration":  1337835
+                     },
+                     {
+                         "id":  "ada70e64-4986-48c5-baa8-0a90cf5dde7a",
+                         "season":  29,
+                         "episode":  10,
+                         "title":  "Haw-Haw Land",
+                         "duration":  1365321
+                     },
+                     {
+                         "id":  "d1d6b346-e020-42b7-b2e3-0877dadd08b2",
+                         "season":  29,
+                         "episode":  11,
+                         "title":  "Frink Gets Testy",
+                         "duration":  1331746
+                     },
+                     {
+                         "id":  "2874a052-b76e-4ee3-9c11-34e84ec34ceb",
+                         "season":  29,
+                         "episode":  12,
+                         "title":  "Homer Is Where the Art Isn't",
+                         "duration":  1349847
+                     },
+                     {
+                         "id":  "13347997-2853-4e7b-8b52-62611513b189",
+                         "season":  29,
+                         "episode":  13,
+                         "title":  "3 Scenes Plus a Tag from a Marriage",
+                         "duration":  1365780
+                     },
+                     {
+                         "id":  "d214d62c-90a0-4ddc-8438-31429ee5d4f0",
+                         "season":  29,
+                         "episode":  14,
+                         "title":  "Fears of a Clown",
+                         "duration":  1349430
+                     },
+                     {
+                         "id":  "1e733c96-48fa-4aa8-b91d-3b8bc72f0b64",
+                         "season":  29,
+                         "episode":  15,
+                         "title":  "No Good Read Goes Unpunished",
+                         "duration":  1331746
+                     },
+                     {
+                         "id":  "e22f9e4a-ca07-4824-b3c2-3f84b8e67460",
+                         "season":  29,
+                         "episode":  16,
+                         "title":  "King Leer",
+                         "duration":  1357230
+                     },
+                     {
+                         "id":  "56795fdf-0508-4bc0-8838-474ec4707c72",
+                         "season":  29,
+                         "episode":  17,
+                         "title":  "Lisa Gets the Blues",
+                         "duration":  1328743
+                     },
+                     {
+                         "id":  "e4f01fb7-5c93-4941-8b16-1192590ce0e9",
+                         "season":  29,
+                         "episode":  18,
+                         "title":  "Forgive and Regret",
+                         "duration":  1359774
+                     },
+                     {
+                         "id":  "190fc340-15dc-40c9-8cd9-f772d5478052",
+                         "season":  29,
+                         "episode":  19,
+                         "title":  "Left Behind",
+                         "duration":  1344759
+                     },
+                     {
+                         "id":  "72925079-d023-480c-8a62-1c628b0dc482",
+                         "season":  29,
+                         "episode":  20,
+                         "title":  "Throw Grampa from the Dane",
+                         "duration":  1357772
+                     },
+                     {
+                         "id":  "4c2000cd-d195-48a6-b266-2ebd31f4bb9a",
+                         "season":  29,
+                         "episode":  21,
+                         "title":  "Flanders' Ladder",
+                         "duration":  1334749
+                     }
+                 ]
+}

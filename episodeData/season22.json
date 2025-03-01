@@ -1,0 +1,160 @@
+﻿{
+    "season":  22,
+    "duration":  30013893,
+    "episodes":  [
+                     {
+                         "id":  "6c4e0f6c-73ec-4275-acb8-3626593bfd9b",
+                         "season":  22,
+                         "episode":  1,
+                         "title":  "Elementary School Musical",
+                         "duration":  1378460
+                     },
+                     {
+                         "id":  "3207b108-2e39-4c59-b320-f0319ffb199a",
+                         "season":  22,
+                         "episode":  2,
+                         "title":  "Loan-a-Lisa",
+                         "duration":  1360442
+                     },
+                     {
+                         "id":  "54a4caa1-6b9a-4627-a83e-c7fad2abb70b",
+                         "season":  22,
+                         "episode":  3,
+                         "title":  "MoneyBart",
+                         "duration":  1350891
+                     },
+                     {
+                         "id":  "c59ba97e-30ac-4505-8f9d-f81a6c650ed8",
+                         "season":  22,
+                         "episode":  4,
+                         "title":  "Treehouse of Horror XXI",
+                         "duration":  1378919
+                     },
+                     {
+                         "id":  "a76e4387-4749-43e8-8f18-b3a14881fa62",
+                         "season":  22,
+                         "episode":  5,
+                         "title":  "Lisa Simpson, This Isn't Your Life",
+                         "duration":  1372913
+                     },
+                     {
+                         "id":  "af64af68-8b76-4d30-aa0e-1dbaeefc6427",
+                         "season":  22,
+                         "episode":  6,
+                         "title":  "The Fool Monty",
+                         "duration":  1375415
+                     },
+                     {
+                         "id":  "08f22d3b-b7be-4653-9f89-aa52c9eb496b",
+                         "season":  22,
+                         "episode":  7,
+                         "title":  "How Munched Is That Birdie in the Window?",
+                         "duration":  1348889
+                     },
+                     {
+                         "id":  "2df85751-4c7d-470f-a164-5fb66d4048d4",
+                         "season":  22,
+                         "episode":  8,
+                         "title":  "The Fight Before Christmas",
+                         "duration":  1380170
+                     },
+                     {
+                         "id":  "a7c3ca07-9783-41c4-8d80-21c478aa38d6",
+                         "season":  22,
+                         "episode":  9,
+                         "title":  "Donnie Fatso",
+                         "duration":  1353894
+                     },
+                     {
+                         "id":  "f3f8f345-49fb-46f8-9163-09f2195fd58d",
+                         "season":  22,
+                         "episode":  10,
+                         "title":  "Moms I'd Like to Forget",
+                         "duration":  1346178
+                     },
+                     {
+                         "id":  "d4b64f0f-c352-4ef8-ad49-777b695586a5",
+                         "season":  22,
+                         "episode":  11,
+                         "title":  "Flaming Moe",
+                         "duration":  1375916
+                     },
+                     {
+                         "id":  "d55ae112-96ec-49cd-947e-0c971dcbb5e2",
+                         "season":  22,
+                         "episode":  12,
+                         "title":  "Homer the Father",
+                         "duration":  1348889
+                     },
+                     {
+                         "id":  "2038b6b0-8515-4af8-9cde-5967e6fbf7f8",
+                         "season":  22,
+                         "episode":  13,
+                         "title":  "The Blue and the Gray",
+                         "duration":  1358815
+                     },
+                     {
+                         "id":  "9725b041-f80b-44d4-befe-99cef5fdb723",
+                         "season":  22,
+                         "episode":  14,
+                         "title":  "Angry Dad: The Movie",
+                         "duration":  1376291
+                     },
+                     {
+                         "id":  "bae5fd2f-dc1f-4008-9df8-cb6bd7c99fce",
+                         "season":  22,
+                         "episode":  15,
+                         "title":  "The Scorpion's Tale",
+                         "duration":  1357898
+                     },
+                     {
+                         "id":  "64f57d9a-8e6e-4c91-818e-dd2c95caf5fb",
+                         "season":  22,
+                         "episode":  16,
+                         "title":  "A Midsummer's Nice Dreams",
+                         "duration":  1348889
+                     },
+                     {
+                         "id":  "3ed524c3-ebe7-4b22-ac8f-4f9ce57a5ef1",
+                         "season":  22,
+                         "episode":  17,
+                         "title":  "Love Is a Many Strangled Thing",
+                         "duration":  1350891
+                     },
+                     {
+                         "id":  "9aec5ba7-1a2a-4d73-b643-62e0cc3d0812",
+                         "season":  22,
+                         "episode":  18,
+                         "title":  "The Great Simpsina",
+                         "duration":  1369910
+                     },
+                     {
+                         "id":  "7dccd010-6552-404e-9827-67bb4a3dc7c4",
+                         "season":  22,
+                         "episode":  19,
+                         "title":  "The Real Housewives of Fat Tony",
+                         "duration":  1374831
+                     },
+                     {
+                         "id":  "e88086f5-e785-4d96-bfef-3805161ddf8c",
+                         "season":  22,
+                         "episode":  20,
+                         "title":  "Homer Scissorhands",
+                         "duration":  1353810
+                     },
+                     {
+                         "id":  "1407be85-23d2-4555-95b7-b2f8ff68e3e6",
+                         "season":  22,
+                         "episode":  21,
+                         "title":  "500 Keys",
+                         "duration":  1380796
+                     },
+                     {
+                         "id":  "f178711e-5fdb-4b81-9d71-1b4515453093",
+                         "season":  22,
+                         "episode":  22,
+                         "title":  "The Ned-Liest Catch",
+                         "duration":  1370786
+                     }
+                 ]
+}

@@ -1,4 +1,4 @@
-try { importScripts("constants.js", "episodeInfo.js"); } catch (e) { console.error(e); }
+try { importScripts("constants.js", "episodeInfo.js", "timeSync.js"); } catch (e) { console.error(e); }
 
 const HOMEPAGE_URL = "https://www.disneyplus.com/en-gb/browse/entity-cac75c8f-a9e2-4d95-ac73-1cf1cc7b9568";
 const EP_URL_HEADER = "https://www.disneyplus.com/en-gb/play/";
@@ -12,7 +12,7 @@ var episodeInfo = undefined;
 
 async function loadEpisodeInfo(_callback,...callbackParams)
 {
-  episodeInfo = await getCurrentEpisode(new Date().getTime());
+  episodeInfo = await getCurrentEpisode(getSyncDate().getTime());
   //console.log("Ep: " + episodeInfo.episode + ", Time: " + timeIntoEpisode);
   //episodeID = currentEpisode.id;
   //epDuration = currentEpisode.duration;
@@ -35,7 +35,7 @@ function sendSyncRequest()
   if (!portReady)
     return;
 
-  let timestamp = new Date().getTime();
+  let timestamp = getSyncDate().getTime();
   let epTime = (timestamp - startDate.getTime()) / 10000;
 
   //console.log("Sync Times:: Start Time: " + startDate.getTime() + " Timestamp: " + new Date().getTime() + " EpTime: " + epTime);
@@ -84,14 +84,17 @@ chrome.runtime.onMessage.addListener((obj, sender, response) => {
 chrome.runtime.onConnect.addListener(function(port) {
   if (port.name != MessageType.PORT)
   {
+    stopTimeSync();
     port.disconnect();
     console.log("Disconnecting wrong URL port");
   }
   else
   {
+    startTimeSync();
     console.log("Connection to port has been made");
     contentPort = port;
     contentPort.onDisconnect.addListener(() => {
+      stopTimeSync();
       portReady = false;
       console.log("Connection to port has been lost");
     });

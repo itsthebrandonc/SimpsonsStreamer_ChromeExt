@@ -1,0 +1,153 @@
+﻿{
+    "season":  33,
+    "duration":  30056727,
+    "episodes":  [
+                     {
+                         "id":  "bbc3b7a8-0b71-47ab-b669-a0e80385d5ab",
+                         "season":  33,
+                         "episode":  1,
+                         "title":  "The Star of the Backstage",
+                         "duration":  1363612
+                     },
+                     {
+                         "id":  "08397fc4-6d1b-46ef-92e7-ea7a36b24cf2",
+                         "season":  33,
+                         "episode":  2,
+                         "title":  "Bart's In Jail",
+                         "duration":  1367574
+                     },
+                     {
+                         "id":  "2155f21e-b707-4d78-bdba-8f8f1856841a",
+                         "season":  33,
+                         "episode":  3,
+                         "title":  "Treehouse of Horror XXXII",
+                         "duration":  1393642
+                     },
+                     {
+                         "id":  "e76643f8-55be-403b-a778-fed3e3f3f864",
+                         "season":  33,
+                         "episode":  4,
+                         "title":  "The Wayz We Were",
+                         "duration":  1360734
+                     },
+                     {
+                         "id":  "d832e82b-46dc-4d28-80cd-a03d54ae8bcf",
+                         "season":  33,
+                         "episode":  5,
+                         "title":  "Lisa's Belly",
+                         "duration":  1405654
+                     },
+                     {
+                         "id":  "ea1575dc-4ef5-430f-9b56-43e925bd792e",
+                         "season":  33,
+                         "episode":  6,
+                         "title":  "A Serious Flanders (Part I and Part II)",
+                         "duration":  2648562
+                     },
+                     {
+                         "id":  "222d9657-1b36-4457-84b4-9cb575479fe4",
+                         "season":  33,
+                         "episode":  7,
+                         "title":  "Portrait of a Lackey On Fire",
+                         "duration":  1361985
+                     },
+                     {
+                         "id":  "0c7a8a1e-1399-42e5-8614-3f1fda7a334a",
+                         "season":  33,
+                         "episode":  8,
+                         "title":  "Mothers And Other Strangers",
+                         "duration":  1358648
+                     },
+                     {
+                         "id":  "6fe09255-20f7-42ec-a749-a56734d0cc13",
+                         "season":  33,
+                         "episode":  9,
+                         "title":  "A Made Maggie",
+                         "duration":  1364613
+                     },
+                     {
+                         "id":  "84a7e52b-9b77-4419-a3ce-45f12a2cfdd3",
+                         "season":  33,
+                         "episode":  10,
+                         "title":  "The Longest Marge",
+                         "duration":  1401900
+                     },
+                     {
+                         "id":  "2e7f12d3-603e-4f06-9a54-bd96dc68c07a",
+                         "season":  33,
+                         "episode":  11,
+                         "title":  "Pixelated & Afraid",
+                         "duration":  1347888
+                     },
+                     {
+                         "id":  "5c48adf2-322a-43ed-8e17-111deb640a58",
+                         "season":  33,
+                         "episode":  12,
+                         "title":  "Boyz N the Highlands",
+                         "duration":  1395519
+                     },
+                     {
+                         "id":  "be11d1c8-b37c-4095-9614-cef6e5639eeb",
+                         "season":  33,
+                         "episode":  13,
+                         "title":  "You Won't Believe What This Episode is About - Act Three Will Shock You!",
+                         "duration":  1402818
+                     },
+                     {
+                         "id":  "cda7f647-101c-4249-ab6f-42e372b862dd",
+                         "season":  33,
+                         "episode":  14,
+                         "title":  "Bart the Cool Kid",
+                         "duration":  1362778
+                     },
+                     {
+                         "id":  "567bd48e-eb20-4348-8091-a4d8a1fa2a7e",
+                         "season":  33,
+                         "episode":  15,
+                         "title":  "Pretty Whittle Liar",
+                         "duration":  1367783
+                     },
+                     {
+                         "id":  "e7e42da2-c457-4063-bbb9-730656a8de3b",
+                         "season":  33,
+                         "episode":  16,
+                         "title":  "The Sound of Bleeding Gums",
+                         "duration":  1360776
+                     },
+                     {
+                         "id":  "1d74f636-a58d-4bd5-b481-d8d7ad433938",
+                         "season":  33,
+                         "episode":  17,
+                         "title":  "My Octopus and a Teacher",
+                         "duration":  1343675
+                     },
+                     {
+                         "id":  "cfd6e4d6-64bd-4c27-abcd-96480cc1f319",
+                         "season":  33,
+                         "episode":  18,
+                         "title":  "Girls Just Shauna Have Fun",
+                         "duration":  1349598
+                     },
+                     {
+                         "id":  "91735af0-262e-4df3-a6e9-3a8d90b01beb",
+                         "season":  33,
+                         "episode":  19,
+                         "title":  "Marge the Meanie",
+                         "duration":  1355771
+                     },
+                     {
+                         "id":  "4bae370c-9baa-4f41-8e47-1f8928902de5",
+                         "season":  33,
+                         "episode":  20,
+                         "title":  "Meat is Murder",
+                         "duration":  1385550
+                     },
+                     {
+                         "id":  "e063f04c-6771-437d-883a-261e52c67232",
+                         "season":  33,
+                         "episode":  21,
+                         "title":  "Poorhouse Rock",
+                         "duration":  1357647
+                     }
+                 ]
+}

@@ -1,0 +1,160 @@
+﻿{
+    "season":  18,
+    "duration":  29963925,
+    "episodes":  [
+                     {
+                         "id":  "55054863-d9de-4340-bb61-bf10eeb8bfd9",
+                         "season":  18,
+                         "episode":  1,
+                         "title":  "The Mook, the Chef, the Wife, and Her Homer",
+                         "duration":  1362778
+                     },
+                     {
+                         "id":  "4b95e3f1-e1e6-4a47-aae1-70bcf11e574c",
+                         "season":  18,
+                         "episode":  2,
+                         "title":  "Jazzy and the Pussycats",
+                         "duration":  1358440
+                     },
+                     {
+                         "id":  "398a5dd9-ed69-4250-ae56-04309dd0bc2f",
+                         "season":  18,
+                         "episode":  3,
+                         "title":  "Please Homer, Don't Hammer 'Em",
+                         "duration":  1369284
+                     },
+                     {
+                         "id":  "48867d0e-466d-4571-b354-de36e1dc4367",
+                         "season":  18,
+                         "episode":  4,
+                         "title":  "Treehouse of Horror XVII",
+                         "duration":  1359316
+                     },
+                     {
+                         "id":  "d5437ccf-4aac-44e2-9d70-c47314828eca",
+                         "season":  18,
+                         "episode":  5,
+                         "title":  "G.I. (Annoyed Grunt)",
+                         "duration":  1337711
+                     },
+                     {
+                         "id":  "9da70ff8-35a4-49f4-8357-309b96d701b6",
+                         "season":  18,
+                         "episode":  6,
+                         "title":  "Moe'N'a Lisa",
+                         "duration":  1369993
+                     },
+                     {
+                         "id":  "563417de-b1fa-4ad4-bacf-c1355f4cecf0",
+                         "season":  18,
+                         "episode":  7,
+                         "title":  "Ice Cream of Margie (with the Light Blue Hair)",
+                         "duration":  1369659
+                     },
+                     {
+                         "id":  "16fd9218-1580-4c02-b32b-0fedcaaeb0e3",
+                         "season":  18,
+                         "episode":  8,
+                         "title":  "The Haw-Hawed Couple",
+                         "duration":  1369284
+                     },
+                     {
+                         "id":  "f9954d38-acbe-47b1-9b4a-10ea5d4e66c5",
+                         "season":  18,
+                         "episode":  9,
+                         "title":  "Kill Gil, Volumes I & II",
+                         "duration":  1369368
+                     },
+                     {
+                         "id":  "868347c8-c0db-46cb-a215-0061c9dbc5ce",
+                         "season":  18,
+                         "episode":  10,
+                         "title":  "The Wife Aquatic",
+                         "duration":  1339463
+                     },
+                     {
+                         "id":  "604648ac-d9b3-4db1-8548-9e999285fa5e",
+                         "season":  18,
+                         "episode":  11,
+                         "title":  "Revenge Is a Dish Best Served Three Times",
+                         "duration":  1369409
+                     },
+                     {
+                         "id":  "cd7303a6-ea2d-4267-b06f-c3b73ea53b08",
+                         "season":  18,
+                         "episode":  12,
+                         "title":  "Little Big Girl",
+                         "duration":  1350724
+                     },
+                     {
+                         "id":  "fe903cc1-bbdf-4e65-b6ea-098a5c29cbfb",
+                         "season":  18,
+                         "episode":  13,
+                         "title":  "Springfield Up",
+                         "duration":  1373789
+                     },
+                     {
+                         "id":  "807205f7-f983-4b3f-b67c-b3415d894563",
+                         "season":  18,
+                         "episode":  14,
+                         "title":  "Yokel Chords",
+                         "duration":  1373497
+                     },
+                     {
+                         "id":  "ac7c3ba5-664b-484d-a7da-24e0cfba991f",
+                         "season":  18,
+                         "episode":  15,
+                         "title":  "Rome-Old and Juli-Eh",
+                         "duration":  1346595
+                     },
+                     {
+                         "id":  "aacd9c30-e287-48bf-81e3-6896eec645fe",
+                         "season":  18,
+                         "episode":  16,
+                         "title":  "Homerazzi",
+                         "duration":  1319651
+                     },
+                     {
+                         "id":  "6af969ce-c468-4495-b1ed-6865acaf0925",
+                         "season":  18,
+                         "episode":  17,
+                         "title":  "Marge Gamer",
+                         "duration":  1379878
+                     },
+                     {
+                         "id":  "e2b37edb-5d50-40e4-91a7-417d1bccecbb",
+                         "season":  18,
+                         "episode":  18,
+                         "title":  "The Boys of Bummer",
+                         "duration":  1374581
+                     },
+                     {
+                         "id":  "3ca7e549-8ef4-4ad3-adfd-f337afa68725",
+                         "season":  18,
+                         "episode":  19,
+                         "title":  "Crook and Ladder",
+                         "duration":  1368492
+                     },
+                     {
+                         "id":  "6d5c8715-b130-4086-82f6-5799d0656cf1",
+                         "season":  18,
+                         "episode":  20,
+                         "title":  "Stop! Or My Dog Will Shoot!",
+                         "duration":  1360317
+                     },
+                     {
+                         "id":  "d1f52c25-a3dc-4bc4-9b95-cad5d2035d84",
+                         "season":  18,
+                         "episode":  21,
+                         "title":  "24 Minutes",
+                         "duration":  1371953
+                     },
+                     {
+                         "id":  "312e49ac-6708-4153-ab12-13020f4c620c",
+                         "season":  18,
+                         "episode":  22,
+                         "title":  "You Kent Always Say What You Want",
+                         "duration":  1369743
+                     }
+                 ]
+}

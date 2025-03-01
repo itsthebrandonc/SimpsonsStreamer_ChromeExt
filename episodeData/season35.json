@@ -1,0 +1,132 @@
+﻿{
+    "season":  35,
+    "duration":  24973192,
+    "episodes":  [
+                     {
+                         "id":  "db38ce5c-dc98-49a3-b0b1-39826f9d6c8d",
+                         "season":  35,
+                         "episode":  1,
+                         "title":  "Homer's Crossing",
+                         "duration":  1391681
+                     },
+                     {
+                         "id":  "4110e29d-87a5-48f6-8c57-18f597645f21",
+                         "season":  35,
+                         "episode":  2,
+                         "title":  "A Mid-Childhood Night's Dream",
+                         "duration":  1351559
+                     },
+                     {
+                         "id":  "45a352e6-563f-461a-8407-9a6b59c9eeb4",
+                         "season":  35,
+                         "episode":  3,
+                         "title":  "McMansion & Wife",
+                         "duration":  1376416
+                     },
+                     {
+                         "id":  "c5730034-26ef-425e-ac0b-1de7eeca117e",
+                         "season":  35,
+                         "episode":  4,
+                         "title":  "Thirst Trap: A Corporate Love Story",
+                         "duration":  1367574
+                     },
+                     {
+                         "id":  "78d7fb8c-dd2f-4fde-8257-0944ca3a01d2",
+                         "season":  35,
+                         "episode":  5,
+                         "title":  "Treehouse of Horror XXXIV",
+                         "duration":  1416915
+                     },
+                     {
+                         "id":  "1d2ec2e5-7193-4df8-8163-a84bd0716000",
+                         "season":  35,
+                         "episode":  6,
+                         "title":  "Iron Marge",
+                         "duration":  1376375
+                     },
+                     {
+                         "id":  "23517abc-ddd3-40ab-a0f4-02456eff4bd6",
+                         "season":  35,
+                         "episode":  7,
+                         "title":  "It's a Blunderful Life",
+                         "duration":  1373580
+                     },
+                     {
+                         "id":  "28dd3da7-5f13-4e06-b571-9112dfa5a7e6",
+                         "season":  35,
+                         "episode":  8,
+                         "title":  "Ae Bonny Romance",
+                         "duration":  1536786
+                     },
+                     {
+                         "id":  "0d2e01a6-298a-4f64-a923-40c210c62f30",
+                         "season":  35,
+                         "episode":  9,
+                         "title":  "Murder, She Boat",
+                         "duration":  1455871
+                     },
+                     {
+                         "id":  "8026cfef-6d91-49d4-88dc-a27832e5c8fa",
+                         "season":  35,
+                         "episode":  10,
+                         "title":  "Do the Wrong Thing",
+                         "duration":  1369701
+                     },
+                     {
+                         "id":  "6a888606-e09c-460d-aa6f-f3c540ff9ecd",
+                         "season":  35,
+                         "episode":  11,
+                         "title":  "Frinkenstein's Monster",
+                         "duration":  1365614
+                     },
+                     {
+                         "id":  "f51d2bd2-610c-4258-aabb-b035317c0c66",
+                         "season":  35,
+                         "episode":  12,
+                         "title":  "Lisa Gets an F1",
+                         "duration":  1363528
+                     },
+                     {
+                         "id":  "e864bb42-9b02-4fbe-a1aa-d11039d99bc7",
+                         "season":  35,
+                         "episode":  13,
+                         "title":  "Clan of the Cave Mom",
+                         "duration":  1367491
+                     },
+                     {
+                         "id":  "f678f13a-4970-4e1a-8557-cc359bd27878",
+                         "season":  35,
+                         "episode":  14,
+                         "title":  "Night of the Living Wage",
+                         "duration":  1371578
+                     },
+                     {
+                         "id":  "c1aa8c83-0446-4bdc-8d26-fce643f9dcd8",
+                         "season":  35,
+                         "episode":  15,
+                         "title":  "Cremains of the Day",
+                         "duration":  1363570
+                     },
+                     {
+                         "id":  "59686b63-4819-4dfb-8910-024381ec65c0",
+                         "season":  35,
+                         "episode":  16,
+                         "title":  "The Tell-Tale Pants",
+                         "duration":  1379669
+                     },
+                     {
+                         "id":  "ad443cd1-144e-43ab-8751-0c36cf677874",
+                         "season":  35,
+                         "episode":  17,
+                         "title":  "The Tipping Point",
+                         "duration":  1365573
+                     },
+                     {
+                         "id":  "8fc611f4-3764-49a2-9f09-20037cb7e051",
+                         "season":  35,
+                         "episode":  18,
+                         "title":  "Bart's Brain",
+                         "duration":  1379711
+                     }
+                 ]
+}

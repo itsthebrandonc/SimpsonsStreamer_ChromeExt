@@ -1,0 +1,167 @@
+﻿{
+    "season":  21,
+    "duration":  31138099,
+    "episodes":  [
+                     {
+                         "id":  "0433d074-edec-4b66-9fb1-6e2905da3ce6",
+                         "season":  21,
+                         "episode":  1,
+                         "title":  "Homer the Whopper",
+                         "duration":  1344468
+                     },
+                     {
+                         "id":  "be4e8e39-dce1-4e33-afb7-b4f3bae518e8",
+                         "season":  21,
+                         "episode":  2,
+                         "title":  "Bart Gets a 'Z'",
+                         "duration":  1369910
+                     },
+                     {
+                         "id":  "eda05870-8418-4766-b408-368fe005e826",
+                         "season":  21,
+                         "episode":  3,
+                         "title":  "The Great Wife Hope",
+                         "duration":  1350015
+                     },
+                     {
+                         "id":  "43105934-836d-44d5-a326-7de73c5c643b",
+                         "season":  21,
+                         "episode":  4,
+                         "title":  "Treehouse of Horror XX",
+                         "duration":  1372162
+                     },
+                     {
+                         "id":  "ffb6b108-82ef-4217-94dc-945c40fa41db",
+                         "season":  21,
+                         "episode":  5,
+                         "title":  "The Devil Wears Nada",
+                         "duration":  1360984
+                     },
+                     {
+                         "id":  "088a873b-e2bf-48df-b070-5524a3618e1e",
+                         "season":  21,
+                         "episode":  6,
+                         "title":  "Pranks and Greens",
+                         "duration":  1343550
+                     },
+                     {
+                         "id":  "d52a48d6-57cb-41de-bf1b-5c446be1bf41",
+                         "season":  21,
+                         "episode":  7,
+                         "title":  "Rednecks & Broomsticks",
+                         "duration":  1348889
+                     },
+                     {
+                         "id":  "cc94bf12-155c-4f4f-b8d3-584a2380492b",
+                         "season":  21,
+                         "episode":  8,
+                         "title":  "Oh Brother, Where Bart Thou?",
+                         "duration":  1370535
+                     },
+                     {
+                         "id":  "cb68786c-32b4-494c-93d5-b58e6b81458e",
+                         "season":  21,
+                         "episode":  9,
+                         "title":  "Thursdays with Abie",
+                         "duration":  1356355
+                     },
+                     {
+                         "id":  "4ec72b28-d366-4467-b829-b0a728fe8a01",
+                         "season":  21,
+                         "episode":  10,
+                         "title":  "Once Upon a Time in Springfield",
+                         "duration":  1340881
+                     },
+                     {
+                         "id":  "34c8c0d8-1ab7-493a-8ce4-7499e05fb88f",
+                         "season":  21,
+                         "episode":  11,
+                         "title":  "Million Dollar Maybe",
+                         "duration":  1362903
+                     },
+                     {
+                         "id":  "93cba602-d4f9-4fcb-b094-2f0ff6134d0b",
+                         "season":  21,
+                         "episode":  12,
+                         "title":  "Boy Meets Curl",
+                         "duration":  1372829
+                     },
+                     {
+                         "id":  "a3c03709-fb33-4751-a267-ad87bb6d83e9",
+                         "season":  21,
+                         "episode":  13,
+                         "title":  "The Color Yellow",
+                         "duration":  1356897
+                     },
+                     {
+                         "id":  "a6c16a20-dd1e-486a-80cc-09ddd3fe17c3",
+                         "season":  21,
+                         "episode":  14,
+                         "title":  "Postcards from the Wedge",
+                         "duration":  1368241
+                     },
+                     {
+                         "id":  "54b28172-9362-4af5-b1e1-7c473dd22759",
+                         "season":  21,
+                         "episode":  15,
+                         "title":  "Stealing First Base",
+                         "duration":  1345886
+                     },
+                     {
+                         "id":  "12e9af0c-28e2-424a-bf25-dc8ffc924646",
+                         "season":  21,
+                         "episode":  16,
+                         "title":  "The Greatest Story Ever D'ohed",
+                         "duration":  1366448
+                     },
+                     {
+                         "id":  "b48f786f-fc87-4c61-9ae9-b4113952b9c6",
+                         "season":  21,
+                         "episode":  17,
+                         "title":  "American History X-cellent",
+                         "duration":  1348889
+                     },
+                     {
+                         "id":  "8e54bd68-8e4d-4fae-863e-3a9c607687d7",
+                         "season":  21,
+                         "episode":  18,
+                         "title":  "Chief of Hearts",
+                         "duration":  1342883
+                     },
+                     {
+                         "id":  "4c496590-ce6f-419b-8558-3ad93dd75cee",
+                         "season":  21,
+                         "episode":  19,
+                         "title":  "The Squirt & the Whale",
+                         "duration":  1344885
+                     },
+                     {
+                         "id":  "259ab49e-1c58-454b-8d4a-c4c84080614f",
+                         "season":  21,
+                         "episode":  20,
+                         "title":  "To Surveil with Love",
+                         "duration":  1348889
+                     },
+                     {
+                         "id":  "f0c0a476-3083-42de-bfa5-31e3834f0482",
+                         "season":  21,
+                         "episode":  21,
+                         "title":  "Moe Letter Blues",
+                         "duration":  1338879
+                     },
+                     {
+                         "id":  "522cf153-7db0-44f9-82f1-1225f44b10e5",
+                         "season":  21,
+                         "episode":  22,
+                         "title":  "The Bob Next Door",
+                         "duration":  1342174
+                     },
+                     {
+                         "id":  "05dc6050-5c04-4a21-91a7-957cde13e92e",
+                         "season":  21,
+                         "episode":  23,
+                         "title":  "Judge Me Tender",
+                         "duration":  1340547
+                     }
+                 ]
+}

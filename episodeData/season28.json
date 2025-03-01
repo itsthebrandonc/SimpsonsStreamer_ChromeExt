@@ -1,0 +1,153 @@
+﻿{
+    "season":  28,
+    "duration":  29504049,
+    "episodes":  [
+                     {
+                         "id":  "2255dd8d-1ea8-4299-a608-d1588048fed9",
+                         "season":  28,
+                         "episode":  1,
+                         "title":  "Monty Burns' Fleeing Circus",
+                         "duration":  1325699
+                     },
+                     {
+                         "id":  "35af7ab3-49d5-4583-87a2-9b8bb4ca28cd",
+                         "season":  28,
+                         "episode":  2,
+                         "title":  "Friends and Family",
+                         "duration":  1331705
+                     },
+                     {
+                         "id":  "b2eca623-a2ff-4abf-835f-f699f3289f7a",
+                         "season":  28,
+                         "episode":  3,
+                         "title":  "The Town",
+                         "duration":  1355729
+                     },
+                     {
+                         "id":  "386e8572-7b7d-4391-9775-6a5caeb7f3d1",
+                         "season":  28,
+                         "episode":  4,
+                         "title":  "Treehouse of Horror XXVII",
+                         "duration":  1402776
+                     },
+                     {
+                         "id":  "dc825724-3a81-4a56-9815-72aeace2eff1",
+                         "season":  28,
+                         "episode":  5,
+                         "title":  "Trust but Clarify",
+                         "duration":  1337711
+                     },
+                     {
+                         "id":  "9fffdcfd-ac92-444e-a308-1b9d467c211d",
+                         "season":  28,
+                         "episode":  6,
+                         "title":  "There Will Be Buds",
+                         "duration":  1372746
+                     },
+                     {
+                         "id":  "fb0a60e4-0557-4607-b9f2-81a1289059d6",
+                         "season":  28,
+                         "episode":  7,
+                         "title":  "Havana Wild Weekend",
+                         "duration":  1323697
+                     },
+                     {
+                         "id":  "e9af592b-245c-4f53-a87b-2b6956cdf6fb",
+                         "season":  28,
+                         "episode":  8,
+                         "title":  "Dad Behavior",
+                         "duration":  1336710
+                     },
+                     {
+                         "id":  "c9c6c527-79e0-43b8-a33a-340a2196ce0f",
+                         "season":  28,
+                         "episode":  9,
+                         "title":  "The Last Traction Hero",
+                         "duration":  1355771
+                     },
+                     {
+                         "id":  "a33ad801-0290-464f-ac1b-dc51becfe57d",
+                         "season":  28,
+                         "episode":  10,
+                         "title":  "The Nightmare After Krustmas",
+                         "duration":  1329661
+                     },
+                     {
+                         "id":  "72ece727-3cee-496c-a0ce-e83e0f308226",
+                         "season":  28,
+                         "episode":  11,
+                         "title":  "Pork and Burns",
+                         "duration":  1350682
+                     },
+                     {
+                         "id":  "58054258-cdb0-44b5-b01e-8c805d0aa10f",
+                         "season":  28,
+                         "episode":  12,
+                         "title":  "The Great Phatsby (Vol. I & Vol. II)",
+                         "duration":  2618824
+                     },
+                     {
+                         "id":  "ad9e761d-6247-4faa-8c15-8cec7a53b04a",
+                         "season":  28,
+                         "episode":  13,
+                         "title":  "Fatzcarraldo",
+                         "duration":  1313687
+                     },
+                     {
+                         "id":  "0d042f21-2933-48cb-bbed-7978df1cc089",
+                         "season":  28,
+                         "episode":  14,
+                         "title":  "The Cad and the Hat",
+                         "duration":  1350724
+                     },
+                     {
+                         "id":  "046f4df9-3c8f-4e97-8177-9a3da8fc7dfc",
+                         "season":  28,
+                         "episode":  15,
+                         "title":  "Kamp Krustier",
+                         "duration":  1328702
+                     },
+                     {
+                         "id":  "04f1bf2a-2a9b-4103-9ca5-501ef512fd3a",
+                         "season":  28,
+                         "episode":  16,
+                         "title":  "22 for 30",
+                         "duration":  1357731
+                     },
+                     {
+                         "id":  "127e581a-09ca-4baa-ade7-9b1e459d9ab2",
+                         "season":  28,
+                         "episode":  17,
+                         "title":  "A Father's Watch",
+                         "duration":  1348680
+                     },
+                     {
+                         "id":  "57c599b2-c273-4da7-a11f-1837aba3fdd4",
+                         "season":  28,
+                         "episode":  18,
+                         "title":  "The Caper Chase",
+                         "duration":  1360734
+                     },
+                     {
+                         "id":  "1d9d2728-0bba-4242-b841-98e6ff3c5d22",
+                         "season":  28,
+                         "episode":  19,
+                         "title":  "Looking for Mr. Goodbart",
+                         "duration":  1329703
+                     },
+                     {
+                         "id":  "bcf45952-04ea-4be9-a387-7ce81cc108db",
+                         "season":  28,
+                         "episode":  20,
+                         "title":  "Moho House",
+                         "duration":  1353727
+                     },
+                     {
+                         "id":  "8c88a547-b33a-41ac-af7c-deece74dd238",
+                         "season":  28,
+                         "episode":  21,
+                         "title":  "Dogtown",
+                         "duration":  1318650
+                     }
+                 ]
+}

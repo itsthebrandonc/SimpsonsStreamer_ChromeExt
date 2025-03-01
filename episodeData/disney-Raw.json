@@ -1,0 +1,333 @@
+{
+    "data": {
+        "season": {
+            "type": "season",
+            "id": "b8088d2a-1e3c-4a1c-968f-6a2ee6341b12",
+            "style": {
+                "name": "standard_regular_list",
+                "fallback": "standard_regular_list",
+                "layout": "grid"
+            },
+            "actions": [
+                {
+                    "seasonId": "b8088d2a-1e3c-4a1c-968f-6a2ee6341b12",
+                    "visuals": {
+                        "displayText": "Download All"
+                    },
+                    "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkZjE3YzNmOGUtNTliMS00NjFkLThlODItYWFlMDdkNTliZTljMiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQ1MDMyOTYyWjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWg8KDQoLZG93bmxvYWRBbGw=",
+                    "type": "downloadAll"
+                }
+            ],
+            "visuals": {
+                "name": "Season 35",
+                "episodeCountDisplayText": "18 Episodes"
+            },
+            "items": [
+                {
+                    "type": "view",
+                    "id": "59686b63-4819-4dfb-8910-024381ec65c0",
+                    "actions": [
+                        {
+                            "resourceId": "eyJtZWRpYUlkIjoiMzQyZWNhYWEtNGU5Mi00Y2JiLTg4OGUtY2ZmOWEyODAyM2Q1IiwiYXZhaWxJZCI6ImQ1NzMxMTVmLTdlNmEtNGY1NC05YjhkLWNlNjNiNWJlZTAwNCIsImF2YWlsVmVyc2lvbiI6MjIsInNvdXJjZUlkIjoiZDU3MzExNWYtN2U2YS00ZjU0LTliOGQtY2U2M2I1YmVlMDA0IiwiY29udGVudFR5cGUiOiJ2b2QifQ==",
+                            "contentType": "vod",
+                            "options": [
+                                {
+                                    "type": "play",
+                                    "displayText": "PLAY",
+                                    "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkNzZhOGFiZWItOWJhOC00ZmE4LTk2NzctNzg2ODMyYTU2MDhkMiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQzODc5NTc2WjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWoQCCoECCgRwbGF5Ej8KPXVybjpkczpjbXA6ZXZhOmFsaWRTYXZlZC9hNGIyZGY3Zi1mMWJiLTQwYzAtODI4ZC00YmJmY2JmZDQyMWIaJgokNTk2ODZiNjMtNDgxOS00ZGZiLTg5MTAtMDI0MzgxZWM2NWMwIiYKJGE0YjJkZjdmLWYxYmItNDBjMC04MjhkLTRiYmZjYmZkNDIxYiomCiRkNTczMTE1Zi03ZTZhLTRmNTQtOWI4ZC1jZTYzYjViZWUwMDRSJgokMzQyZWNhYWEtNGU5Mi00Y2JiLTg4OGUtY2ZmOWEyODAyM2Q1WhgKFnVybjpkczpjbXA6ZXZhOmVwaXNvZGU="
+                                }
+                            ],
+                            "availId": "d573115f-7e6a-4f54-9b8d-ce63b5bee004",
+                            "deeplinkId": "59686b63-4819-4dfb-8910-024381ec65c0",
+                            "legacyPartnerFeed": {
+                                "dmcContentId": "d5bb1808-6f93-4264-839b-717c679348f9"
+                            },
+                            "partnerFeed": {
+                                "dmcContentId": "d5bb1808-6f93-4264-839b-717c679348f9",
+                                "evaSeriesEntityId": "cac75c8f-a9e2-4d95-ac73-1cf1cc7b9568"
+                            },
+                            "upNextId": "59686b63-4819-4dfb-8910-024381ec65c0",
+                            "internalTitle": "The Simpsons - s35e16 - mediaId:342ecaaa-4e92-4cbb-888e-cff9a28023d5",
+                            "visuals": {
+                                "displayText": "PLAY"
+                            },
+                            "type": "playback"
+                        },
+                        {
+                            "visuals": {
+                                "displayText": "DOWNLOAD"
+                            },
+                            "resourceId": "eyJtZWRpYUlkIjoiMzQyZWNhYWEtNGU5Mi00Y2JiLTg4OGUtY2ZmOWEyODAyM2Q1IiwiYXZhaWxJZCI6ImQ1NzMxMTVmLTdlNmEtNGY1NC05YjhkLWNlNjNiNWJlZTAwNCIsImF2YWlsVmVyc2lvbiI6MjIsInNvdXJjZUlkIjoiZDU3MzExNWYtN2U2YS00ZjU0LTliOGQtY2U2M2I1YmVlMDA0IiwiY29udGVudFR5cGUiOiJ2b2QifQ==",
+                            "availId": "d573115f-7e6a-4f54-9b8d-ce63b5bee004",
+                            "contentId": "d5bb1808-6f93-4264-839b-717c679348f9",
+                            "internalTitle": "The Simpsons - s35e16 - mediaId:342ecaaa-4e92-4cbb-888e-cff9a28023d5",
+                            "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkOWI2NmRjNDMtOTk2MC00OThiLWFkYzQtZWNmMWFkZmU1NjVhMiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQzOTg1OTg5WjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWpABCo0BCghkb3dubG9hZCImCiRhNGIyZGY3Zi1mMWJiLTQwYzAtODI4ZC00YmJmY2JmZDQyMWIqJgokZDU3MzExNWYtN2U2YS00ZjU0LTliOGQtY2U2M2I1YmVlMDA0UiYKJDM0MmVjYWFhLTRlOTItNGNiYi04ODhlLWNmZjlhMjgwMjNkNVoJCgdFUElTT0RF",
+                            "type": "download"
+                        }
+                    ],
+                    "visuals": {
+                        "title": "The Simpsons",
+                        "description": {
+                            "brief": "Marge spends an influx of money on herself.",
+                            "medium": "Marge comes upon a surprising windfall and, angry with Homer, spends it secretly on herself.",
+                            "full": "Marge comes upon a surprising windfall and, angry with Homer, spends it secretly on herself."
+                        },
+                        "episodeTitle": "The Tell-Tale Pants",
+                        "seasonNumber": "35",
+                        "episodeNumber": "16",
+                        "metastringParts": {
+                            "ratingInfo": {
+                                "rating": {
+                                    "text": "TV-PG",
+                                    "imageId": "A5003BAA3A9FB37B8BF1789815F7BFF43F483A5F7E4DD0909B838E631AD90F25"
+                                },
+                                "advisories": []
+                            },
+                            "runtime": {
+                                "runtimeMs": 1379669
+                            }
+                        },
+                        "artwork": {
+                            "standard": {
+                                "thumbnail": {
+                                    "1.78": {
+                                        "imageId": "49c2cc7d-2c93-44eb-906c-0178182bb2a5"
+                                    }
+                                },
+                                "title_treatment": {
+                                    "1.78": {
+                                        "imageId": "f4fbac65-d2d3-4db7-b5bf-d240068ded71"
+                                    }
+                                },
+                                "tile": {
+                                    "1.78": {
+                                        "imageId": "211f24f8-8a7d-4fd0-9a7e-7a2b30436da4"
+                                    }
+                                }
+                            },
+                            "up_next": {
+                                "background": {
+                                    "1.78": {
+                                        "imageId": "2a442cbd-58e1-459d-82fe-159858866720"
+                                    }
+                                }
+                            }
+                        },
+                        "fullEpisodeTitle": "S35:E16 The Tell-Tale Pants",
+                        "fullEpisodeTitleTts": "Season 35 Episode 16 The Tell-Tale Pants",
+                        "durationMs": 1379669
+                    },
+                    "infoBlock": "EiJ1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTppdGVtGj9jb20uZGlzbmV5c3RyZWFtaW5nLnNlcnZpY2UubmFtb3JhLmluZm9ibG9jay5JbmZvQmxvY2tHZW5lcmF0b3IiJDU1YjNiYTUxLTJlMmYtNDFiMy1hOTgxLWMxNWIyOTVhMTg0NzIfCh0yMDI1LTAzLTAxVDAyOjM4OjU3Ljg0NDQ5ODIyWjqmAQqjAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvaXRlbS5zbWl0aHlCFgoUYXBwbGljYXRpb24vcHJvdG9idWZKCAoGYmluYXJ5agIIAlppCmcSO3VybjpkczpjbXA6ZXZhOmVwaXNvZGUvNTk2ODZiNjMtNDgxOS00ZGZiLTg5MTAtMDI0MzgxZWM2NWMwaiYKJGQ1NzMxMTVmLTdlNmEtNGY1NC05YjhkLWNlNjNiNWJlZTAwNHIA",
+                    "personalization": {
+                        "pid": "NTk2ODZiNjMtNDgxOS00ZGZiLTg5MTAtMDI0MzgxZWM2NWMwOjphNGIyZGY3Zi1mMWJiLTQwYzAtODI4ZC00YmJmY2JmZDQyMWI6OmQ1NzMxMTVmLTdlNmEtNGY1NC05YjhkLWNlNjNiNWJlZTAwNDo6Y2FjNzVjOGYtYTllMi00ZDk1LWFjNzMtMWNmMWNjN2I5NTY4OjpOVUxM"
+                    }
+                },
+                {
+                    "type": "view",
+                    "id": "ad443cd1-144e-43ab-8751-0c36cf677874",
+                    "actions": [
+                        {
+                            "resourceId": "eyJtZWRpYUlkIjoiM2Q0NGM3YzgtNTllNS00YzkyLTkxNjgtNTIxYjZiMTM1ODYxIiwiYXZhaWxJZCI6IjhlM2E0MjBmLWI3ZjItNDc0Mi04YWYyLTAxNjJhMzQ2NTVkYyIsImF2YWlsVmVyc2lvbiI6MjUsInNvdXJjZUlkIjoiOGUzYTQyMGYtYjdmMi00NzQyLThhZjItMDE2MmEzNDY1NWRjIiwiY29udGVudFR5cGUiOiJ2b2QifQ==",
+                            "contentType": "vod",
+                            "options": [
+                                {
+                                    "type": "play",
+                                    "displayText": "PLAY",
+                                    "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkNmQ2MTM3ZDEtNGUyYy00MTdiLTkyZTQtZWVkZTkyNTdhYzQyMiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQ0NTU1OTgyWjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWoQCCoECCgRwbGF5Ej8KPXVybjpkczpjbXA6ZXZhOmFsaWRTYXZlZC9kMmQ4MGYwZS02YjNiLTRjODYtODI4Yy05ZTM5ZTdkZmM1ZTQaJgokYWQ0NDNjZDEtMTQ0ZS00M2FiLTg3NTEtMGMzNmNmNjc3ODc0IiYKJGQyZDgwZjBlLTZiM2ItNGM4Ni04MjhjLTllMzllN2RmYzVlNComCiQ4ZTNhNDIwZi1iN2YyLTQ3NDItOGFmMi0wMTYyYTM0NjU1ZGNSJgokM2Q0NGM3YzgtNTllNS00YzkyLTkxNjgtNTIxYjZiMTM1ODYxWhgKFnVybjpkczpjbXA6ZXZhOmVwaXNvZGU="
+                                }
+                            ],
+                            "availId": "8e3a420f-b7f2-4742-8af2-0162a34655dc",
+                            "deeplinkId": "ad443cd1-144e-43ab-8751-0c36cf677874",
+                            "legacyPartnerFeed": {
+                                "dmcContentId": "75633710-2300-45db-b64d-00c588e762d9"
+                            },
+                            "partnerFeed": {
+                                "dmcContentId": "75633710-2300-45db-b64d-00c588e762d9",
+                                "evaSeriesEntityId": "cac75c8f-a9e2-4d95-ac73-1cf1cc7b9568"
+                            },
+                            "upNextId": "ad443cd1-144e-43ab-8751-0c36cf677874",
+                            "internalTitle": "The Simpsons - s35e17 - mediaId:3d44c7c8-59e5-4c92-9168-521b6b135861",
+                            "visuals": {
+                                "displayText": "PLAY"
+                            },
+                            "type": "playback"
+                        },
+                        {
+                            "visuals": {
+                                "displayText": "DOWNLOAD"
+                            },
+                            "resourceId": "eyJtZWRpYUlkIjoiM2Q0NGM3YzgtNTllNS00YzkyLTkxNjgtNTIxYjZiMTM1ODYxIiwiYXZhaWxJZCI6IjhlM2E0MjBmLWI3ZjItNDc0Mi04YWYyLTAxNjJhMzQ2NTVkYyIsImF2YWlsVmVyc2lvbiI6MjUsInNvdXJjZUlkIjoiOGUzYTQyMGYtYjdmMi00NzQyLThhZjItMDE2MmEzNDY1NWRjIiwiY29udGVudFR5cGUiOiJ2b2QifQ==",
+                            "availId": "8e3a420f-b7f2-4742-8af2-0162a34655dc",
+                            "contentId": "75633710-2300-45db-b64d-00c588e762d9",
+                            "internalTitle": "The Simpsons - s35e17 - mediaId:3d44c7c8-59e5-4c92-9168-521b6b135861",
+                            "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkYjhhM2ViYTItODUyMC00MGNmLWFmM2MtMzk2NWIzYTA2MzA0MiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQ0NTc5ODcyWjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWpABCo0BCghkb3dubG9hZCImCiRkMmQ4MGYwZS02YjNiLTRjODYtODI4Yy05ZTM5ZTdkZmM1ZTQqJgokOGUzYTQyMGYtYjdmMi00NzQyLThhZjItMDE2MmEzNDY1NWRjUiYKJDNkNDRjN2M4LTU5ZTUtNGM5Mi05MTY4LTUyMWI2YjEzNTg2MVoJCgdFUElTT0RF",
+                            "type": "download"
+                        }
+                    ],
+                    "visuals": {
+                        "title": "The Simpsons",
+                        "description": {
+                            "brief": "Homer is obsessed with gratuitous gratuities.",
+                            "medium": "Homer loses his mind over tipping culture run amok.",
+                            "full": "Homer loses his mind over tipping culture run amok."
+                        },
+                        "episodeTitle": "The Tipping Point",
+                        "seasonNumber": "35",
+                        "episodeNumber": "17",
+                        "metastringParts": {
+                            "ratingInfo": {
+                                "rating": {
+                                    "text": "TV-PG",
+                                    "imageId": "A5003BAA3A9FB37B8BF1789815F7BFF43F483A5F7E4DD0909B838E631AD90F25"
+                                },
+                                "advisories": []
+                            },
+                            "runtime": {
+                                "runtimeMs": 1365573
+                            }
+                        },
+                        "artwork": {
+                            "standard": {
+                                "thumbnail": {
+                                    "1.78": {
+                                        "imageId": "00536b35-3ed8-4ee6-a499-c583abd21ae6"
+                                    }
+                                },
+                                "title_treatment": {
+                                    "1.78": {
+                                        "imageId": "f4fbac65-d2d3-4db7-b5bf-d240068ded71"
+                                    }
+                                },
+                                "tile": {
+                                    "1.78": {
+                                        "imageId": "211f24f8-8a7d-4fd0-9a7e-7a2b30436da4"
+                                    }
+                                }
+                            },
+                            "up_next": {
+                                "background": {
+                                    "1.78": {
+                                        "imageId": "2a442cbd-58e1-459d-82fe-159858866720"
+                                    }
+                                }
+                            }
+                        },
+                        "fullEpisodeTitle": "S35:E17 The Tipping Point",
+                        "fullEpisodeTitleTts": "Season 35 Episode 17 The Tipping Point",
+                        "durationMs": 1365573
+                    },
+                    "infoBlock": "EiJ1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTppdGVtGj9jb20uZGlzbmV5c3RyZWFtaW5nLnNlcnZpY2UubmFtb3JhLmluZm9ibG9jay5JbmZvQmxvY2tHZW5lcmF0b3IiJDYyNTIwNGE4LWFiNjctNDZkMS04YTYxLTk1NmM1MTQ0MzgyNjIgCh4yMDI1LTAzLTAxVDAyOjM4OjU3Ljg0NDcxNTkyNVo6pgEKowFodHRwczovL2dpdGh1Yi5iYW10ZWNoLmNvL3NjaGVtYS1yZWdpc3RyeS9zY2hlbWEtcmVnaXN0cnktaW5mby1ibG9jay9ibG9iLzY1YWEyY2U0ZmE2ODEwNzgwNDNiMWJjMmJjOGQyNTg4ZDEyMDViZjIvc21pdGh5L2Rzcy9ldmVudC9pbmZvYmxvY2svYnJvd3NlL3YxL2l0ZW0uc21pdGh5QhYKFGFwcGxpY2F0aW9uL3Byb3RvYnVmSggKBmJpbmFyeWoCCAJaaQpnEjt1cm46ZHM6Y21wOmV2YTplcGlzb2RlL2FkNDQzY2QxLTE0NGUtNDNhYi04NzUxLTBjMzZjZjY3Nzg3NGomCiQ4ZTNhNDIwZi1iN2YyLTQ3NDItOGFmMi0wMTYyYTM0NjU1ZGNyAA==",
+                    "personalization": {
+                        "pid": "YWQ0NDNjZDEtMTQ0ZS00M2FiLTg3NTEtMGMzNmNmNjc3ODc0OjpkMmQ4MGYwZS02YjNiLTRjODYtODI4Yy05ZTM5ZTdkZmM1ZTQ6OjhlM2E0MjBmLWI3ZjItNDc0Mi04YWYyLTAxNjJhMzQ2NTVkYzo6Y2FjNzVjOGYtYTllMi00ZDk1LWFjNzMtMWNmMWNjN2I5NTY4OjpOVUxM"
+                    }
+                },
+                {
+                    "type": "view",
+                    "id": "8fc611f4-3764-49a2-9f09-20037cb7e051",
+                    "actions": [
+                        {
+                            "resourceId": "eyJtZWRpYUlkIjoiY2E0M2I2MzQtZDc4MS00MjJiLTgxNTYtYzdmYTYwNGQzNjQzIiwiYXZhaWxJZCI6ImY3YTU4Yzc4LWEzNmUtNDE5Zi04MDdmLTkwNjgyODIwYmE4NCIsImF2YWlsVmVyc2lvbiI6MjYsInNvdXJjZUlkIjoiZjdhNThjNzgtYTM2ZS00MTlmLTgwN2YtOTA2ODI4MjBiYTg0IiwiY29udGVudFR5cGUiOiJ2b2QifQ==",
+                            "contentType": "vod",
+                            "options": [
+                                {
+                                    "type": "play",
+                                    "displayText": "PLAY",
+                                    "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkMWVmNzgwMmItYzZiOS00YWUwLTgzYjgtZmYzMjdkNmQ1MjE1MiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQ0NzUyMTk2WjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWoQCCoECCgRwbGF5Ej8KPXVybjpkczpjbXA6ZXZhOmFsaWRTYXZlZC8zY2RmNTAyMS0xODU3LTQyNjMtYjA5Yi03ZDJlMmQ0ZDcyZjEaJgokOGZjNjExZjQtMzc2NC00OWEyLTlmMDktMjAwMzdjYjdlMDUxIiYKJDNjZGY1MDIxLTE4NTctNDI2My1iMDliLTdkMmUyZDRkNzJmMSomCiRmN2E1OGM3OC1hMzZlLTQxOWYtODA3Zi05MDY4MjgyMGJhODRSJgokY2E0M2I2MzQtZDc4MS00MjJiLTgxNTYtYzdmYTYwNGQzNjQzWhgKFnVybjpkczpjbXA6ZXZhOmVwaXNvZGU="
+                                }
+                            ],
+                            "availId": "f7a58c78-a36e-419f-807f-90682820ba84",
+                            "deeplinkId": "8fc611f4-3764-49a2-9f09-20037cb7e051",
+                            "legacyPartnerFeed": {
+                                "dmcContentId": "f9e40205-47be-443b-95bc-4a2c8134705f"
+                            },
+                            "partnerFeed": {
+                                "dmcContentId": "f9e40205-47be-443b-95bc-4a2c8134705f",
+                                "evaSeriesEntityId": "cac75c8f-a9e2-4d95-ac73-1cf1cc7b9568"
+                            },
+                            "upNextId": "8fc611f4-3764-49a2-9f09-20037cb7e051",
+                            "internalTitle": "The Simpsons - s35e18 - mediaId:ca43b634-d781-422b-8156-c7fa604d3643",
+                            "visuals": {
+                                "displayText": "PLAY"
+                            },
+                            "type": "playback"
+                        },
+                        {
+                            "visuals": {
+                                "displayText": "DOWNLOAD"
+                            },
+                            "resourceId": "eyJtZWRpYUlkIjoiY2E0M2I2MzQtZDc4MS00MjJiLTgxNTYtYzdmYTYwNGQzNjQzIiwiYXZhaWxJZCI6ImY3YTU4Yzc4LWEzNmUtNDE5Zi04MDdmLTkwNjgyODIwYmE4NCIsImF2YWlsVmVyc2lvbiI6MjYsInNvdXJjZUlkIjoiZjdhNThjNzgtYTM2ZS00MTlmLTgwN2YtOTA2ODI4MjBiYTg0IiwiY29udGVudFR5cGUiOiJ2b2QifQ==",
+                            "availId": "f7a58c78-a36e-419f-807f-90682820ba84",
+                            "contentId": "f9e40205-47be-443b-95bc-4a2c8134705f",
+                            "internalTitle": "The Simpsons - s35e18 - mediaId:ca43b634-d781-422b-8156-c7fa604d3643",
+                            "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkNzhlZTQ3MDMtYzE3Mi00Y2ZlLTliMWUtMTczNTU2NDIzMGU1MiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQ0NzcxMDc2WjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWpABCo0BCghkb3dubG9hZCImCiQzY2RmNTAyMS0xODU3LTQyNjMtYjA5Yi03ZDJlMmQ0ZDcyZjEqJgokZjdhNThjNzgtYTM2ZS00MTlmLTgwN2YtOTA2ODI4MjBiYTg0UiYKJGNhNDNiNjM0LWQ3ODEtNDIyYi04MTU2LWM3ZmE2MDRkMzY0M1oJCgdFUElTT0RF",
+                            "type": "download"
+                        }
+                    ],
+                    "visuals": {
+                        "title": "The Simpsons",
+                        "description": {
+                            "brief": "Bart has a new friend.",
+                            "medium": "Bart makes a new friend.",
+                            "full": "Bart makes a new friend."
+                        },
+                        "episodeTitle": "Bart's Brain",
+                        "seasonNumber": "35",
+                        "episodeNumber": "18",
+                        "metastringParts": {
+                            "ratingInfo": {
+                                "rating": {
+                                    "text": "TV-PG",
+                                    "imageId": "A5003BAA3A9FB37B8BF1789815F7BFF43F483A5F7E4DD0909B838E631AD90F25"
+                                },
+                                "advisories": []
+                            },
+                            "runtime": {
+                                "runtimeMs": 1379711
+                            }
+                        },
+                        "artwork": {
+                            "standard": {
+                                "thumbnail": {
+                                    "1.78": {
+                                        "imageId": "0e6d08b0-b4c4-428d-bd08-06e3abdd5180"
+                                    }
+                                },
+                                "title_treatment": {
+                                    "1.78": {
+                                        "imageId": "f4fbac65-d2d3-4db7-b5bf-d240068ded71"
+                                    }
+                                },
+                                "tile": {
+                                    "1.78": {
+                                        "imageId": "211f24f8-8a7d-4fd0-9a7e-7a2b30436da4"
+                                    }
+                                }
+                            },
+                            "up_next": {
+                                "background": {
+                                    "1.78": {
+                                        "imageId": "2a442cbd-58e1-459d-82fe-159858866720"
+                                    }
+                                }
+                            }
+                        },
+                        "fullEpisodeTitle": "S35:E18 Bart's Brain",
+                        "fullEpisodeTitleTts": "Season 35 Episode 18 Bart's Brain",
+                        "durationMs": 1379711
+                    },
+                    "infoBlock": "EiJ1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTppdGVtGj9jb20uZGlzbmV5c3RyZWFtaW5nLnNlcnZpY2UubmFtb3JhLmluZm9ibG9jay5JbmZvQmxvY2tHZW5lcmF0b3IiJDE1NWY2NDZhLTEzYWUtNDU3NS05NTRkLWQ0YzMxZGExNGQ2MzIgCh4yMDI1LTAzLTAxVDAyOjM4OjU3Ljg0NDg4NDE1OVo6pgEKowFodHRwczovL2dpdGh1Yi5iYW10ZWNoLmNvL3NjaGVtYS1yZWdpc3RyeS9zY2hlbWEtcmVnaXN0cnktaW5mby1ibG9jay9ibG9iLzY1YWEyY2U0ZmE2ODEwNzgwNDNiMWJjMmJjOGQyNTg4ZDEyMDViZjIvc21pdGh5L2Rzcy9ldmVudC9pbmZvYmxvY2svYnJvd3NlL3YxL2l0ZW0uc21pdGh5QhYKFGFwcGxpY2F0aW9uL3Byb3RvYnVmSggKBmJpbmFyeWoCCAJaaQpnEjt1cm46ZHM6Y21wOmV2YTplcGlzb2RlLzhmYzYxMWY0LTM3NjQtNDlhMi05ZjA5LTIwMDM3Y2I3ZTA1MWomCiRmN2E1OGM3OC1hMzZlLTQxOWYtODA3Zi05MDY4MjgyMGJhODRyAA==",
+                    "personalization": {
+                        "pid": "OGZjNjExZjQtMzc2NC00OWEyLTlmMDktMjAwMzdjYjdlMDUxOjozY2RmNTAyMS0xODU3LTQyNjMtYjA5Yi03ZDJlMmQ0ZDcyZjE6OmY3YTU4Yzc4LWEzNmUtNDE5Zi04MDdmLTkwNjgyODIwYmE4NDo6Y2FjNzVjOGYtYTllMi00ZDk1LWFjNzMtMWNmMWNjN2I5NTY4OjpOVUxM"
+                    }
+                }
+            ],
+            "infoBlock": "Eid1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTpjb250YWluZXIaP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkNTFhN2QxMmItNDY5Mi00YjIwLWE0YmYtN2YxYmY5NDYzN2Q3MiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQ1MDA3MTYyWjqrAQqoAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvY29udGFpbmVyLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWkcKRQpDCkF1cm46ZHM6Y21wOmV2YTplcGlzb2RlU2Vhc29uL2I4MDg4ZDJhLTFlM2MtNGExYy05NjhmLTZhMmVlNjM0MWIxMg==",
+            "pagination": {
+                "hasMore": false,
+                "hasPrev": true,
+                "currentOffset": 15,
+                "totalCount": 18
+            }
+        }
+    }
+}

@@ -122,6 +122,7 @@
         });
         */
 
+        disneyPlayer.style.visibility = 'hidden';
         disneyPlayer.muted = true;
 
         setTimeout(() => {
@@ -150,6 +151,7 @@
                 console.error("DisneyFooter not found");
     
             console.log("Episode Loaded");
+            disneyPlayer.style.visibility = 'hidden';
             disneyPlayer.muted = true;
             syncEpisode();
         }, 1500);
@@ -159,10 +161,11 @@
     //Negative = Behind
     function checkOffsync()
     {
-        let correctEpTime = new Date() - episodeInfo.startDate;
-        if (correctEpTime > episodeInfo.epDuration)
+        let correctEpTime = getSyncDate() - episodeInfo.startDate;
+        if (correctEpTime > episodeInfo.epDuration - 10000) //Buffer 10 seconds
         {
-            console.log("Offsync::Episode has ended. CurrEpTime: " + new Date().getTime() + ", StartDate: " + unixToString(episodeInfo.startDate) + ", Duration: " + episodeInfo.epDuration);
+            console.log("Offsync::Episode has ended. CurrEpTime: " + getSyncDate().getTime() + ", StartDate: " + unixToString(episodeInfo.startDate) + ", Duration: " + episodeInfo.epDuration);
+            SendMessageToBackground(MessageType.OPENEP,null);
             return 0;
         }
 
@@ -224,6 +227,7 @@
         console.log("SyncEpisode:: " + offsync);
 
         isSyncing = true;
+        disneyPlayer.style.visibility = 'hidden';
         disneyPlayer.muted = true;
         disneyPlayer.pause();
 
@@ -265,6 +269,7 @@
         }
 
         console.log("Remaining Offsync: " + offsync);
+        disneyPlayer.style.visibility = 'hidden';
         disneyPlayer.pause();
         if (offsync >= 1)
         {
@@ -272,6 +277,8 @@
 
             clearTimeout(endSyncTimeout);
             endSyncTimeout = setTimeout(() => {
+                disneyPlayer.style.visibility = 'hidden';
+                disneyPlayer.muted = true;
                 disneyPlayer.pause(); //TODO: This for some reason is not staying paused.
                                         // I think the button presses are causing the video to play again
                                         // Once the timeout ends, the sync triggers again and this time it does pause successfully
@@ -283,6 +290,7 @@
                     console.log("Timeout ended");
                     isSyncing = false;
                     isSyncCooldown = false;
+                    disneyPlayer.style.visibility = 'visible';
                     disneyPlayer.muted = false;
                     disneyPlayer.play();
 
@@ -298,6 +306,7 @@
         {
             isSyncing = false;
             isSyncCooldown = false;
+            disneyPlayer.style.visibility = 'visible';
             disneyPlayer.muted = false;
             disneyPlayer.play();
 

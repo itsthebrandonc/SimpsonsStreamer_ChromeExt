@@ -1,0 +1,160 @@
+﻿{
+    "season":  34,
+    "duration":  30218384,
+    "episodes":  [
+                     {
+                         "id":  "7779a30c-cf8d-4b1e-9756-a0dfdf9ae746",
+                         "season":  34,
+                         "episode":  1,
+                         "title":  "Habeas Tortoise",
+                         "duration":  1368116
+                     },
+                     {
+                         "id":  "c29faaf8-07b9-4622-9a88-8587c2a3aff7",
+                         "season":  34,
+                         "episode":  2,
+                         "title":  "One Angry Lisa",
+                         "duration":  1367115
+                     },
+                     {
+                         "id":  "aaff5a5d-af9c-4760-b6c5-4fd6856b32c0",
+                         "season":  34,
+                         "episode":  3,
+                         "title":  "Lisa the Boy Scout",
+                         "duration":  1380128
+                     },
+                     {
+                         "id":  "0608cab4-b504-4d26-8b52-7209b46b42af",
+                         "season":  34,
+                         "episode":  4,
+                         "title":  "The King of Nice",
+                         "duration":  1381880
+                     },
+                     {
+                         "id":  "427d1a9b-beb2-47b3-93de-50134ecf6c0b",
+                         "season":  34,
+                         "episode":  5,
+                         "title":  "Not It",
+                         "duration":  1362652
+                     },
+                     {
+                         "id":  "db2fd468-0f83-42bc-a943-f898cf119ae3",
+                         "season":  34,
+                         "episode":  6,
+                         "title":  "Treehouse of Horror XXXIII",
+                         "duration":  1390555
+                     },
+                     {
+                         "id":  "f10ecd0a-8c35-449e-8397-aca8a4e66e7e",
+                         "season":  34,
+                         "episode":  7,
+                         "title":  "From Beer to Paternity",
+                         "duration":  1369868
+                     },
+                     {
+                         "id":  "aa463b8e-fc2e-49ec-b716-44a0ea0fe3fd",
+                         "season":  34,
+                         "episode":  8,
+                         "title":  "Step Brother from the Same Planet",
+                         "duration":  1353852
+                     },
+                     {
+                         "id":  "0c7168ac-f800-430b-8fd2-fccf1b017345",
+                         "season":  34,
+                         "episode":  9,
+                         "title":  "When Nelson Met Lisa",
+                         "duration":  1358357
+                     },
+                     {
+                         "id":  "c3487fa2-8a72-4271-bb18-9dc68f7ed997",
+                         "season":  34,
+                         "episode":  10,
+                         "title":  "Game Done Changed",
+                         "duration":  1363737
+                     },
+                     {
+                         "id":  "0c0f5e29-78ba-4ca2-8f25-5d65c27a969f",
+                         "season":  34,
+                         "episode":  11,
+                         "title":  "Top Goon",
+                         "duration":  1373830
+                     },
+                     {
+                         "id":  "896cb99f-0f54-4f81-b6d7-1671c29a73a3",
+                         "season":  34,
+                         "episode":  12,
+                         "title":  "My Life as a Vlog",
+                         "duration":  1374623
+                     },
+                     {
+                         "id":  "c00cf3df-cc8d-45f4-beb7-d79312fa4201",
+                         "season":  34,
+                         "episode":  13,
+                         "title":  "The Many Saints of Springfield",
+                         "duration":  1365697
+                     },
+                     {
+                         "id":  "4f57730c-4b6b-4602-a6a6-581615f2e644",
+                         "season":  34,
+                         "episode":  14,
+                         "title":  "Carl Carlson Rides Again",
+                         "duration":  1373789
+                     },
+                     {
+                         "id":  "e63e91ee-9db5-4a7e-a9ca-94cc7385283f",
+                         "season":  34,
+                         "episode":  15,
+                         "title":  "Bartless",
+                         "duration":  1367657
+                     },
+                     {
+                         "id":  "9cefb06e-e618-478c-b1c4-265d39ff48ba",
+                         "season":  34,
+                         "episode":  16,
+                         "title":  "Hostile Kirk Place",
+                         "duration":  1387636
+                     },
+                     {
+                         "id":  "0f46e3c5-a30f-46e5-9246-54f5ccd41feb",
+                         "season":  34,
+                         "episode":  17,
+                         "title":  "Pin Gal",
+                         "duration":  1371286
+                     },
+                     {
+                         "id":  "88f46a0f-8235-4e57-86ad-ec78eaecbc38",
+                         "season":  34,
+                         "episode":  18,
+                         "title":  "Fan-ily Feud",
+                         "duration":  1369534
+                     },
+                     {
+                         "id":  "0d1f5043-4103-4769-a0de-656b670ed75d",
+                         "season":  34,
+                         "episode":  19,
+                         "title":  "Write Off This Episode",
+                         "duration":  1369493
+                     },
+                     {
+                         "id":  "25615129-37d8-4e5d-89c8-81f3440934cf",
+                         "season":  34,
+                         "episode":  20,
+                         "title":  "The Very Hungry Caterpillars",
+                         "duration":  1371661
+                     },
+                     {
+                         "id":  "86114023-aac6-4bee-93e0-04ed4c81e660",
+                         "season":  34,
+                         "episode":  21,
+                         "title":  "Clown V. Board of Education",
+                         "duration":  1392641
+                     },
+                     {
+                         "id":  "90d9be2e-f164-49b6-8bf3-56335ff9ead8",
+                         "season":  34,
+                         "episode":  22,
+                         "title":  "Homer's Adventures Through the Windshield Glass",
+                         "duration":  1404277
+                     }
+                 ]
+}

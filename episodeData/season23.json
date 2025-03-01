@@ -1,0 +1,160 @@
+﻿{
+    "season":  23,
+    "duration":  30024859,
+    "episodes":  [
+                     {
+                         "id":  "d1ec6de9-7b07-49ac-b5e3-fe763999bbdd",
+                         "season":  23,
+                         "episode":  1,
+                         "title":  "The Falcon and the D'ohman",
+                         "duration":  1382923
+                     },
+                     {
+                         "id":  "009fd337-d062-44ec-bf92-ff3031070d7e",
+                         "season":  23,
+                         "episode":  2,
+                         "title":  "Bart Stops to Smell the Roosevelts",
+                         "duration":  1359900
+                     },
+                     {
+                         "id":  "a046e2fb-cb73-4e2e-8273-773cb4e658da",
+                         "season":  23,
+                         "episode":  3,
+                         "title":  "Treehouse of Horror XXII",
+                         "duration":  1385384
+                     },
+                     {
+                         "id":  "92176fc8-0bad-4d74-a3ab-3fe9ebf8585e",
+                         "season":  23,
+                         "episode":  4,
+                         "title":  "Replaceable You",
+                         "duration":  1359316
+                     },
+                     {
+                         "id":  "1920f172-8534-45e0-8a65-32287e41e48c",
+                         "season":  23,
+                         "episode":  5,
+                         "title":  "The Food Wife",
+                         "duration":  1381380
+                     },
+                     {
+                         "id":  "90ed59bc-93c7-4bd7-bb28-58fe06597c71",
+                         "season":  23,
+                         "episode":  6,
+                         "title":  "The Book Job",
+                         "duration":  1379378
+                     },
+                     {
+                         "id":  "377a20a2-7b2a-4b5e-bbd0-54ed964b9ea0",
+                         "season":  23,
+                         "episode":  7,
+                         "title":  "The Man in the Blue Flannel Pants",
+                         "duration":  1359107
+                     },
+                     {
+                         "id":  "23e6184d-2002-4cb6-8085-9c753a20abe9",
+                         "season":  23,
+                         "episode":  8,
+                         "title":  "The Ten-Per-Cent Solution",
+                         "duration":  1355062
+                     },
+                     {
+                         "id":  "53faed74-46c4-4e74-b0d9-629c2f821401",
+                         "season":  23,
+                         "episode":  9,
+                         "title":  "Holidays of Future Passed",
+                         "duration":  1369368
+                     },
+                     {
+                         "id":  "4d5a815f-5460-4161-bf41-8582db126ca6",
+                         "season":  23,
+                         "episode":  10,
+                         "title":  "Politically Inept, with Homer Simpson",
+                         "duration":  1364112
+                     },
+                     {
+                         "id":  "25ebad9e-1d52-4e99-a264-ff0e7ac2c333",
+                         "season":  23,
+                         "episode":  11,
+                         "title":  "The D'oh-cial Network",
+                         "duration":  1371119
+                     },
+                     {
+                         "id":  "d0a0f34f-59a3-4182-bb25-a767a69057ab",
+                         "season":  23,
+                         "episode":  12,
+                         "title":  "Moe Goes from Rags to Riches",
+                         "duration":  1359107
+                     },
+                     {
+                         "id":  "c8ad3713-d15a-4f8e-84f6-5555c7722ac4",
+                         "season":  23,
+                         "episode":  13,
+                         "title":  "The Daughter Also Rises",
+                         "duration":  1353101
+                     },
+                     {
+                         "id":  "d0900d9e-f1ea-4e58-b412-6cc6b24782c6",
+                         "season":  23,
+                         "episode":  14,
+                         "title":  "At Long Last Leave",
+                         "duration":  1332997
+                     },
+                     {
+                         "id":  "5f8b8028-a2d9-4562-9a16-bb4caffeb0c2",
+                         "season":  23,
+                         "episode":  15,
+                         "title":  "Exit Through the Kwik-E-Mart",
+                         "duration":  1359107
+                     },
+                     {
+                         "id":  "3412a9f5-8024-4ab0-9f85-140c525df0c0",
+                         "season":  23,
+                         "episode":  16,
+                         "title":  "How I Wet Your Mother",
+                         "duration":  1361943
+                     },
+                     {
+                         "id":  "1e6bc9b3-b69f-4d87-9f48-d3156bf700e7",
+                         "season":  23,
+                         "episode":  17,
+                         "title":  "Them, Robot",
+                         "duration":  1342090
+                     },
+                     {
+                         "id":  "ad89f1a7-f8ae-426c-bbfd-264dff4cc2ed",
+                         "season":  23,
+                         "episode":  18,
+                         "title":  "Beware My Cheating Bart",
+                         "duration":  1361109
+                     },
+                     {
+                         "id":  "530c713a-0741-42cd-a713-d45de23884f0",
+                         "season":  23,
+                         "episode":  19,
+                         "title":  "A Totally Fun Thing That Bart Will Never Do Again",
+                         "duration":  1385175
+                     },
+                     {
+                         "id":  "19d9f7ad-e207-4dbf-9d09-f9c6917cdf83",
+                         "season":  23,
+                         "episode":  20,
+                         "title":  "The Spy Who Learned Me",
+                         "duration":  1369159
+                     },
+                     {
+                         "id":  "29c7d72a-6ff1-4023-94d9-273157383b5d",
+                         "season":  23,
+                         "episode":  21,
+                         "title":  "Ned 'n Edna's Blend Agenda",
+                         "duration":  1349139
+                     },
+                     {
+                         "id":  "86cefa77-6697-4e6c-880d-9068675d6bc6",
+                         "season":  23,
+                         "episode":  22,
+                         "title":  "Lisa Goes Gaga",
+                         "duration":  1384883
+                     }
+                 ]
+}

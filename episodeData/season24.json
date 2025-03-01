@@ -1,0 +1,160 @@
+﻿{
+    "season":  24,
+    "duration":  29730192,
+    "episodes":  [
+                     {
+                         "id":  "b7201254-d47d-4892-a608-ba4e56d8a35b",
+                         "season":  24,
+                         "episode":  1,
+                         "title":  "Moonshine River",
+                         "duration":  1333123
+                     },
+                     {
+                         "id":  "ef15a22a-5b19-4040-8407-08c3bfef9924",
+                         "season":  24,
+                         "episode":  2,
+                         "title":  "Treehouse of Horror XXIII",
+                         "duration":  1362903
+                     },
+                     {
+                         "id":  "a49a06dc-847b-43c8-931f-8eaf13d64366",
+                         "season":  24,
+                         "episode":  3,
+                         "title":  "Adventures in Baby-Getting",
+                         "duration":  1331079
+                     },
+                     {
+                         "id":  "9a072ccb-b195-4aea-928e-79ba5ce5e224",
+                         "season":  24,
+                         "episode":  4,
+                         "title":  "Gone Abie Gone",
+                         "duration":  1360692
+                     },
+                     {
+                         "id":  "a973f0b2-9152-42a9-a51d-ed758f53d2cd",
+                         "season":  24,
+                         "episode":  5,
+                         "title":  "Penny-Wiseguys",
+                         "duration":  1334082
+                     },
+                     {
+                         "id":  "9b362253-5787-464b-b314-f4f899c0c58a",
+                         "season":  24,
+                         "episode":  6,
+                         "title":  "A Tree Grows in Springfield",
+                         "duration":  1361109
+                     },
+                     {
+                         "id":  "4dc59433-30c8-44e8-abbd-61befb85003b",
+                         "season":  24,
+                         "episode":  7,
+                         "title":  "The Day the Earth Stood Cool",
+                         "duration":  1371119
+                     },
+                     {
+                         "id":  "ffc1af04-6262-4323-969a-61a1466c30ac",
+                         "season":  24,
+                         "episode":  8,
+                         "title":  "To Cur with Love",
+                         "duration":  1327534
+                     },
+                     {
+                         "id":  "42b2510b-9a19-4c0a-93b9-035029b1702f",
+                         "season":  24,
+                         "episode":  9,
+                         "title":  "Homer Goes to Prep School",
+                         "duration":  1332749
+                     },
+                     {
+                         "id":  "e71772f8-9b90-4cdc-a632-2ec49a4a7238",
+                         "season":  24,
+                         "episode":  10,
+                         "title":  "A Test Before Trying",
+                         "duration":  1355395
+                     },
+                     {
+                         "id":  "3e3022f9-b8c7-4768-841f-8cd383608aaf",
+                         "season":  24,
+                         "episode":  11,
+                         "title":  "The Changing of the Guardian",
+                         "duration":  1343300
+                     },
+                     {
+                         "id":  "4663923b-b408-4bb3-92e5-9ebdeccb05ae",
+                         "season":  24,
+                         "episode":  12,
+                         "title":  "Love Is a Many-Splintered Thing",
+                         "duration":  1336752
+                     },
+                     {
+                         "id":  "3ab864df-697f-41e7-ae9f-0ad6fec3b103",
+                         "season":  24,
+                         "episode":  13,
+                         "title":  "Hardly Kirk-Ing",
+                         "duration":  1329286
+                     },
+                     {
+                         "id":  "270cddb5-ae5e-4f22-986b-9d59ad2111e6",
+                         "season":  24,
+                         "episode":  14,
+                         "title":  "Gorgeous Grampa",
+                         "duration":  1362736
+                     },
+                     {
+                         "id":  "47af67d2-e7b6-4f95-98ac-6da8309ef295",
+                         "season":  24,
+                         "episode":  15,
+                         "title":  "Black Eyed, Please",
+                         "duration":  1333290
+                     },
+                     {
+                         "id":  "95256888-0f8d-4980-bc2a-ec7656f272b8",
+                         "season":  24,
+                         "episode":  16,
+                         "title":  "Dark Knight Court",
+                         "duration":  1367366
+                     },
+                     {
+                         "id":  "73a2c90e-f551-429f-b4f8-9c04ee997cf9",
+                         "season":  24,
+                         "episode":  17,
+                         "title":  "What Animated Women Want",
+                         "duration":  1369326
+                     },
+                     {
+                         "id":  "512ce114-2f2d-4fdb-88bd-5a6751f6462b",
+                         "season":  24,
+                         "episode":  18,
+                         "title":  "Pulpit Friction",
+                         "duration":  1367324
+                     },
+                     {
+                         "id":  "80644bf4-18ff-44e7-9a9d-35ac709a5df7",
+                         "season":  24,
+                         "episode":  19,
+                         "title":  "Whiskey Business",
+                         "duration":  1363320
+                     },
+                     {
+                         "id":  "15c88f3c-b1e6-4e5c-abe6-6c38575acb5b",
+                         "season":  24,
+                         "episode":  20,
+                         "title":  "The Fabulous Faker Boy",
+                         "duration":  1366948
+                     },
+                     {
+                         "id":  "1c50979f-f6ae-4423-84ef-994f265ad68a",
+                         "season":  24,
+                         "episode":  21,
+                         "title":  "The Saga of Carl",
+                         "duration":  1355395
+                     },
+                     {
+                         "id":  "5ee81233-f579-4ae7-a150-24b942a2da1b",
+                         "season":  24,
+                         "episode":  22,
+                         "title":  "Dangers On a Train",
+                         "duration":  1365364
+                     }
+                 ]
+}

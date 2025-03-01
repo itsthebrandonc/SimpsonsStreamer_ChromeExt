@@ -1,0 +1,160 @@
+﻿{
+    "season":  25,
+    "duration":  29621708,
+    "episodes":  [
+                     {
+                         "id":  "6e16cc28-f2e5-4846-8415-40b0d955d34c",
+                         "season":  25,
+                         "episode":  1,
+                         "title":  "Homerland",
+                         "duration":  1329036
+                     },
+                     {
+                         "id":  "5b8b1fc4-bbd0-4e35-abc3-47deee5a8780",
+                         "season":  25,
+                         "episode":  2,
+                         "title":  "Treehouse of Horror XXIV",
+                         "duration":  1371411
+                     },
+                     {
+                         "id":  "0cceeb78-f288-4eb7-9dbf-976065e0df21",
+                         "season":  25,
+                         "episode":  3,
+                         "title":  "Four Regrettings and a Funeral",
+                         "duration":  1325490
+                     },
+                     {
+                         "id":  "0b938ba1-b722-47ec-baf4-a44a924c6fa1",
+                         "season":  25,
+                         "episode":  4,
+                         "title":  "YOLO",
+                         "duration":  1339755
+                     },
+                     {
+                         "id":  "b91c001d-ae5b-4fb9-931a-54d0960e2953",
+                         "season":  25,
+                         "episode":  5,
+                         "title":  "Labor Pains",
+                         "duration":  1327367
+                     },
+                     {
+                         "id":  "413f805c-79b4-4196-98c0-21298da4af78",
+                         "season":  25,
+                         "episode":  6,
+                         "title":  "The Kid Is All Right",
+                         "duration":  1365280
+                     },
+                     {
+                         "id":  "1b4723d4-6e6a-41ee-939d-11252ea28158",
+                         "season":  25,
+                         "episode":  7,
+                         "title":  "Yellow Subterfuge",
+                         "duration":  1335917
+                     },
+                     {
+                         "id":  "e9681450-3d70-4d39-b232-461814fdda7b",
+                         "season":  25,
+                         "episode":  8,
+                         "title":  "White Christmas Blues",
+                         "duration":  1331747
+                     },
+                     {
+                         "id":  "07facd57-094c-4de0-839d-4bd1c2802861",
+                         "season":  25,
+                         "episode":  9,
+                         "title":  "Steal This Episode",
+                         "duration":  1371870
+                     },
+                     {
+                         "id":  "171968e3-535c-43ce-8677-11fd83fb2ab3",
+                         "season":  25,
+                         "episode":  10,
+                         "title":  "Married to the Blob",
+                         "duration":  1329828
+                     },
+                     {
+                         "id":  "45efa7c7-33a5-4552-8a32-33faf7bfcbd7",
+                         "season":  25,
+                         "episode":  11,
+                         "title":  "Specs and the City",
+                         "duration":  1353101
+                     },
+                     {
+                         "id":  "227287dd-2c1d-48b7-a951-7fa2f79f65b1",
+                         "season":  25,
+                         "episode":  12,
+                         "title":  "The Man Who Grew Too Much",
+                         "duration":  1369785
+                     },
+                     {
+                         "id":  "2f382b57-01d5-49d1-89f2-ef8976b0b59e",
+                         "season":  25,
+                         "episode":  13,
+                         "title":  "Diggs",
+                         "duration":  1340756
+                     },
+                     {
+                         "id":  "fa726662-e4cd-4918-87d2-40141918fbc1",
+                         "season":  25,
+                         "episode":  14,
+                         "title":  "The Winter of His Content",
+                         "duration":  1336585
+                     },
+                     {
+                         "id":  "2471701c-c8a2-4cb6-99e6-e72e82cbdc81",
+                         "season":  25,
+                         "episode":  15,
+                         "title":  "The War of Art",
+                         "duration":  1353769
+                     },
+                     {
+                         "id":  "d3896abc-5647-4928-8a80-8ba45be2cc66",
+                         "season":  25,
+                         "episode":  16,
+                         "title":  "You Don't Have to Live Like a Referee",
+                         "duration":  1364320
+                     },
+                     {
+                         "id":  "e925cf1b-a065-4617-b3d7-584f0c28e802",
+                         "season":  25,
+                         "episode":  17,
+                         "title":  "Luca$",
+                         "duration":  1355771
+                     },
+                     {
+                         "id":  "cd9072a6-b037-499e-a98a-9762505d951f",
+                         "season":  25,
+                         "episode":  18,
+                         "title":  "Days of Future Future",
+                         "duration":  1356772
+                     },
+                     {
+                         "id":  "8cc33185-758a-477b-87fd-9f2a8e84b540",
+                         "season":  25,
+                         "episode":  19,
+                         "title":  "What to Expect When Bart's Expecting",
+                         "duration":  1329745
+                     },
+                     {
+                         "id":  "787d2054-b0d0-4ff2-931e-4fcbee4e0564",
+                         "season":  25,
+                         "episode":  20,
+                         "title":  "Brick Like Me",
+                         "duration":  1356855
+                     },
+                     {
+                         "id":  "71d286d4-85d7-4778-ad75-ce05f568b453",
+                         "season":  25,
+                         "episode":  21,
+                         "title":  "Pay Pal",
+                         "duration":  1335792
+                     },
+                     {
+                         "id":  "cfa6c03c-85f8-40f9-85c8-b2e007f65bf1",
+                         "season":  25,
+                         "episode":  22,
+                         "title":  "The Yellow Badge of Cowardge",
+                         "duration":  1340756
+                     }
+                 ]
+}

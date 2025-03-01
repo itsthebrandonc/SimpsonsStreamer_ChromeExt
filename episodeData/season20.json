@@ -1,0 +1,153 @@
+﻿{
+    "season":  20,
+    "duration":  28587965,
+    "episodes":  [
+                     {
+                         "id":  "2a61e2e9-f8b1-4941-a03c-6c430ae9d6dc",
+                         "season":  20,
+                         "episode":  1,
+                         "title":  "Sex, Pies, and Idiot Scrapes",
+                         "duration":  1377292
+                     },
+                     {
+                         "id":  "13f9af71-ebe7-4bd3-aa18-52df5e54f01f",
+                         "season":  20,
+                         "episode":  2,
+                         "title":  "Lost Verizon",
+                         "duration":  1356188
+                     },
+                     {
+                         "id":  "f01095ca-eafe-43ad-a380-77616283e820",
+                         "season":  20,
+                         "episode":  3,
+                         "title":  "Double, Double, Boy in Trouble",
+                         "duration":  1356938
+                     },
+                     {
+                         "id":  "a3641f1e-706c-4536-8bba-5f518f6108df",
+                         "season":  20,
+                         "episode":  4,
+                         "title":  "Treehouse of Horror XIX",
+                         "duration":  1371870
+                     },
+                     {
+                         "id":  "f3fdca90-b999-41f5-ba3b-d81574813dff",
+                         "season":  20,
+                         "episode":  5,
+                         "title":  "Dangerous Curves",
+                         "duration":  1375707
+                     },
+                     {
+                         "id":  "a882e186-ba3f-4440-b180-0f5a2d6ade0b",
+                         "season":  20,
+                         "episode":  6,
+                         "title":  "Homer and Lisa Exchange Cross Words",
+                         "duration":  1373372
+                     },
+                     {
+                         "id":  "a00cb5e6-ca80-40ee-841c-f45fe8eb0768",
+                         "season":  20,
+                         "episode":  7,
+                         "title":  "MyPods and Boomsticks",
+                         "duration":  1367699
+                     },
+                     {
+                         "id":  "b11a4cd8-89a4-4199-8a3c-662442d878ee",
+                         "season":  20,
+                         "episode":  8,
+                         "title":  "The Burns and the Bees",
+                         "duration":  1358273
+                     },
+                     {
+                         "id":  "11121289-08f3-4142-873d-950936175101",
+                         "season":  20,
+                         "episode":  9,
+                         "title":  "Lisa the Drama Queen",
+                         "duration":  1343091
+                     },
+                     {
+                         "id":  "27f7b51d-fb45-4c0d-9eb3-a2962ac595ae",
+                         "season":  20,
+                         "episode":  10,
+                         "title":  "Take My Life, Please",
+                         "duration":  1318650
+                     },
+                     {
+                         "id":  "b424467c-db0c-4866-9f99-ad005a6622fe",
+                         "season":  20,
+                         "episode":  11,
+                         "title":  "How the Test Was Won",
+                         "duration":  1344343
+                     },
+                     {
+                         "id":  "11f7df31-4a22-43a1-b512-273037d95270",
+                         "season":  20,
+                         "episode":  12,
+                         "title":  "No Loan Again, Naturally",
+                         "duration":  1345677
+                     },
+                     {
+                         "id":  "11b6d53b-2ca8-4168-91bf-9c49ed6b083c",
+                         "season":  20,
+                         "episode":  13,
+                         "title":  "Gone Maggie Gone",
+                         "duration":  1375457
+                     },
+                     {
+                         "id":  "16a956dd-2918-4878-a4ae-0aed0b0cb43e",
+                         "season":  20,
+                         "episode":  14,
+                         "title":  "In the Name of the Grandfather",
+                         "duration":  1376041
+                     },
+                     {
+                         "id":  "af2f4bf1-5a0d-4b3c-8cd7-0760c0e2bdbe",
+                         "season":  20,
+                         "episode":  15,
+                         "title":  "Wedding for Disaster",
+                         "duration":  1365697
+                     },
+                     {
+                         "id":  "56203772-04c8-4c11-8062-f63e164838ae",
+                         "season":  20,
+                         "episode":  16,
+                         "title":  "Eeny Teeny Maya, Moe",
+                         "duration":  1366948
+                     },
+                     {
+                         "id":  "fce826cd-1424-4460-98d1-66e979987753",
+                         "season":  20,
+                         "episode":  17,
+                         "title":  "The Good, the Sad and the Drugly",
+                         "duration":  1364529
+                     },
+                     {
+                         "id":  "59272867-4c75-4709-9da6-8dfaac8ecf83",
+                         "season":  20,
+                         "episode":  18,
+                         "title":  "Father Knows Worst",
+                         "duration":  1354936
+                     },
+                     {
+                         "id":  "681efb73-b7e4-40ea-85ae-b492805f11dc",
+                         "season":  20,
+                         "episode":  19,
+                         "title":  "Waverly Hills 9-0-2-1-D'oh",
+                         "duration":  1375832
+                     },
+                     {
+                         "id":  "f7f1f0c9-af3e-40c2-8204-699e829a9bbf",
+                         "season":  20,
+                         "episode":  20,
+                         "title":  "Four Great Women and a Manicure",
+                         "duration":  1374373
+                     },
+                     {
+                         "id":  "d4b33be6-05fb-42ba-ae98-67332a5db606",
+                         "season":  20,
+                         "episode":  21,
+                         "title":  "Coming to Homerica",
+                         "duration":  1345052
+                     }
+                 ]
+}

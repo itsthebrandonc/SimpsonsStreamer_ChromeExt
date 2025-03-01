@@ -1,0 +1,146 @@
+﻿{
+    "season":  19,
+    "duration":  27406244,
+    "episodes":  [
+                     {
+                         "id":  "5f4f913e-b85f-408f-90c6-d5afc40c62b7",
+                         "season":  19,
+                         "episode":  1,
+                         "title":  "He Loves to Fly and He D'oh's",
+                         "duration":  1315480
+                     },
+                     {
+                         "id":  "74e0ce11-b5b9-4bfe-af81-222d7a317f1e",
+                         "season":  19,
+                         "episode":  2,
+                         "title":  "The Homer of Seville",
+                         "duration":  1377876
+                     },
+                     {
+                         "id":  "f8fefa6b-2784-48f1-bb9d-9f29ec90c95c",
+                         "season":  19,
+                         "episode":  3,
+                         "title":  "Midnight Towboy",
+                         "duration":  1384174
+                     },
+                     {
+                         "id":  "1c274f52-48c7-4748-8645-20219a520052",
+                         "season":  19,
+                         "episode":  4,
+                         "title":  "I Don't Wanna Know Why the Caged Bird Sings",
+                         "duration":  1382547
+                     },
+                     {
+                         "id":  "d63b842e-1ec3-4f23-afc0-73c6df3829df",
+                         "season":  19,
+                         "episode":  5,
+                         "title":  "Treehouse of Horror XVIII",
+                         "duration":  1355687
+                     },
+                     {
+                         "id":  "ca71046e-d9ff-4f46-9b4c-163d076832fe",
+                         "season":  19,
+                         "episode":  6,
+                         "title":  "Little Orphan Millie",
+                         "duration":  1370869
+                     },
+                     {
+                         "id":  "21a3fc48-1c03-4b68-b701-11e5ee100236",
+                         "season":  19,
+                         "episode":  7,
+                         "title":  "Husbands and Knives",
+                         "duration":  1370285
+                     },
+                     {
+                         "id":  "6f916487-509a-4a89-b64c-405838490726",
+                         "season":  19,
+                         "episode":  8,
+                         "title":  "Funeral for a Fiend",
+                         "duration":  1374122
+                     },
+                     {
+                         "id":  "0851cfc9-f99b-49f6-ac88-5d3dba39b664",
+                         "season":  19,
+                         "episode":  9,
+                         "title":  "Eternal Moonshine of the Simpson Mind",
+                         "duration":  1363779
+                     },
+                     {
+                         "id":  "24c66db4-ce68-455c-ae36-79e967581487",
+                         "season":  19,
+                         "episode":  10,
+                         "title":  "E Pluribus Wiggum",
+                         "duration":  1362778
+                     },
+                     {
+                         "id":  "b71c8a15-6c06-41b2-a043-83944994ae90",
+                         "season":  19,
+                         "episode":  11,
+                         "title":  "That '90s Show",
+                         "duration":  1373622
+                     },
+                     {
+                         "id":  "118c784d-2c9b-4a9e-b9b8-b609d403e1e4",
+                         "season":  19,
+                         "episode":  12,
+                         "title":  "Love, Springfieldian Style",
+                         "duration":  1370077
+                     },
+                     {
+                         "id":  "5a4ae7a8-4729-4f23-ba89-209ab70a465d",
+                         "season":  19,
+                         "episode":  13,
+                         "title":  "The Debarted",
+                         "duration":  1376124
+                     },
+                     {
+                         "id":  "e8fda88c-f52c-464b-83b9-e8f065411edc",
+                         "season":  19,
+                         "episode":  14,
+                         "title":  "Dial 'N' for Nerder",
+                         "duration":  1375999
+                     },
+                     {
+                         "id":  "01136086-4939-4540-8084-e24885f73cc6",
+                         "season":  19,
+                         "episode":  15,
+                         "title":  "Smoke On the Daughter",
+                         "duration":  1368658
+                     },
+                     {
+                         "id":  "33075a8b-b029-4c8a-a5da-79d8fb3af2d2",
+                         "season":  19,
+                         "episode":  16,
+                         "title":  "Papa Don't Leech",
+                         "duration":  1375374
+                     },
+                     {
+                         "id":  "f8d77648-1c10-4b47-9a9a-013e3f647bc0",
+                         "season":  19,
+                         "episode":  17,
+                         "title":  "Apocalypse Cow",
+                         "duration":  1375624
+                     },
+                     {
+                         "id":  "1b0ffd5c-dfb2-4cf4-b944-f474317ff536",
+                         "season":  19,
+                         "episode":  18,
+                         "title":  "Any Given Sundance",
+                         "duration":  1379961
+                     },
+                     {
+                         "id":  "3081af81-05a0-467c-a387-1f42c980e064",
+                         "season":  19,
+                         "episode":  19,
+                         "title":  "Mona Leaves-a",
+                         "duration":  1377042
+                     },
+                     {
+                         "id":  "47767129-69e7-4bec-9b8b-11771decedc4",
+                         "season":  19,
+                         "episode":  20,
+                         "title":  "All About Lisa",
+                         "duration":  1376166
+                     }
+                 ]
+}

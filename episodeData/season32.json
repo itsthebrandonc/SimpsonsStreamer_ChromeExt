@@ -1,0 +1,160 @@
+﻿{
+    "season":  32,
+    "duration":  30144026,
+    "episodes":  [
+                     {
+                         "id":  "fbdfba59-a2c8-430c-b942-0f89963e86ce",
+                         "season":  32,
+                         "episode":  1,
+                         "title":  "Undercover Burns",
+                         "duration":  1357145
+                     },
+                     {
+                         "id":  "57e7e711-99df-4925-97ec-f4941d050e27",
+                         "season":  32,
+                         "episode":  2,
+                         "title":  "I, Carumbus",
+                         "duration":  1380167
+                     },
+                     {
+                         "id":  "28280b19-bca7-4111-9f3e-ede7fd31d7b0",
+                         "season":  32,
+                         "episode":  3,
+                         "title":  "Now Museum, Now You Don't",
+                         "duration":  1370283
+                     },
+                     {
+                         "id":  "7c61ce77-1364-458a-900b-8dae4b0d2702",
+                         "season":  32,
+                         "episode":  4,
+                         "title":  "Treehouse Of Horror XXXI",
+                         "duration":  1362066
+                     },
+                     {
+                         "id":  "7f6e513f-68fe-4804-b8d8-4efd587f95ca",
+                         "season":  32,
+                         "episode":  5,
+                         "title":  "The 7 Beer Itch",
+                         "duration":  1362191
+                     },
+                     {
+                         "id":  "9666221a-68b7-4511-9794-d53bdaebdf4b",
+                         "season":  32,
+                         "episode":  6,
+                         "title":  "Podcast News",
+                         "duration":  1358354
+                     },
+                     {
+                         "id":  "ce60d4b0-7fc4-4553-9824-a12173a7868d",
+                         "season":  32,
+                         "episode":  7,
+                         "title":  "Three Dreams Denied",
+                         "duration":  1357228
+                     },
+                     {
+                         "id":  "c76c8e2f-f1de-4ec7-8f53-edcb85e17291",
+                         "season":  32,
+                         "episode":  8,
+                         "title":  "The Road To Cincinnati",
+                         "duration":  1367488
+                     },
+                     {
+                         "id":  "74e1050f-5345-49e6-a541-9854e299afaa",
+                         "season":  32,
+                         "episode":  9,
+                         "title":  "Sorry Not Sorry",
+                         "duration":  1355226
+                     },
+                     {
+                         "id":  "e6dd8f35-4a4a-4a7b-8259-cb66aa89db84",
+                         "season":  32,
+                         "episode":  10,
+                         "title":  "A Springfield Summer Christmas for Christmas",
+                         "duration":  1360314
+                     },
+                     {
+                         "id":  "536155b3-3e43-4a07-a00f-e409db6a5024",
+                         "season":  32,
+                         "episode":  11,
+                         "title":  "The Dad-Feelings Limited",
+                         "duration":  1357395
+                     },
+                     {
+                         "id":  "cd34a074-04b6-48e0-93e5-2f6d71d861c9",
+                         "season":  32,
+                         "episode":  12,
+                         "title":  "Diary Queen",
+                         "duration":  1368198
+                     },
+                     {
+                         "id":  "614b4d73-44a0-415c-87b3-ad4879857028",
+                         "season":  32,
+                         "episode":  13,
+                         "title":  "Wad Goals",
+                         "duration":  1372870
+                     },
+                     {
+                         "id":  "b3d107d8-80b1-478a-b9ae-5bcd207cec0e",
+                         "season":  32,
+                         "episode":  14,
+                         "title":  "Yokel Hero",
+                         "duration":  1369033
+                     },
+                     {
+                         "id":  "76541b74-59b7-48c8-b346-491815ac6e7d",
+                         "season":  32,
+                         "episode":  15,
+                         "title":  "Do Pizza Bots Dream Of Electric Guitars?",
+                         "duration":  1382880
+                     },
+                     {
+                         "id":  "a3821408-d594-4cee-9bb3-2c643cf38525",
+                         "season":  32,
+                         "episode":  16,
+                         "title":  "Manger Things",
+                         "duration":  1363861
+                     },
+                     {
+                         "id":  "efd0357e-374d-4717-8a97-120b79888ca3",
+                         "season":  32,
+                         "episode":  17,
+                         "title":  "Uncut Femmes",
+                         "duration":  1371828
+                     },
+                     {
+                         "id":  "e64e3341-2ba9-4fd0-aa0f-d65236e06dff",
+                         "season":  32,
+                         "episode":  18,
+                         "title":  "Burger Kings",
+                         "duration":  1359649
+                     },
+                     {
+                         "id":  "a7c6201c-28d6-4bcc-b0b0-caeac4d45003",
+                         "season":  32,
+                         "episode":  19,
+                         "title":  "Panic on the Streets of Springfield",
+                         "duration":  1448821
+                     },
+                     {
+                         "id":  "07bd8183-1bb0-40b2-8e49-dd6f4c44f4e6",
+                         "season":  32,
+                         "episode":  20,
+                         "title":  "Mother and Child Reunion",
+                         "duration":  1363653
+                     },
+                     {
+                         "id":  "02c46eb0-6052-4b57-9d64-b506b091f9df",
+                         "season":  32,
+                         "episode":  21,
+                         "title":  "The Man From G.R.A.M.P.A.",
+                         "duration":  1363778
+                     },
+                     {
+                         "id":  "b55d9399-97ee-48f5-a039-80a6ea5c6a2e",
+                         "season":  32,
+                         "episode":  22,
+                         "title":  "The Last Barfighter",
+                         "duration":  1391598
+                     }
+                 ]
+}

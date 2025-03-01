@@ -1,18 +1,18 @@
 {
     "name": "24/7 Simpsons Streamer",
-    "version": "0.5.2",
+    "version": "0.6.0",
     "description": "An UNOFFICAL constantly-running marathon of The Simpsons on Disney+.",
     "permissions": ["tabs", "alarms", "storage", "activeTab"],
     "host_permissions": ["*://www.disneyplus.com/*"],
     "content_scripts": [
       {
         "matches": ["*://www.disneyplus.com/en-gb/browse/entity-cac75c8f-a9e2-4d95-ac73-1cf1cc7b9568"],
-        "js": ["constants.js", "homeContent.js", "episodeInfo.js"],
+        "js": ["constants.js", "homeContent.js", "episodeInfo.js", "timeSync.js"],
         "css": ["content.css"]
       },
       {
         "matches": ["*://www.disneyplus.com/en-gb/play/*"],
-        "js": ["constants.js", "epContent.js", "episodeInfo.js"],
+        "js": ["constants.js", "epContent.js", "episodeInfo.js", "timeSync.js"],
         "css": ["content.css"]
       }
     ],

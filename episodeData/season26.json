@@ -1,0 +1,160 @@
+﻿{
+    "season":  26,
+    "duration":  29599394,
+    "episodes":  [
+                     {
+                         "id":  "53d99c8c-f2bf-42e3-a39d-25c3a78ba8f6",
+                         "season":  26,
+                         "episode":  1,
+                         "title":  "Clown in the Dumps",
+                         "duration":  1326783
+                     },
+                     {
+                         "id":  "268c9b6f-90cd-4efb-bdb0-fbe7972192b9",
+                         "season":  26,
+                         "episode":  2,
+                         "title":  "The Wreck of the Relationship",
+                         "duration":  1354561
+                     },
+                     {
+                         "id":  "a33ac72d-b065-4e14-bd5a-fc5634704176",
+                         "season":  26,
+                         "episode":  3,
+                         "title":  "Super Franchise Me",
+                         "duration":  1325782
+                     },
+                     {
+                         "id":  "03520dbb-7647-4532-bf8b-daedd7f7e60f",
+                         "season":  26,
+                         "episode":  4,
+                         "title":  "Treehouse of Horror XXV",
+                         "duration":  1359775
+                     },
+                     {
+                         "id":  "70ba2cc1-a928-4337-8a71-27854635baab",
+                         "season":  26,
+                         "episode":  5,
+                         "title":  "Opposites A-Frack",
+                         "duration":  1379378
+                     },
+                     {
+                         "id":  "447ac9be-61c4-489f-89d2-610280bfdf6b",
+                         "season":  26,
+                         "episode":  6,
+                         "title":  "Simpsorama",
+                         "duration":  1331747
+                     },
+                     {
+                         "id":  "766cf165-80f7-416f-9f04-adf0592779fe",
+                         "season":  26,
+                         "episode":  7,
+                         "title":  "Blazed and Confused",
+                         "duration":  1325741
+                     },
+                     {
+                         "id":  "a1b657ff-b3a6-48ad-853b-6f1e37df0034",
+                         "season":  26,
+                         "episode":  8,
+                         "title":  "Covercraft",
+                         "duration":  1355604
+                     },
+                     {
+                         "id":  "3226b602-4604-44d9-8aae-24f942332a86",
+                         "season":  26,
+                         "episode":  9,
+                         "title":  "I Won't Be Home for Christmas",
+                         "duration":  1317482
+                     },
+                     {
+                         "id":  "ff5b9228-0a84-46e3-a533-bdf11af0ea6e",
+                         "season":  26,
+                         "episode":  10,
+                         "title":  "The Man Who Came to Be Dinner",
+                         "duration":  1354770
+                     },
+                     {
+                         "id":  "28555ec5-bff6-4090-9e3d-94ea18e09e14",
+                         "season":  26,
+                         "episode":  11,
+                         "title":  "Bart's New Friend",
+                         "duration":  1336376
+                     },
+                     {
+                         "id":  "dd3b0d68-02e1-4cf3-967e-4d2498841a58",
+                         "season":  26,
+                         "episode":  12,
+                         "title":  "The Musk Who Fell to Earth",
+                         "duration":  1323905
+                     },
+                     {
+                         "id":  "3c8269c2-2247-4315-980a-e4fb61eca95e",
+                         "season":  26,
+                         "episode":  13,
+                         "title":  "Walking Big & Tall",
+                         "duration":  1358732
+                     },
+                     {
+                         "id":  "dfeffe22-a559-4d29-9cc7-5ce38bccea09",
+                         "season":  26,
+                         "episode":  14,
+                         "title":  "My Fare Lady",
+                         "duration":  1340797
+                     },
+                     {
+                         "id":  "a9763912-a014-4ab8-a7fc-608cfd9e0653",
+                         "season":  26,
+                         "episode":  15,
+                         "title":  "The Princess Guide",
+                         "duration":  1353769
+                     },
+                     {
+                         "id":  "b3af44fc-7d67-4882-af47-27ef72040759",
+                         "season":  26,
+                         "episode":  16,
+                         "title":  "Sky Police",
+                         "duration":  1355771
+                     },
+                     {
+                         "id":  "0e30fc74-0497-4df2-88a4-da458f254433",
+                         "season":  26,
+                         "episode":  17,
+                         "title":  "Waiting for Duffman",
+                         "duration":  1358732
+                     },
+                     {
+                         "id":  "2daafb0c-a8ef-4081-8edf-f334dd7ed303",
+                         "season":  26,
+                         "episode":  18,
+                         "title":  "Peeping Mom",
+                         "duration":  1355729
+                     },
+                     {
+                         "id":  "d23e6d6b-c390-4ff3-9c0d-139b5b26d40e",
+                         "season":  26,
+                         "episode":  19,
+                         "title":  "The Kids Are All Fight",
+                         "duration":  1327701
+                     },
+                     {
+                         "id":  "af4b8581-d13a-4efe-a74c-f5e3fede042b",
+                         "season":  26,
+                         "episode":  20,
+                         "title":  "Let's Go Fly a Coot",
+                         "duration":  1355729
+                     },
+                     {
+                         "id":  "68cedb52-7da6-457f-a0ed-a8d617fb0e8d",
+                         "season":  26,
+                         "episode":  21,
+                         "title":  "Bull-E",
+                         "duration":  1359733
+                     },
+                     {
+                         "id":  "3628c251-dbbf-47b4-8acd-7a709b9eb4cc",
+                         "season":  26,
+                         "episode":  22,
+                         "title":  "Mathlete's Feat",
+                         "duration":  1340797
+                     }
+                 ]
+}
