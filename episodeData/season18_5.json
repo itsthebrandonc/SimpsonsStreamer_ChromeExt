@@ -1,0 +1,13 @@
+﻿{
+    "season":  18.5,
+    "duration":  5324110,
+    "episodes":  [
+                     {
+                         "id":  "21cdf36d-d3ba-49f6-9dc6-b9d4e2a8be85",
+                         "season":  18.5,
+                         "episode":  1,
+                         "title":  "The Simpsons Movie",
+                         "duration":  5324110
+                     }
+                 ]
+}

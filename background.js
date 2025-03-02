@@ -68,20 +68,18 @@ function SendMessageToContent(type,value)
     contentPort.postMessage({type: type, value: value});
 }
 
-/*
-chrome.runtime.onMessage.addListener((obj, sender, response) => {
+chrome.runtime.onMessage.addListener((obj, sender, response) => { //POPUP
   const {type, value} = obj;
 
   switch (type)
   {
-      case MessageType.LOADEP:
-        navigateToEpisode(sender.tab.id);
-        break;
+    case MessageType.GETINFO:
+      sendInfoToPopup();
+      break;
   }
 });
-*/
 
-chrome.runtime.onConnect.addListener(function(port) {
+chrome.runtime.onConnect.addListener(function(port) { //CONTENT
   if (port.name != MessageType.PORT)
   {
     stopTimeSync();
@@ -117,9 +115,6 @@ chrome.runtime.onConnect.addListener(function(port) {
         case MessageType.SYNC:
           sendSyncRequest();
           break;
-        case MessageType.GETINFO:
-          sendInfoToPopup();
-          break;
       }
     });
   }
@@ -137,7 +132,7 @@ chrome.tabs.onUpdated.addListener(
           type: MessageType.UPDURL,
           value: {"url":tab.url,"isHomePage":(tab.url == HOMEPAGE_URL)}
         });
-      } else if (tab.url == EP_URL_HEADER + episodeInfo.id) {
+      } else if (episodeInfo && tab.url == EP_URL_HEADER + episodeInfo.id) {
         loadEpisodeInfo((...callbackParams) => {
           console.log("Tab OnUpdate::EP_URL , TabID: " + thisTabID + " Episode: " + episodeInfo.id);
           chrome.tabs.sendMessage( thisTabID, {

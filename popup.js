@@ -3,6 +3,7 @@ function $(id) { return document.getElementById(id); }
 var episodeInfo = undefined;
 var timeIntoEpisode = 0;
 
+/*
 function SendMessageToContent(type,value)
 {
     chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
@@ -16,6 +17,7 @@ function SendMessageToContent(type,value)
         }
     });
 }
+*/
 
 function SendMessageToBackground(type,value)
 {

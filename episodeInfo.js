@@ -153,7 +153,7 @@ function getEpisodeObjects(sznNo)
     return new Promise((resolve) => {
         episodes.length = 0;
 
-        const dataFile = "episodeData/season" + sznNo + ".json";
+        const dataFile = "episodeData/season" + sznNo.toString().replace('.','_') + ".json";
 
         fetch(dataFile)
         .then(response => {
