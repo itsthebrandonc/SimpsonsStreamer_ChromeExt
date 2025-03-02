@@ -95,7 +95,7 @@ async function getCurrentSeason(currTime)
 function getDateFromString(strDate)
 {
     //yyyy-MM-dd HH:mm:ss:fff"
-    let newDate = getSyncDate();
+    let newDate = new Date();
 
     //Date
     const dateTimeSplit = strDate.split(" ");

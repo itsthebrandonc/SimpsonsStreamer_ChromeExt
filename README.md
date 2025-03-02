@@ -1,5 +1,5 @@
 # 24/7 Simpsons Streamer
-### v.0.7.1
+### v.0.7.2
 ## An UNOFFICAL "The Simpsons" Chrome Extension that creates a constantly-running marathon of "The Simpsons" on Disney+.
 
 ## To Do
@@ -32,3 +32,4 @@ v.0.5.2 - 250216 - Added extension icon, basic structure of popup data passing (
 v.0.6.0 - 250228 - Added basic navigation to next episode, video player visibility during sync, and API time sync. Added seasons 18-35.  
 v.0.7.0 - 250301 - Added movie info and fixed popup connection to background  
 v.0.7.1 - 250301 - Added folder structures. Attempted to improve time syncing and end of episode triggers.  
+v.0.7.2 - 250302 - Various SyncDate cleanup  

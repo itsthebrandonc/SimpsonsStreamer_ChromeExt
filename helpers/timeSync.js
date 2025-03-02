@@ -1,8 +1,10 @@
 var worldTimeOffset = 0;
 var apiTimer = null;
+var syncStarted = false;
 
 function syncWorldTime() {
-    clearTimeout(apiTimer);
+    stopTimeSync();
+    syncStarted = true;
     fetch('https://www.worldtimeapi.org/api/timezone/Etc/UTC')
     .then(response => {
         if (!response.ok) {
@@ -28,19 +30,22 @@ function syncWorldTime() {
 
 function getSyncDate() {
     startTimeSync();
+    if (!worldTimeOffset)
+        return null;
+
     var currentDate = new Date();
     if ((worldTimeOffset > 1) || (worldTimeOffset < -1))
-    {
         currentDate = new Date(currentDate.getTime() + worldTimeOffset);
-    }
+
     return currentDate;
 }
 
 function startTimeSync() {
-    if (!apiTimer)
+    if (!syncStarted && !apiTimer)
         syncWorldTime();
 }
 
 function stopTimeSync() {
     clearTimeout(apiTimer);
+    syncStarted = false;
 }
