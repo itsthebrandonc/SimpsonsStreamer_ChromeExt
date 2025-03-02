@@ -20,13 +20,14 @@ function syncWorldTime() {
     })
     .catch(function (err) {
         throw new Error("Time API Exception: " + err);
-        apiTimer =setTimeout(syncWorldTime,60000); //Re-sync every minute
+        apiTimer = setTimeout(syncWorldTime,60000); //Re-sync every minute
     });
 
     //setTimeout(syncWorldTime,60000); //Re-sync every minute
 }
 
 function getSyncDate() {
+    startTimeSync();
     var currentDate = new Date();
     if ((worldTimeOffset > 1) || (worldTimeOffset < -1))
     {
@@ -36,7 +37,8 @@ function getSyncDate() {
 }
 
 function startTimeSync() {
-    syncWorldTime();
+    if (!apiTimer)
+        syncWorldTime();
 }
 
 function stopTimeSync() {

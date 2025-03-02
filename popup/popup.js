@@ -1,7 +1,26 @@
 function $(id) { return document.getElementById(id); }
 
 var episodeInfo = undefined;
-var timeIntoEpisode = 0;
+
+function setTimeText()
+{
+    $("epTitle").innerHTML = "S" + episodeInfo.season + "E" + episodeInfo.episode + " : " + episodeInfo.title;
+    $("epTime").innerHTML = msToTimestamp(episodeInfo.time) + " / " + msToTimestamp(episodeInfo.duration);
+}
+
+function msToTimestamp(msTime)
+{
+    let seconds = Math.floor(msTime/1000);
+    let minutes = Math.floor(seconds/60);
+    seconds -= minutes*60;
+
+    if (minutes.toString().length == 1)
+        minutes = '0' + minutes;
+    if (seconds.toString().length == 1)
+        seconds = '0' + seconds;
+
+    return minutes + ':' + seconds;
+}
 
 /*
 function SendMessageToContent(type,value)
@@ -45,8 +64,7 @@ chrome.runtime.onMessage.addListener((obj, sender, response) => {
     {
         case "GETINFO":
             episodeInfo = value.episodeInfo;
-            $("epTitle").innerHTML = "S" + episodeInfo.season + "E" + episodeInfo.episode + " : " + episodeInfo.title;
-            $("epTime").innerHTML = episodeInfo.time + " / " + episodeInfo.duration;
+            setTimeText();
         break;
     }
 });

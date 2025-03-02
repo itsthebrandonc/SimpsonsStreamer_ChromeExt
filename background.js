@@ -1,4 +1,4 @@
-try { importScripts("constants.js", "episodeInfo.js", "timeSync.js"); } catch (e) { console.error(e); }
+try { importScripts("/helpers/constants.js", "/helpers/episodeInfo.js", "/helpers/timeSync.js"); } catch (e) { console.error(e); }
 
 const HOMEPAGE_URL = "https://www.disneyplus.com/en-gb/browse/entity-cac75c8f-a9e2-4d95-ac73-1cf1cc7b9568";
 const EP_URL_HEADER = "https://www.disneyplus.com/en-gb/play/";
@@ -52,6 +52,18 @@ function sendInfoToPopup()
   });
 }
 
+function startKeepPortAlive()
+{
+  pingInterval = setInterval(() => {
+    contentPort.postMessage({type: MessageType.HELLO, value: null});
+  }, 10000); // Ping every 10 seconds
+}
+
+function stopKeepPortAlive()
+{
+  clearInterval(pingInterval);
+}
+
 function SendMessageToPopup(type,value)
 {
     chrome.runtime.sendMessage(
@@ -82,16 +94,19 @@ chrome.runtime.onMessage.addListener((obj, sender, response) => { //POPUP
 chrome.runtime.onConnect.addListener(function(port) { //CONTENT
   if (port.name != MessageType.PORT)
   {
+    stopKeepPortAlive();
     stopTimeSync();
     port.disconnect();
     console.log("Disconnecting wrong URL port");
   }
   else
   {
+    startKeepPortAlive();
     startTimeSync();
     console.log("Connection to port has been made");
     contentPort = port;
     contentPort.onDisconnect.addListener(() => {
+      stopKeepPortAlive();
       stopTimeSync();
       portReady = false;
       console.log("Connection to port has been lost");

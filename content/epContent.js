@@ -14,7 +14,7 @@
     var isSyncCooldown = false;
     var syncTimeout;
     var nextSyncTimeout;
-    var  endSyncTimeout;
+    var endSyncTimeout;
 
     function checkPageLoaded()
     {
@@ -89,10 +89,18 @@
         disneyPlayer.addEventListener('canplaythrough', () => {
             isBuffering = false;
         });
-
+        /*
         disneyPlayer.addEventListener('timeupdate', () => {
             if (!isBuffering && !isSyncing && !isSyncCooldown) {
                 console.log("Video Player: timeupdate");
+                syncEpisode();
+            }
+        });
+        */
+
+        disneyPlayer.addEventListener('ended', () => {
+            if (!isBuffering && !isSyncing && !isSyncCooldown) {
+                console.log("Video Player: ended");
                 syncEpisode();
             }
         });
@@ -161,21 +169,30 @@
     //Negative = Behind
     function checkOffsync()
     {
+        if (!episodeInfo)
+            return {offsync:0,currEpTime:0};
+        if (episodeInfo.id != (currentURL.substring(currentURL.indexOf('/play/')+6)))
+        {
+            //Episode playing is not the correct episode
+            console.log("Offsync::Episode has ended. Current ID: " + (currentURL.substring(currentURL.indexOf('/play/')+6)) + ", New ID: " + episodeInfo.id);
+            SendMessageToBackground(MessageType.OPENEP,null);
+            return {offsync:0,currEpTime:0};
+        }
         let correctEpTime = getSyncDate() - episodeInfo.startDate;
-        if (correctEpTime > episodeInfo.epDuration - 10000) //Buffer 10 seconds
+        if (correctEpTime > parseFloat(episodeInfo.duration) - 1000) //Buffer 1 second
         {
             console.log("Offsync::Episode has ended. CurrEpTime: " + getSyncDate().getTime() + ", StartDate: " + unixToString(episodeInfo.startDate) + ", Duration: " + episodeInfo.epDuration);
             SendMessageToBackground(MessageType.OPENEP,null);
-            return 0;
+            return {offsync:0,currEpTime:0};
         }
 
         let currEpTime = getCurrEpisodeTime();
     
         //console.log("CorrectEpTime:: " + new Date() + " - " + epStartDate + " = " + (new Date() - epStartDate));
 
-        console.log("CheckEpisodeTime:: Correct: " + (correctEpTime/1000) + " Current: " + (currEpTime/1000));
+        console.log("CheckEpisodeTime:: Correct: " + (correctEpTime/1000) + " Current: " + (currEpTime/1000) + " / Duration: " + (episodeInfo.duration/1000));
 
-        return currEpTime > 0 ? (currEpTime - correctEpTime) / 1000 : 0;
+        return currEpTime > 0 ? {offsync:((currEpTime - correctEpTime) / 1000),currEpTime:currEpTime} : {offsync:0,currEpTime:0};
     }
 
     function getCurrEpisodeTime() {
@@ -212,7 +229,7 @@
             return;
         }
 
-        let offsync = checkOffsync();
+        let {offsync, currEpTime} = checkOffsync();
         isSyncCooldown = true;
         clearTimeout(nextSyncTimeout);
         nextSyncTimeout = setTimeout(() => {
@@ -239,6 +256,9 @@
 
         if (offsync < 0) {
             let skipsFF = Math.ceil(-1*offsync/10);
+            if (currEpTime + (skipsFF*10) > (episodeInfo.duration/1000))
+                skipsFF--;
+
             const btnFF = document.querySelector('quick-fast-forward').shadowRoot.querySelector('info-tooltip button');
 
             console.log("FF x" + skipsFF);
