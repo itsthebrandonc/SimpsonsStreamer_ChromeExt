@@ -71,7 +71,7 @@
         disneyPlayer.addEventListener('seeking', () => {
             isBuffering = true;
             isSeeking = true;
-            console.log("Video Player: seeking");
+            //console.log("Video Player: seeking");
             //if (!isSyncing)
             //    syncEpisode();
         });
@@ -100,7 +100,7 @@
 
         disneyPlayer.addEventListener('ended', () => {
             if (!isBuffering && !isSyncing && !isSyncCooldown) {
-                console.log("Video Player: ended");
+                //console.log("Video Player: ended");
                 syncEpisode();
             }
         });
@@ -130,8 +130,7 @@
         });
         */
 
-        disneyPlayer.style.visibility = 'hidden';
-        disneyPlayer.muted = true;
+        setEpisodeVisible(false);
 
         setTimeout(() => {
             let disneyEpTitle = document.querySelector('div.title-field > span');
@@ -159,8 +158,7 @@
                 console.error("DisneyFooter not found");
     
             console.log("Episode Loaded");
-            disneyPlayer.style.visibility = 'hidden';
-            disneyPlayer.muted = true;
+            setEpisodeVisible(false);
             syncEpisode();
         }, 1500);
     }
@@ -190,9 +188,9 @@
     
         //console.log("CorrectEpTime:: " + new Date() + " - " + epStartDate + " = " + (new Date() - epStartDate));
 
-        console.log("CheckEpisodeTime:: Correct: " + (correctEpTime/1000) + " Current: " + (currEpTime/1000) + " / Duration: " + (episodeInfo.duration/1000));
+        console.log("CheckEpisodeTime:: Correct: " + (correctEpTime/1000) + " Current: " + (currEpTime/1000) + " / Offsync: " + ((currEpTime - correctEpTime) / 1000));
 
-        return currEpTime > 0 ? {offsync:((currEpTime - correctEpTime) / 1000),currEpTime:currEpTime} : {offsync:0,currEpTime:0};
+        return currEpTime > 0 ? {offsync:((currEpTime - correctEpTime) / 1000),currEpTime:currEpTime} : {offsync:0,currEpTime:-1};
     }
 
     function getCurrEpisodeTime() {
@@ -210,7 +208,7 @@
         }
 
         const width = progressBar.getAttribute('style');
-        let rawPercentage = width.substring(7,width.length-1);
+        //let rawPercentage = width.substring(7,width.length-1);
         let percentage = parseFloat(width.substring(7,width.length-1)) / 100; //width: 28.8355% -> 28.8335 -> 0.288335
 
         //console.log("CurrentEpTime:: Width: " + width + " ... " + rawPercentage + " * " + epDuration + " = " + (percentage * epDuration));
@@ -229,23 +227,30 @@
             return;
         }
 
+        if (currentURL.indexOf('/play/') < 1)
+        {
+            console.error("No longer on episode page");
+            return;
+        }
+
         let {offsync, currEpTime} = checkOffsync();
         isSyncCooldown = true;
-        clearTimeout(nextSyncTimeout);
-        nextSyncTimeout = setTimeout(() => {
-            isSyncCooldown = false;
-        }, 5000);
 
         //console.log("           SyncEpisode:: " + offsync);
-
-        if (Math.abs(offsync) < 1)
+        if ((currEpTime < 0) || (Math.abs(offsync) < 1))
+        {
+            clearTimeout(nextSyncTimeout);
+            nextSyncTimeout = setTimeout(() => {
+                isSyncCooldown = false;
+                syncEpisode();
+            }, 5000);
             return;
+        }
 
         console.log("SyncEpisode:: " + offsync);
 
         isSyncing = true;
-        disneyPlayer.style.visibility = 'hidden';
-        disneyPlayer.muted = true;
+        setEpisodeVisible(false);
         disneyPlayer.pause();
 
         let divSyncing = document.querySelector("div#simpsonsStreamer-syncing");
@@ -288,17 +293,16 @@
             offsync -= (skipsRW * 10);
         }
 
-        console.log("Remaining Offsync: " + offsync);
-        disneyPlayer.style.visibility = 'hidden';
+        //console.log("Remaining Offsync: " + offsync);
+        setEpisodeVisible(false);
         disneyPlayer.pause();
-        if (offsync >= 1)
+        if (offsync >= 5)
         {
             offsync *= 0.5; //Correct time moves forward as we stay paused, so only half of the pause is needed for it to catch up
 
             clearTimeout(endSyncTimeout);
             endSyncTimeout = setTimeout(() => {
-                disneyPlayer.style.visibility = 'hidden';
-                disneyPlayer.muted = true;
+                setEpisodeVisible(false);
                 disneyPlayer.pause(); //TODO: This for some reason is not staying paused.
                                         // I think the button presses are causing the video to play again
                                         // Once the timeout ends, the sync triggers again and this time it does pause successfully
@@ -314,11 +318,12 @@
                     disneyPlayer.muted = false;
                     disneyPlayer.play();
 
-                    let divSyncing = document.querySelector("div#simpsonsStreamer-syncing");
-                    if (divSyncing)
-                        divSyncing.style.visibility = "hidden";
-                    else
-                        console.error("DisneySyncing not found");
+                    setEpisodeVisible(true);
+                    clearTimeout(nextSyncTimeout);
+                    nextSyncTimeout = setTimeout(() => {
+                        //isSyncCooldown = false;
+                        syncEpisode();
+                    }, 5000);
                 }, offsync * 1000);
             }, 1000);
         }
@@ -326,15 +331,36 @@
         {
             isSyncing = false;
             isSyncCooldown = false;
+            setEpisodeVisible(true);
+
+            clearTimeout(nextSyncTimeout);
+            nextSyncTimeout = setTimeout(() => {
+                //isSyncCooldown = false;
+                syncEpisode();
+            }, 5000);
+        }
+    }
+
+    function setEpisodeVisible(visible)
+    {
+        if (visible)
+        {
             disneyPlayer.style.visibility = 'visible';
             disneyPlayer.muted = false;
             disneyPlayer.play();
 
             let divSyncing = document.querySelector("div#simpsonsStreamer-syncing");
             if (divSyncing)
-                divSyncing.style.visibility = "hidden";
-            else
-                console.error("DisneySyncing not found");
+                divSyncing.style.visibility = 'hidden';
+        }
+        else
+        {
+            disneyPlayer.style.visibility = 'hidden';
+            disneyPlayer.muted = true;
+
+            let divSyncing = document.querySelector("div#simpsonsStreamer-syncing");
+            if (divSyncing)
+                divSyncing.style.visibility = 'visible';
         }
     }
     

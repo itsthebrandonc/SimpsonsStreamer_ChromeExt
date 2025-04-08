@@ -22,7 +22,7 @@ function syncWorldTime() {
     })
     .catch(function (err) {
         throw new Error("Time API Exception: " + err);
-        apiTimer = setTimeout(syncWorldTime,60000); //Re-sync every minute
+        apiTimer = setTimeout(syncWorldTime,1000); //Re-sync as soon as possible
     });
 
     //setTimeout(syncWorldTime,60000); //Re-sync every minute
