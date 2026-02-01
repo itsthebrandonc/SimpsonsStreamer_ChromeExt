@@ -1,11 +1,24 @@
 function $(id) { return document.getElementById(id); }
 
 var episodeInfo = undefined;
+var episodeTime = undefined;
+var updatedTime = undefined;
+
+function tickSeconds()
+{
+    if (!episodeInfo)
+        return;
+
+    episodeTime = episodeInfo.time + (new Date().getTime() - updatedTime);
+    setTimeText();
+    console.log("Tick: " + episodeTime);
+    setTimeout(tickSeconds,1000);
+}
 
 function setTimeText()
 {
     $("epTitle").innerHTML = "S" + episodeInfo.season + "E" + episodeInfo.episode + " : " + episodeInfo.title;
-    $("epTime").innerHTML = msToTimestamp(episodeInfo.time) + " / " + msToTimestamp(episodeInfo.duration);
+    $("epTime").innerHTML = msToTimestamp(episodeTime) + " / " + msToTimestamp(episodeInfo.duration);
 }
 
 function msToTimestamp(msTime)
@@ -45,15 +58,21 @@ function SendMessageToBackground(type,value)
         function(response) {
           var lastError = chrome.runtime.lastError;
           if (lastError)
-            console.log(lastError.message);
+            console.log("BG>PU: " + lastError.message);
         });
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
     SendMessageToBackground(MessageType.GETINFO,null);
 
+    $("btnPlay").addEventListener("click", () => {
+        SendMessageToBackground(MessageType.OPENEP,null);
+    });
     $("btnRefresh").addEventListener("click", () => {
         SendMessageToBackground(MessageType.GETINFO,null);
+    });
+    $("btnSync").addEventListener("click", () => {
+        SendMessageToBackground(MessageType.SYNC,null);
     });
 });
 
@@ -64,7 +83,9 @@ chrome.runtime.onMessage.addListener((obj, sender, response) => {
     {
         case "GETINFO":
             episodeInfo = value.episodeInfo;
+            updatedTime = value.timestamp;
             setTimeText();
+            tickSeconds();
         break;
     }
 });

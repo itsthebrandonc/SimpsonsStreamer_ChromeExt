@@ -397,7 +397,7 @@
                     break;
                 //case MessageType.SYNC:
                 //    syncEpisode(value.epTime,value.timestamp);
-                //    break;
+                //   break;
             }
         });
         contentPort.onDisconnect.addListener(() => {
@@ -430,7 +430,10 @@
                     checkPageLoaded();
                 }
                 isEpisode = value.isEpisode;
-            break;
+                break;
+            case MessageType.SYNC:
+                syncEpisode();
+                break;
         }
     });
 

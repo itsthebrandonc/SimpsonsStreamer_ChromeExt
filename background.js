@@ -5,7 +5,7 @@ const EP_URL_HEADER = "https://www.disneyplus.com/en-gb/play/";
 
 var contentPort = undefined;
 var portReady = false;
-var portTimer = false;
+//var portTimer = false;
 
 //var currentEpisode;
 var episodeInfo = undefined;
@@ -29,26 +29,46 @@ function navigateToEpisode(tabID)
     
 }
 
+function openEpisode()
+{
+  chrome.tabs.query({}, tabs => {
+      foreach(tab in tabs)
+      {
+        chrome.tabs.update(tab.id, {active: true});
+        return;
+      }
+  });
+  chrome.tabs.create({url: EP_URL_HEADER + episodeInfo.id});
+}
+
 function sendSyncRequest()
 {
-  clearTimeout(portTimer);
+  //clearTimeout(portTimer);
   if (!portReady)
     return;
 
-  let timestamp = getSyncDate().getTime();
-  let epTime = (timestamp - startDate.getTime()) / 10000;
-
+  //let timestamp = getSyncDate().getTime();
+  //let epTime = (timestamp - startDate.getTime()) / 10000;
   //console.log("Sync Times:: Start Time: " + startDate.getTime() + " Timestamp: " + new Date().getTime() + " EpTime: " + epTime);
 
-  SendMessageToContent(MessageType.SYNC,{"epTime":epTime,"timestamp":timestamp});
+  SendMessageToContent(MessageType.SYNC,null);
 
-  portTimer = setTimeout(sendSyncRequest,5000);
+  //portTimer = setTimeout(sendSyncRequest,5000);
 }
 
 function sendInfoToPopup()
 {
   loadEpisodeInfo((...callbackParams) => {
-    SendMessageToPopup(MessageType.GETINFO,{episodeInfo:episodeInfo});
+    let timestamp = new Date().getTime();
+    SendMessageToPopup(MessageType.GETINFO,{episodeInfo:episodeInfo,"timestamp":timestamp});
+  });
+}
+
+function sendInfoToContent()
+{
+  loadEpisodeInfo((...callbackParams) => {
+    let timestamp = new Date().getTime();
+    SendMessageToContent(MessageType.GETINFO,{episodeInfo:episodeInfo,"timestamp":timestamp});
   });
 }
 
@@ -88,6 +108,12 @@ chrome.runtime.onMessage.addListener((obj, sender, response) => { //POPUP
     case MessageType.GETINFO:
       sendInfoToPopup();
       break;
+    case MessageType.SYNC:
+      sendSyncRequest();
+      break;
+    case MessageType.OPENEP:
+      openEpisode();
+      break;
   }
 });
 
@@ -120,16 +146,17 @@ chrome.runtime.onConnect.addListener(function(port) { //CONTENT
       {
         case MessageType.HELLO:
           portReady = true;
+          contentPort.postMessage({type: MessageType.HELLO, value: null});
           loadEpisodeInfo(() => {
-            contentPort.postMessage({type: MessageType.HELLO, value: null});
+            sendInfoToContent();
           },null);
           break;
         case MessageType.OPENEP:
           navigateToEpisode(port.sender.tab.id);
           break;
-        case MessageType.SYNC:
-          sendSyncRequest();
-          break;
+        //case MessageType.SYNC:
+        //  sendSyncRequest();
+        //  break;
       }
     });
   }

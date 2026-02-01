@@ -2,78 +2,57 @@
     "data": {
         "season": {
             "type": "season",
-            "id": "b8088d2a-1e3c-4a1c-968f-6a2ee6341b12",
+            "id": "90c05344-090f-4b9f-b17d-dd9db49814d8",
             "style": {
                 "name": "standard_regular_list",
                 "fallback": "standard_regular_list",
                 "layout": "grid"
             },
-            "actions": [
-                {
-                    "seasonId": "b8088d2a-1e3c-4a1c-968f-6a2ee6341b12",
-                    "visuals": {
-                        "displayText": "Download All"
-                    },
-                    "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkZjE3YzNmOGUtNTliMS00NjFkLThlODItYWFlMDdkNTliZTljMiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQ1MDMyOTYyWjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWg8KDQoLZG93bmxvYWRBbGw=",
-                    "type": "downloadAll"
-                }
-            ],
             "visuals": {
-                "name": "Season 35",
+                "name": "Season 36",
                 "episodeCountDisplayText": "18 Episodes"
             },
             "items": [
                 {
                     "type": "view",
-                    "id": "59686b63-4819-4dfb-8910-024381ec65c0",
+                    "id": "079a559a-5aef-49b9-89be-2f23e18e3073",
                     "actions": [
                         {
-                            "resourceId": "eyJtZWRpYUlkIjoiMzQyZWNhYWEtNGU5Mi00Y2JiLTg4OGUtY2ZmOWEyODAyM2Q1IiwiYXZhaWxJZCI6ImQ1NzMxMTVmLTdlNmEtNGY1NC05YjhkLWNlNjNiNWJlZTAwNCIsImF2YWlsVmVyc2lvbiI6MjIsInNvdXJjZUlkIjoiZDU3MzExNWYtN2U2YS00ZjU0LTliOGQtY2U2M2I1YmVlMDA0IiwiY29udGVudFR5cGUiOiJ2b2QifQ==",
+                            "resourceId": "eyJtZWRpYUlkIjoiYzA5NjYxNTctZGZjZC00ZTQzLTlmYWMtMjk1NmM4ODIzYzk1IiwiYXZhaWxJZCI6ImU1MWIyYmEwLTRhNjgtNGZjYy04MjQ0LTM2NmJjZDE2ZDAxMCIsImF2YWlsVmVyc2lvbiI6OCwic291cmNlSWQiOiJlNTFiMmJhMC00YTY4LTRmY2MtODI0NC0zNjZiY2QxNmQwMTAiLCJjb250ZW50VHlwZSI6InZvZCJ9",
                             "contentType": "vod",
                             "options": [
                                 {
                                     "type": "play",
                                     "displayText": "PLAY",
-                                    "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkNzZhOGFiZWItOWJhOC00ZmE4LTk2NzctNzg2ODMyYTU2MDhkMiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQzODc5NTc2WjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWoQCCoECCgRwbGF5Ej8KPXVybjpkczpjbXA6ZXZhOmFsaWRTYXZlZC9hNGIyZGY3Zi1mMWJiLTQwYzAtODI4ZC00YmJmY2JmZDQyMWIaJgokNTk2ODZiNjMtNDgxOS00ZGZiLTg5MTAtMDI0MzgxZWM2NWMwIiYKJGE0YjJkZjdmLWYxYmItNDBjMC04MjhkLTRiYmZjYmZkNDIxYiomCiRkNTczMTE1Zi03ZTZhLTRmNTQtOWI4ZC1jZTYzYjViZWUwMDRSJgokMzQyZWNhYWEtNGU5Mi00Y2JiLTg4OGUtY2ZmOWEyODAyM2Q1WhgKFnVybjpkczpjbXA6ZXZhOmVwaXNvZGU="
+                                    "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkNjVkNzhlZTgtMDAyZC00M2Q2LTg2MTMtN2UxYWVmYjA1YzE3MiAKHjIwMjYtMDItMDFUMjM6NDc6MjIuMTY5NzI1NTk2WjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNDE4MWI4M2UwMmNiNTk2ZTVhMzI0NmE2NTAzOTFiNzQ0NjdlZWQ4Yy9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWoQCCoECCgRwbGF5Ej8KPXVybjpkczpjbXA6ZXZhOmFsaWRTYXZlZC9mOGY1ZGNjYy05NGVmLTQ1OGQtYTQxYi1kMjZhY2E1NmQ1MGUaJgokMDc5YTU1OWEtNWFlZi00OWI5LTg5YmUtMmYyM2UxOGUzMDczIiYKJGY4ZjVkY2NjLTk0ZWYtNDU4ZC1hNDFiLWQyNmFjYTU2ZDUwZSomCiRlNTFiMmJhMC00YTY4LTRmY2MtODI0NC0zNjZiY2QxNmQwMTBSJgokYzA5NjYxNTctZGZjZC00ZTQzLTlmYWMtMjk1NmM4ODIzYzk1WhgKFnVybjpkczpjbXA6ZXZhOmVwaXNvZGU="
                                 }
                             ],
-                            "availId": "d573115f-7e6a-4f54-9b8d-ce63b5bee004",
-                            "deeplinkId": "59686b63-4819-4dfb-8910-024381ec65c0",
+                            "availId": "e51b2ba0-4a68-4fcc-8244-366bcd16d010",
+                            "deeplinkId": "079a559a-5aef-49b9-89be-2f23e18e3073",
                             "legacyPartnerFeed": {
-                                "dmcContentId": "d5bb1808-6f93-4264-839b-717c679348f9"
+                                "dmcContentId": "25820311-8084-47c2-9aa1-4b6dd45df25d"
                             },
                             "partnerFeed": {
-                                "dmcContentId": "d5bb1808-6f93-4264-839b-717c679348f9",
+                                "dmcContentId": "25820311-8084-47c2-9aa1-4b6dd45df25d",
                                 "evaSeriesEntityId": "cac75c8f-a9e2-4d95-ac73-1cf1cc7b9568"
                             },
-                            "upNextId": "59686b63-4819-4dfb-8910-024381ec65c0",
-                            "internalTitle": "The Simpsons - s35e16 - mediaId:342ecaaa-4e92-4cbb-888e-cff9a28023d5",
+                            "upNextId": "079a559a-5aef-49b9-89be-2f23e18e3073",
+                            "internalTitle": "The Simpsons - s36e16 - mediaId:c0966157-dfcd-4e43-9fac-2956c8823c95",
                             "visuals": {
                                 "displayText": "PLAY"
                             },
                             "type": "playback"
-                        },
-                        {
-                            "visuals": {
-                                "displayText": "DOWNLOAD"
-                            },
-                            "resourceId": "eyJtZWRpYUlkIjoiMzQyZWNhYWEtNGU5Mi00Y2JiLTg4OGUtY2ZmOWEyODAyM2Q1IiwiYXZhaWxJZCI6ImQ1NzMxMTVmLTdlNmEtNGY1NC05YjhkLWNlNjNiNWJlZTAwNCIsImF2YWlsVmVyc2lvbiI6MjIsInNvdXJjZUlkIjoiZDU3MzExNWYtN2U2YS00ZjU0LTliOGQtY2U2M2I1YmVlMDA0IiwiY29udGVudFR5cGUiOiJ2b2QifQ==",
-                            "availId": "d573115f-7e6a-4f54-9b8d-ce63b5bee004",
-                            "contentId": "d5bb1808-6f93-4264-839b-717c679348f9",
-                            "internalTitle": "The Simpsons - s35e16 - mediaId:342ecaaa-4e92-4cbb-888e-cff9a28023d5",
-                            "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkOWI2NmRjNDMtOTk2MC00OThiLWFkYzQtZWNmMWFkZmU1NjVhMiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQzOTg1OTg5WjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWpABCo0BCghkb3dubG9hZCImCiRhNGIyZGY3Zi1mMWJiLTQwYzAtODI4ZC00YmJmY2JmZDQyMWIqJgokZDU3MzExNWYtN2U2YS00ZjU0LTliOGQtY2U2M2I1YmVlMDA0UiYKJDM0MmVjYWFhLTRlOTItNGNiYi04ODhlLWNmZjlhMjgwMjNkNVoJCgdFUElTT0RF",
-                            "type": "download"
                         }
                     ],
                     "visuals": {
                         "title": "The Simpsons",
                         "description": {
-                            "brief": "Marge spends an influx of money on herself.",
-                            "medium": "Marge comes upon a surprising windfall and, angry with Homer, spends it secretly on herself.",
-                            "full": "Marge comes upon a surprising windfall and, angry with Homer, spends it secretly on herself."
+                            "brief": "Homer reinvigorates a celebrity chef's lost passion for food with some help from the mob.",
+                            "medium": "Homer reinvigorates a celebrity chef's lost passion for food -- with some help from the mob.",
+                            "full": "Homer reinvigorates a celebrity chef's lost passion for food -- with some help from the mob."
                         },
-                        "episodeTitle": "The Tell-Tale Pants",
-                        "seasonNumber": "35",
+                        "episodeTitle": "Stew Lies",
+                        "seasonNumber": "36",
                         "episodeNumber": "16",
                         "metastringParts": {
                             "ratingInfo": {
@@ -84,95 +63,105 @@
                                 "advisories": []
                             },
                             "runtime": {
-                                "runtimeMs": 1379669
+                                "runtimeMs": 1361819
                             }
                         },
                         "artwork": {
                             "standard": {
                                 "thumbnail": {
                                     "1.78": {
-                                        "imageId": "49c2cc7d-2c93-44eb-906c-0178182bb2a5"
+                                        "imageId": "443622a9-90f9-4ac7-a9c3-5bcb7041154a"
                                     }
                                 },
                                 "title_treatment": {
                                     "1.78": {
-                                        "imageId": "f4fbac65-d2d3-4db7-b5bf-d240068ded71"
+                                        "imageId": "3f35f4ad-bc4e-4a0a-8d40-9619b45cbb50"
                                     }
                                 },
                                 "tile": {
                                     "1.78": {
-                                        "imageId": "211f24f8-8a7d-4fd0-9a7e-7a2b30436da4"
+                                        "imageId": "88b98d28-7feb-494a-b31a-05b49d71f1ea"
                                     }
                                 }
                             },
                             "up_next": {
                                 "background": {
                                     "1.78": {
-                                        "imageId": "2a442cbd-58e1-459d-82fe-159858866720"
+                                        "imageId": "36852f23-2cfd-4ec1-962f-d161fed3c5a4"
                                     }
                                 }
                             }
                         },
-                        "fullEpisodeTitle": "S35:E16 The Tell-Tale Pants",
-                        "fullEpisodeTitleTts": "Season 35 Episode 16 The Tell-Tale Pants",
-                        "durationMs": 1379669
+                        "fullEpisodeTitle": "S36:E16 Stew Lies",
+                        "fullEpisodeTitleTts": "Season 36 Episode 16 Stew Lies",
+                        "durationMs": 1361819,
+                        "networkAttribution": {
+                            "ttsText": "Disney+ Seasonal",
+                            "slug": "disney-seasonal",
+                            "artwork": {
+                                "bottom_right": {
+                                    "watermark": {
+                                        "1.00": {
+                                            "imageId": "209636fc-466d-49ee-a5d1-a3b178ac51e6"
+                                        }
+                                    }
+                                },
+                                "brand": {
+                                    "logo": {
+                                        "2.00": {
+                                            "imageId": "0f6019cb-3eb2-4386-934d-9ead197f0bfe"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "isUnavailable": false
                     },
-                    "infoBlock": "EiJ1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTppdGVtGj9jb20uZGlzbmV5c3RyZWFtaW5nLnNlcnZpY2UubmFtb3JhLmluZm9ibG9jay5JbmZvQmxvY2tHZW5lcmF0b3IiJDU1YjNiYTUxLTJlMmYtNDFiMy1hOTgxLWMxNWIyOTVhMTg0NzIfCh0yMDI1LTAzLTAxVDAyOjM4OjU3Ljg0NDQ5ODIyWjqmAQqjAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvaXRlbS5zbWl0aHlCFgoUYXBwbGljYXRpb24vcHJvdG9idWZKCAoGYmluYXJ5agIIAlppCmcSO3VybjpkczpjbXA6ZXZhOmVwaXNvZGUvNTk2ODZiNjMtNDgxOS00ZGZiLTg5MTAtMDI0MzgxZWM2NWMwaiYKJGQ1NzMxMTVmLTdlNmEtNGY1NC05YjhkLWNlNjNiNWJlZTAwNHIA",
+                    "infoBlock": "EiJ1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTppdGVtGj9jb20uZGlzbmV5c3RyZWFtaW5nLnNlcnZpY2UubmFtb3JhLmluZm9ibG9jay5JbmZvQmxvY2tHZW5lcmF0b3IiJDJiMzU1M2NhLWY0Y2UtNDExZS05YmEyLTU1ZWNjZWM5MTU0NDIgCh4yMDI2LTAyLTAxVDIzOjQ3OjIyLjE3MDAzMTgwOFo6pgEKowFodHRwczovL2dpdGh1Yi5iYW10ZWNoLmNvL3NjaGVtYS1yZWdpc3RyeS9zY2hlbWEtcmVnaXN0cnktaW5mby1ibG9jay9ibG9iLzQxODFiODNlMDJjYjU5NmU1YTMyNDZhNjUwMzkxYjc0NDY3ZWVkOGMvc21pdGh5L2Rzcy9ldmVudC9pbmZvYmxvY2svYnJvd3NlL3YxL2l0ZW0uc21pdGh5QhYKFGFwcGxpY2F0aW9uL3Byb3RvYnVmSggKBmJpbmFyeWoCCAJaaQpnEjt1cm46ZHM6Y21wOmV2YTplcGlzb2RlLzA3OWE1NTlhLTVhZWYtNDliOS04OWJlLTJmMjNlMThlMzA3M2omCiRlNTFiMmJhMC00YTY4LTRmY2MtODI0NC0zNjZiY2QxNmQwMTByAA==",
                     "personalization": {
-                        "pid": "NTk2ODZiNjMtNDgxOS00ZGZiLTg5MTAtMDI0MzgxZWM2NWMwOjphNGIyZGY3Zi1mMWJiLTQwYzAtODI4ZC00YmJmY2JmZDQyMWI6OmQ1NzMxMTVmLTdlNmEtNGY1NC05YjhkLWNlNjNiNWJlZTAwNDo6Y2FjNzVjOGYtYTllMi00ZDk1LWFjNzMtMWNmMWNjN2I5NTY4OjpOVUxM"
+                        "pid": "MDc5YTU1OWEtNWFlZi00OWI5LTg5YmUtMmYyM2UxOGUzMDczOjpmOGY1ZGNjYy05NGVmLTQ1OGQtYTQxYi1kMjZhY2E1NmQ1MGU6OmU1MWIyYmEwLTRhNjgtNGZjYy04MjQ0LTM2NmJjZDE2ZDAxMDo6Y2FjNzVjOGYtYTllMi00ZDk1LWFjNzMtMWNmMWNjN2I5NTY4OjpOVUxM"
                     }
                 },
                 {
                     "type": "view",
-                    "id": "ad443cd1-144e-43ab-8751-0c36cf677874",
+                    "id": "79ae80cc-2cc2-4c3d-9d22-44b8a429a528",
                     "actions": [
                         {
-                            "resourceId": "eyJtZWRpYUlkIjoiM2Q0NGM3YzgtNTllNS00YzkyLTkxNjgtNTIxYjZiMTM1ODYxIiwiYXZhaWxJZCI6IjhlM2E0MjBmLWI3ZjItNDc0Mi04YWYyLTAxNjJhMzQ2NTVkYyIsImF2YWlsVmVyc2lvbiI6MjUsInNvdXJjZUlkIjoiOGUzYTQyMGYtYjdmMi00NzQyLThhZjItMDE2MmEzNDY1NWRjIiwiY29udGVudFR5cGUiOiJ2b2QifQ==",
+                            "resourceId": "eyJtZWRpYUlkIjoiMTYxNWJlYzctNjQ4MC00NmNmLTlkMzUtNzZmZDFkMjkzN2E4IiwiYXZhaWxJZCI6IjVmMzJmMjJlLWU4ZjYtNGMxNS1hNGQ4LTUwMjIyNjg3NGZmNCIsImF2YWlsVmVyc2lvbiI6MTIsInNvdXJjZUlkIjoiNWYzMmYyMmUtZThmNi00YzE1LWE0ZDgtNTAyMjI2ODc0ZmY0IiwiY29udGVudFR5cGUiOiJ2b2QifQ==",
                             "contentType": "vod",
                             "options": [
                                 {
                                     "type": "play",
                                     "displayText": "PLAY",
-                                    "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkNmQ2MTM3ZDEtNGUyYy00MTdiLTkyZTQtZWVkZTkyNTdhYzQyMiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQ0NTU1OTgyWjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWoQCCoECCgRwbGF5Ej8KPXVybjpkczpjbXA6ZXZhOmFsaWRTYXZlZC9kMmQ4MGYwZS02YjNiLTRjODYtODI4Yy05ZTM5ZTdkZmM1ZTQaJgokYWQ0NDNjZDEtMTQ0ZS00M2FiLTg3NTEtMGMzNmNmNjc3ODc0IiYKJGQyZDgwZjBlLTZiM2ItNGM4Ni04MjhjLTllMzllN2RmYzVlNComCiQ4ZTNhNDIwZi1iN2YyLTQ3NDItOGFmMi0wMTYyYTM0NjU1ZGNSJgokM2Q0NGM3YzgtNTllNS00YzkyLTkxNjgtNTIxYjZiMTM1ODYxWhgKFnVybjpkczpjbXA6ZXZhOmVwaXNvZGU="
+                                    "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkMjgyYmNlNmUtOTlhMC00YTQ5LTk4NzktMjJjNDVkYmE4NjY2MiAKHjIwMjYtMDItMDFUMjM6NDc6MjIuMTcwMTE2MDIxWjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNDE4MWI4M2UwMmNiNTk2ZTVhMzI0NmE2NTAzOTFiNzQ0NjdlZWQ4Yy9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWoQCCoECCgRwbGF5Ej8KPXVybjpkczpjbXA6ZXZhOmFsaWRTYXZlZC84OWJkOWZkMi1jMDE5LTQzZWYtOGYzOS1lOWRiMTljYTMzNTIaJgokNzlhZTgwY2MtMmNjMi00YzNkLTlkMjItNDRiOGE0MjlhNTI4IiYKJDg5YmQ5ZmQyLWMwMTktNDNlZi04ZjM5LWU5ZGIxOWNhMzM1MiomCiQ1ZjMyZjIyZS1lOGY2LTRjMTUtYTRkOC01MDIyMjY4NzRmZjRSJgokMTYxNWJlYzctNjQ4MC00NmNmLTlkMzUtNzZmZDFkMjkzN2E4WhgKFnVybjpkczpjbXA6ZXZhOmVwaXNvZGU="
                                 }
                             ],
-                            "availId": "8e3a420f-b7f2-4742-8af2-0162a34655dc",
-                            "deeplinkId": "ad443cd1-144e-43ab-8751-0c36cf677874",
+                            "availId": "5f32f22e-e8f6-4c15-a4d8-502226874ff4",
+                            "deeplinkId": "79ae80cc-2cc2-4c3d-9d22-44b8a429a528",
                             "legacyPartnerFeed": {
-                                "dmcContentId": "75633710-2300-45db-b64d-00c588e762d9"
+                                "dmcContentId": "b2c9efc2-88ed-4f90-b8b9-0ed49f369554"
                             },
                             "partnerFeed": {
-                                "dmcContentId": "75633710-2300-45db-b64d-00c588e762d9",
+                                "dmcContentId": "b2c9efc2-88ed-4f90-b8b9-0ed49f369554",
                                 "evaSeriesEntityId": "cac75c8f-a9e2-4d95-ac73-1cf1cc7b9568"
                             },
-                            "upNextId": "ad443cd1-144e-43ab-8751-0c36cf677874",
-                            "internalTitle": "The Simpsons - s35e17 - mediaId:3d44c7c8-59e5-4c92-9168-521b6b135861",
+                            "upNextId": "79ae80cc-2cc2-4c3d-9d22-44b8a429a528",
+                            "internalTitle": "The Simpsons - s36e17 - mediaId:1615bec7-6480-46cf-9d35-76fd1d2937a8",
                             "visuals": {
                                 "displayText": "PLAY"
                             },
                             "type": "playback"
-                        },
-                        {
-                            "visuals": {
-                                "displayText": "DOWNLOAD"
-                            },
-                            "resourceId": "eyJtZWRpYUlkIjoiM2Q0NGM3YzgtNTllNS00YzkyLTkxNjgtNTIxYjZiMTM1ODYxIiwiYXZhaWxJZCI6IjhlM2E0MjBmLWI3ZjItNDc0Mi04YWYyLTAxNjJhMzQ2NTVkYyIsImF2YWlsVmVyc2lvbiI6MjUsInNvdXJjZUlkIjoiOGUzYTQyMGYtYjdmMi00NzQyLThhZjItMDE2MmEzNDY1NWRjIiwiY29udGVudFR5cGUiOiJ2b2QifQ==",
-                            "availId": "8e3a420f-b7f2-4742-8af2-0162a34655dc",
-                            "contentId": "75633710-2300-45db-b64d-00c588e762d9",
-                            "internalTitle": "The Simpsons - s35e17 - mediaId:3d44c7c8-59e5-4c92-9168-521b6b135861",
-                            "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkYjhhM2ViYTItODUyMC00MGNmLWFmM2MtMzk2NWIzYTA2MzA0MiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQ0NTc5ODcyWjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWpABCo0BCghkb3dubG9hZCImCiRkMmQ4MGYwZS02YjNiLTRjODYtODI4Yy05ZTM5ZTdkZmM1ZTQqJgokOGUzYTQyMGYtYjdmMi00NzQyLThhZjItMDE2MmEzNDY1NWRjUiYKJDNkNDRjN2M4LTU5ZTUtNGM5Mi05MTY4LTUyMWI2YjEzNTg2MVoJCgdFUElTT0RF",
-                            "type": "download"
                         }
                     ],
                     "visuals": {
                         "title": "The Simpsons",
                         "description": {
-                            "brief": "Homer is obsessed with gratuitous gratuities.",
-                            "medium": "Homer loses his mind over tipping culture run amok.",
-                            "full": "Homer loses his mind over tipping culture run amok."
+                            "brief": "Homer and Grampa team up to create a new sport that rivals pickleball, until Homer kicks Grampa off.",
+                            "medium": "Homer and Grampa team up to create a new sport that rivals pickleball, until Homer kicks Grampa off the team.",
+                            "full": "Homer and Grampa team up to create a new sport that rivals pickleball, until Homer kicks Grampa off the team."
                         },
-                        "episodeTitle": "The Tipping Point",
-                        "seasonNumber": "35",
+                        "episodeTitle": "Full Heart, Empty Pool",
+                        "seasonNumber": "36",
                         "episodeNumber": "17",
                         "metastringParts": {
                             "ratingInfo": {
@@ -183,95 +172,105 @@
                                 "advisories": []
                             },
                             "runtime": {
-                                "runtimeMs": 1365573
+                                "runtimeMs": 1373790
                             }
                         },
                         "artwork": {
                             "standard": {
                                 "thumbnail": {
                                     "1.78": {
-                                        "imageId": "00536b35-3ed8-4ee6-a499-c583abd21ae6"
+                                        "imageId": "b099960d-8ce0-434e-8a1d-5bc147b7b45b"
                                     }
                                 },
                                 "title_treatment": {
                                     "1.78": {
-                                        "imageId": "f4fbac65-d2d3-4db7-b5bf-d240068ded71"
+                                        "imageId": "3f35f4ad-bc4e-4a0a-8d40-9619b45cbb50"
                                     }
                                 },
                                 "tile": {
                                     "1.78": {
-                                        "imageId": "211f24f8-8a7d-4fd0-9a7e-7a2b30436da4"
+                                        "imageId": "88b98d28-7feb-494a-b31a-05b49d71f1ea"
                                     }
                                 }
                             },
                             "up_next": {
                                 "background": {
                                     "1.78": {
-                                        "imageId": "2a442cbd-58e1-459d-82fe-159858866720"
+                                        "imageId": "36852f23-2cfd-4ec1-962f-d161fed3c5a4"
                                     }
                                 }
                             }
                         },
-                        "fullEpisodeTitle": "S35:E17 The Tipping Point",
-                        "fullEpisodeTitleTts": "Season 35 Episode 17 The Tipping Point",
-                        "durationMs": 1365573
+                        "fullEpisodeTitle": "S36:E17 Full Heart, Empty Pool",
+                        "fullEpisodeTitleTts": "Season 36 Episode 17 Full Heart, Empty Pool",
+                        "durationMs": 1373790,
+                        "networkAttribution": {
+                            "ttsText": "Disney+ Seasonal",
+                            "slug": "disney-seasonal",
+                            "artwork": {
+                                "bottom_right": {
+                                    "watermark": {
+                                        "1.00": {
+                                            "imageId": "209636fc-466d-49ee-a5d1-a3b178ac51e6"
+                                        }
+                                    }
+                                },
+                                "brand": {
+                                    "logo": {
+                                        "2.00": {
+                                            "imageId": "0f6019cb-3eb2-4386-934d-9ead197f0bfe"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "isUnavailable": false
                     },
-                    "infoBlock": "EiJ1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTppdGVtGj9jb20uZGlzbmV5c3RyZWFtaW5nLnNlcnZpY2UubmFtb3JhLmluZm9ibG9jay5JbmZvQmxvY2tHZW5lcmF0b3IiJDYyNTIwNGE4LWFiNjctNDZkMS04YTYxLTk1NmM1MTQ0MzgyNjIgCh4yMDI1LTAzLTAxVDAyOjM4OjU3Ljg0NDcxNTkyNVo6pgEKowFodHRwczovL2dpdGh1Yi5iYW10ZWNoLmNvL3NjaGVtYS1yZWdpc3RyeS9zY2hlbWEtcmVnaXN0cnktaW5mby1ibG9jay9ibG9iLzY1YWEyY2U0ZmE2ODEwNzgwNDNiMWJjMmJjOGQyNTg4ZDEyMDViZjIvc21pdGh5L2Rzcy9ldmVudC9pbmZvYmxvY2svYnJvd3NlL3YxL2l0ZW0uc21pdGh5QhYKFGFwcGxpY2F0aW9uL3Byb3RvYnVmSggKBmJpbmFyeWoCCAJaaQpnEjt1cm46ZHM6Y21wOmV2YTplcGlzb2RlL2FkNDQzY2QxLTE0NGUtNDNhYi04NzUxLTBjMzZjZjY3Nzg3NGomCiQ4ZTNhNDIwZi1iN2YyLTQ3NDItOGFmMi0wMTYyYTM0NjU1ZGNyAA==",
+                    "infoBlock": "EiJ1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTppdGVtGj9jb20uZGlzbmV5c3RyZWFtaW5nLnNlcnZpY2UubmFtb3JhLmluZm9ibG9jay5JbmZvQmxvY2tHZW5lcmF0b3IiJDc2Zjk1YWU4LTIzODctNDhmYS1iODlmLTJiODViMzRjM2QyYzIgCh4yMDI2LTAyLTAxVDIzOjQ3OjIyLjE3MDM3NTI1OVo6pgEKowFodHRwczovL2dpdGh1Yi5iYW10ZWNoLmNvL3NjaGVtYS1yZWdpc3RyeS9zY2hlbWEtcmVnaXN0cnktaW5mby1ibG9jay9ibG9iLzQxODFiODNlMDJjYjU5NmU1YTMyNDZhNjUwMzkxYjc0NDY3ZWVkOGMvc21pdGh5L2Rzcy9ldmVudC9pbmZvYmxvY2svYnJvd3NlL3YxL2l0ZW0uc21pdGh5QhYKFGFwcGxpY2F0aW9uL3Byb3RvYnVmSggKBmJpbmFyeWoCCAJaaQpnEjt1cm46ZHM6Y21wOmV2YTplcGlzb2RlLzc5YWU4MGNjLTJjYzItNGMzZC05ZDIyLTQ0YjhhNDI5YTUyOGomCiQ1ZjMyZjIyZS1lOGY2LTRjMTUtYTRkOC01MDIyMjY4NzRmZjRyAA==",
                     "personalization": {
-                        "pid": "YWQ0NDNjZDEtMTQ0ZS00M2FiLTg3NTEtMGMzNmNmNjc3ODc0OjpkMmQ4MGYwZS02YjNiLTRjODYtODI4Yy05ZTM5ZTdkZmM1ZTQ6OjhlM2E0MjBmLWI3ZjItNDc0Mi04YWYyLTAxNjJhMzQ2NTVkYzo6Y2FjNzVjOGYtYTllMi00ZDk1LWFjNzMtMWNmMWNjN2I5NTY4OjpOVUxM"
+                        "pid": "NzlhZTgwY2MtMmNjMi00YzNkLTlkMjItNDRiOGE0MjlhNTI4Ojo4OWJkOWZkMi1jMDE5LTQzZWYtOGYzOS1lOWRiMTljYTMzNTI6OjVmMzJmMjJlLWU4ZjYtNGMxNS1hNGQ4LTUwMjIyNjg3NGZmNDo6Y2FjNzVjOGYtYTllMi00ZDk1LWFjNzMtMWNmMWNjN2I5NTY4OjpOVUxM"
                     }
                 },
                 {
                     "type": "view",
-                    "id": "8fc611f4-3764-49a2-9f09-20037cb7e051",
+                    "id": "f13dda7c-0ea5-4639-a87e-2f76c099cf16",
                     "actions": [
                         {
-                            "resourceId": "eyJtZWRpYUlkIjoiY2E0M2I2MzQtZDc4MS00MjJiLTgxNTYtYzdmYTYwNGQzNjQzIiwiYXZhaWxJZCI6ImY3YTU4Yzc4LWEzNmUtNDE5Zi04MDdmLTkwNjgyODIwYmE4NCIsImF2YWlsVmVyc2lvbiI6MjYsInNvdXJjZUlkIjoiZjdhNThjNzgtYTM2ZS00MTlmLTgwN2YtOTA2ODI4MjBiYTg0IiwiY29udGVudFR5cGUiOiJ2b2QifQ==",
+                            "resourceId": "eyJtZWRpYUlkIjoiNzI5OWIxZGQtYmU3Yi00NWZjLTg2Y2YtZGM0YWIzOWZmNDE3IiwiYXZhaWxJZCI6IjMyZjIyOWQ4LWU1ODItNGEwNS1hYTMyLTMyYjcyNDY0ZjFmYyIsImF2YWlsVmVyc2lvbiI6OCwic291cmNlSWQiOiIzMmYyMjlkOC1lNTgyLTRhMDUtYWEzMi0zMmI3MjQ2NGYxZmMiLCJjb250ZW50VHlwZSI6InZvZCJ9",
                             "contentType": "vod",
                             "options": [
                                 {
                                     "type": "play",
                                     "displayText": "PLAY",
-                                    "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkMWVmNzgwMmItYzZiOS00YWUwLTgzYjgtZmYzMjdkNmQ1MjE1MiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQ0NzUyMTk2WjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWoQCCoECCgRwbGF5Ej8KPXVybjpkczpjbXA6ZXZhOmFsaWRTYXZlZC8zY2RmNTAyMS0xODU3LTQyNjMtYjA5Yi03ZDJlMmQ0ZDcyZjEaJgokOGZjNjExZjQtMzc2NC00OWEyLTlmMDktMjAwMzdjYjdlMDUxIiYKJDNjZGY1MDIxLTE4NTctNDI2My1iMDliLTdkMmUyZDRkNzJmMSomCiRmN2E1OGM3OC1hMzZlLTQxOWYtODA3Zi05MDY4MjgyMGJhODRSJgokY2E0M2I2MzQtZDc4MS00MjJiLTgxNTYtYzdmYTYwNGQzNjQzWhgKFnVybjpkczpjbXA6ZXZhOmVwaXNvZGU="
+                                    "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkNWRiMDExMGYtOGMyMS00MjQ0LTgwM2MtMGQ1ZGUyZjRjZjc3MiAKHjIwMjYtMDItMDFUMjM6NDc6MjIuMTcwNDU0NzY0WjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNDE4MWI4M2UwMmNiNTk2ZTVhMzI0NmE2NTAzOTFiNzQ0NjdlZWQ4Yy9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWoQCCoECCgRwbGF5Ej8KPXVybjpkczpjbXA6ZXZhOmFsaWRTYXZlZC8wY2UwN2IzMC0yMTBkLTQwMzMtYjZhZC1mMmRhMTViOGM3MGUaJgokZjEzZGRhN2MtMGVhNS00NjM5LWE4N2UtMmY3NmMwOTljZjE2IiYKJDBjZTA3YjMwLTIxMGQtNDAzMy1iNmFkLWYyZGExNWI4YzcwZSomCiQzMmYyMjlkOC1lNTgyLTRhMDUtYWEzMi0zMmI3MjQ2NGYxZmNSJgokNzI5OWIxZGQtYmU3Yi00NWZjLTg2Y2YtZGM0YWIzOWZmNDE3WhgKFnVybjpkczpjbXA6ZXZhOmVwaXNvZGU="
                                 }
                             ],
-                            "availId": "f7a58c78-a36e-419f-807f-90682820ba84",
-                            "deeplinkId": "8fc611f4-3764-49a2-9f09-20037cb7e051",
+                            "availId": "32f229d8-e582-4a05-aa32-32b72464f1fc",
+                            "deeplinkId": "f13dda7c-0ea5-4639-a87e-2f76c099cf16",
                             "legacyPartnerFeed": {
-                                "dmcContentId": "f9e40205-47be-443b-95bc-4a2c8134705f"
+                                "dmcContentId": "5799cdee-7b0e-4710-a6b0-acf448ad32af"
                             },
                             "partnerFeed": {
-                                "dmcContentId": "f9e40205-47be-443b-95bc-4a2c8134705f",
+                                "dmcContentId": "5799cdee-7b0e-4710-a6b0-acf448ad32af",
                                 "evaSeriesEntityId": "cac75c8f-a9e2-4d95-ac73-1cf1cc7b9568"
                             },
-                            "upNextId": "8fc611f4-3764-49a2-9f09-20037cb7e051",
-                            "internalTitle": "The Simpsons - s35e18 - mediaId:ca43b634-d781-422b-8156-c7fa604d3643",
+                            "upNextId": "f13dda7c-0ea5-4639-a87e-2f76c099cf16",
+                            "internalTitle": "The Simpsons - s36e18 - mediaId:7299b1dd-be7b-45fc-86cf-dc4ab39ff417",
                             "visuals": {
                                 "displayText": "PLAY"
                             },
                             "type": "playback"
-                        },
-                        {
-                            "visuals": {
-                                "displayText": "DOWNLOAD"
-                            },
-                            "resourceId": "eyJtZWRpYUlkIjoiY2E0M2I2MzQtZDc4MS00MjJiLTgxNTYtYzdmYTYwNGQzNjQzIiwiYXZhaWxJZCI6ImY3YTU4Yzc4LWEzNmUtNDE5Zi04MDdmLTkwNjgyODIwYmE4NCIsImF2YWlsVmVyc2lvbiI6MjYsInNvdXJjZUlkIjoiZjdhNThjNzgtYTM2ZS00MTlmLTgwN2YtOTA2ODI4MjBiYTg0IiwiY29udGVudFR5cGUiOiJ2b2QifQ==",
-                            "availId": "f7a58c78-a36e-419f-807f-90682820ba84",
-                            "contentId": "f9e40205-47be-443b-95bc-4a2c8134705f",
-                            "internalTitle": "The Simpsons - s35e18 - mediaId:ca43b634-d781-422b-8156-c7fa604d3643",
-                            "infoBlock": "EiR1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTphY3Rpb24aP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkNzhlZTQ3MDMtYzE3Mi00Y2ZlLTliMWUtMTczNTU2NDIzMGU1MiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQ0NzcxMDc2WjqoAQqlAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvYWN0aW9uLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWpABCo0BCghkb3dubG9hZCImCiQzY2RmNTAyMS0xODU3LTQyNjMtYjA5Yi03ZDJlMmQ0ZDcyZjEqJgokZjdhNThjNzgtYTM2ZS00MTlmLTgwN2YtOTA2ODI4MjBiYTg0UiYKJGNhNDNiNjM0LWQ3ODEtNDIyYi04MTU2LWM3ZmE2MDRkMzY0M1oJCgdFUElTT0RF",
-                            "type": "download"
                         }
                     ],
                     "visuals": {
                         "title": "The Simpsons",
                         "description": {
-                            "brief": "Bart has a new friend.",
-                            "medium": "Bart makes a new friend.",
-                            "full": "Bart makes a new friend."
+                            "brief": "When Bart & Lisa stop watching Itchy & Scratchy together, Marge fears they’ll start to drift apart.",
+                            "medium": "When Bart & Lisa stop watching Itchy & Scratchy together, Marge fears that they’ll start to drift apart… but she has no idea how bad things are about to get!",
+                            "full": "When Bart & Lisa stop watching Itchy & Scratchy together, Marge fears that they’ll start to drift apart… but she has no idea how bad things are about to get!"
                         },
-                        "episodeTitle": "Bart's Brain",
-                        "seasonNumber": "35",
+                        "episodeTitle": "Estranger Things",
+                        "seasonNumber": "36",
                         "episodeNumber": "18",
                         "metastringParts": {
                             "ratingInfo": {
@@ -282,46 +281,67 @@
                                 "advisories": []
                             },
                             "runtime": {
-                                "runtimeMs": 1379711
+                                "runtimeMs": 1393601
                             }
                         },
                         "artwork": {
                             "standard": {
                                 "thumbnail": {
                                     "1.78": {
-                                        "imageId": "0e6d08b0-b4c4-428d-bd08-06e3abdd5180"
+                                        "imageId": "a877d25c-49bd-48fd-98a0-bd276ebb286a"
                                     }
                                 },
                                 "title_treatment": {
                                     "1.78": {
-                                        "imageId": "f4fbac65-d2d3-4db7-b5bf-d240068ded71"
+                                        "imageId": "3f35f4ad-bc4e-4a0a-8d40-9619b45cbb50"
                                     }
                                 },
                                 "tile": {
                                     "1.78": {
-                                        "imageId": "211f24f8-8a7d-4fd0-9a7e-7a2b30436da4"
+                                        "imageId": "88b98d28-7feb-494a-b31a-05b49d71f1ea"
                                     }
                                 }
                             },
                             "up_next": {
                                 "background": {
                                     "1.78": {
-                                        "imageId": "2a442cbd-58e1-459d-82fe-159858866720"
+                                        "imageId": "36852f23-2cfd-4ec1-962f-d161fed3c5a4"
                                     }
                                 }
                             }
                         },
-                        "fullEpisodeTitle": "S35:E18 Bart's Brain",
-                        "fullEpisodeTitleTts": "Season 35 Episode 18 Bart's Brain",
-                        "durationMs": 1379711
+                        "fullEpisodeTitle": "S36:E18 Estranger Things",
+                        "fullEpisodeTitleTts": "Season 36 Episode 18 Estranger Things",
+                        "durationMs": 1393601,
+                        "networkAttribution": {
+                            "ttsText": "Disney+ Seasonal",
+                            "slug": "disney-seasonal",
+                            "artwork": {
+                                "bottom_right": {
+                                    "watermark": {
+                                        "1.00": {
+                                            "imageId": "209636fc-466d-49ee-a5d1-a3b178ac51e6"
+                                        }
+                                    }
+                                },
+                                "brand": {
+                                    "logo": {
+                                        "2.00": {
+                                            "imageId": "0f6019cb-3eb2-4386-934d-9ead197f0bfe"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "isUnavailable": false
                     },
-                    "infoBlock": "EiJ1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTppdGVtGj9jb20uZGlzbmV5c3RyZWFtaW5nLnNlcnZpY2UubmFtb3JhLmluZm9ibG9jay5JbmZvQmxvY2tHZW5lcmF0b3IiJDE1NWY2NDZhLTEzYWUtNDU3NS05NTRkLWQ0YzMxZGExNGQ2MzIgCh4yMDI1LTAzLTAxVDAyOjM4OjU3Ljg0NDg4NDE1OVo6pgEKowFodHRwczovL2dpdGh1Yi5iYW10ZWNoLmNvL3NjaGVtYS1yZWdpc3RyeS9zY2hlbWEtcmVnaXN0cnktaW5mby1ibG9jay9ibG9iLzY1YWEyY2U0ZmE2ODEwNzgwNDNiMWJjMmJjOGQyNTg4ZDEyMDViZjIvc21pdGh5L2Rzcy9ldmVudC9pbmZvYmxvY2svYnJvd3NlL3YxL2l0ZW0uc21pdGh5QhYKFGFwcGxpY2F0aW9uL3Byb3RvYnVmSggKBmJpbmFyeWoCCAJaaQpnEjt1cm46ZHM6Y21wOmV2YTplcGlzb2RlLzhmYzYxMWY0LTM3NjQtNDlhMi05ZjA5LTIwMDM3Y2I3ZTA1MWomCiRmN2E1OGM3OC1hMzZlLTQxOWYtODA3Zi05MDY4MjgyMGJhODRyAA==",
+                    "infoBlock": "EiJ1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTppdGVtGj9jb20uZGlzbmV5c3RyZWFtaW5nLnNlcnZpY2UubmFtb3JhLmluZm9ibG9jay5JbmZvQmxvY2tHZW5lcmF0b3IiJDE3YzM4NWJiLTBjZWMtNDlhZi1iMTU5LTg1ZWE5ZmQ1YWM5ZjIgCh4yMDI2LTAyLTAxVDIzOjQ3OjIyLjE3MDcwNzc0MVo6pgEKowFodHRwczovL2dpdGh1Yi5iYW10ZWNoLmNvL3NjaGVtYS1yZWdpc3RyeS9zY2hlbWEtcmVnaXN0cnktaW5mby1ibG9jay9ibG9iLzQxODFiODNlMDJjYjU5NmU1YTMyNDZhNjUwMzkxYjc0NDY3ZWVkOGMvc21pdGh5L2Rzcy9ldmVudC9pbmZvYmxvY2svYnJvd3NlL3YxL2l0ZW0uc21pdGh5QhYKFGFwcGxpY2F0aW9uL3Byb3RvYnVmSggKBmJpbmFyeWoCCAJaaQpnEjt1cm46ZHM6Y21wOmV2YTplcGlzb2RlL2YxM2RkYTdjLTBlYTUtNDYzOS1hODdlLTJmNzZjMDk5Y2YxNmomCiQzMmYyMjlkOC1lNTgyLTRhMDUtYWEzMi0zMmI3MjQ2NGYxZmNyAA==",
                     "personalization": {
-                        "pid": "OGZjNjExZjQtMzc2NC00OWEyLTlmMDktMjAwMzdjYjdlMDUxOjozY2RmNTAyMS0xODU3LTQyNjMtYjA5Yi03ZDJlMmQ0ZDcyZjE6OmY3YTU4Yzc4LWEzNmUtNDE5Zi04MDdmLTkwNjgyODIwYmE4NDo6Y2FjNzVjOGYtYTllMi00ZDk1LWFjNzMtMWNmMWNjN2I5NTY4OjpOVUxM"
+                        "pid": "ZjEzZGRhN2MtMGVhNS00NjM5LWE4N2UtMmY3NmMwOTljZjE2OjowY2UwN2IzMC0yMTBkLTQwMzMtYjZhZC1mMmRhMTViOGM3MGU6OjMyZjIyOWQ4LWU1ODItNGEwNS1hYTMyLTMyYjcyNDY0ZjFmYzo6Y2FjNzVjOGYtYTllMi00ZDk1LWFjNzMtMWNmMWNjN2I5NTY4OjpOVUxM"
                     }
                 }
             ],
-            "infoBlock": "Eid1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTpjb250YWluZXIaP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkNTFhN2QxMmItNDY5Mi00YjIwLWE0YmYtN2YxYmY5NDYzN2Q3MiAKHjIwMjUtMDMtMDFUMDI6Mzg6NTcuODQ1MDA3MTYyWjqrAQqoAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNjVhYTJjZTRmYTY4MTA3ODA0M2IxYmMyYmM4ZDI1ODhkMTIwNWJmMi9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvY29udGFpbmVyLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWkcKRQpDCkF1cm46ZHM6Y21wOmV2YTplcGlzb2RlU2Vhc29uL2I4MDg4ZDJhLTFlM2MtNGExYy05NjhmLTZhMmVlNjM0MWIxMg==",
+            "infoBlock": "Eid1cm46ZXZlbnQ6aW5mb2Jsb2NrOmJyb3dzZTp2MTpjb250YWluZXIaP2NvbS5kaXNuZXlzdHJlYW1pbmcuc2VydmljZS5uYW1vcmEuaW5mb2Jsb2NrLkluZm9CbG9ja0dlbmVyYXRvciIkNjQ3OTE2MmQtYWFkYi00MDZjLTgxYjktNGM3OTBlMzk4NTA2MiAKHjIwMjYtMDItMDFUMjM6NDc6MjIuMTcwODI1NDU3WjqrAQqoAWh0dHBzOi8vZ2l0aHViLmJhbXRlY2guY28vc2NoZW1hLXJlZ2lzdHJ5L3NjaGVtYS1yZWdpc3RyeS1pbmZvLWJsb2NrL2Jsb2IvNDE4MWI4M2UwMmNiNTk2ZTVhMzI0NmE2NTAzOTFiNzQ0NjdlZWQ4Yy9zbWl0aHkvZHNzL2V2ZW50L2luZm9ibG9jay9icm93c2UvdjEvY29udGFpbmVyLnNtaXRoeUIWChRhcHBsaWNhdGlvbi9wcm90b2J1ZkoICgZiaW5hcnlqAggCWkcKRQpDCkF1cm46ZHM6Y21wOmV2YTplcGlzb2RlU2Vhc29uLzkwYzA1MzQ0LTA5MGYtNGI5Zi1iMTdkLWRkOWRiNDk4MTRkOA==",
             "pagination": {
                 "hasMore": false,
                 "hasPrev": true,

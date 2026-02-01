@@ -1,0 +1,132 @@
+﻿{
+    "season":  36,
+    "duration":  24768836,
+    "episodes":  [
+                     {
+                         "id":  "5",
+                         "season":  36,
+                         "episode":  1,
+                         "title":  "Bart\u0027s Birthday",
+                         "duration":  1373623
+                     },
+                     {
+                         "id":  "6",
+                         "season":  36,
+                         "episode":  2,
+                         "title":  "The Yellow Lotus",
+                         "duration":  1369577
+                     },
+                     {
+                         "id":  "6",
+                         "season":  36,
+                         "episode":  3,
+                         "title":  "Desperately Seeking Lisa",
+                         "duration":  1381631
+                     },
+                     {
+                         "id":  "0",
+                         "season":  36,
+                         "episode":  4,
+                         "title":  "Shoddy Heat",
+                         "duration":  1357565
+                     },
+                     {
+                         "id":  "a",
+                         "season":  36,
+                         "episode":  5,
+                         "title":  "Treehouse of Horror XXXV",
+                         "duration":  1394894
+                     },
+                     {
+                         "id":  "6",
+                         "season":  36,
+                         "episode":  6,
+                         "title":  "Women in Shorts",
+                         "duration":  1391599
+                     },
+                     {
+                         "id":  "9",
+                         "season":  36,
+                         "episode":  7,
+                         "title":  "Treehouse of Horror Presents: Simpsons Wicked This Way Comes",
+                         "duration":  1373581
+                     },
+                     {
+                         "id":  "a",
+                         "season":  36,
+                         "episode":  8,
+                         "title":  "Convenience Airways",
+                         "duration":  1367575
+                     },
+                     {
+                         "id":  "5",
+                         "season":  36,
+                         "episode":  9,
+                         "title":  "Homer and Her Sisters",
+                         "duration":  1387595
+                     },
+                     {
+                         "id":  "d",
+                         "season":  36,
+                         "episode":  10,
+                         "title":  "The Man Who Flew Too Much",
+                         "duration":  1373581
+                     },
+                     {
+                         "id":  "0",
+                         "season":  36,
+                         "episode":  11,
+                         "title":  "Bottle Episode",
+                         "duration":  1392767
+                     },
+                     {
+                         "id":  "1",
+                         "season":  36,
+                         "episode":  12,
+                         "title":  "The Flandshees of Innersimpson",
+                         "duration":  1357565
+                     },
+                     {
+                         "id":  "3",
+                         "season":  36,
+                         "episode":  13,
+                         "title":  "The Last Man Expanding",
+                         "duration":  1372830
+                     },
+                     {
+                         "id":  "2",
+                         "season":  36,
+                         "episode":  14,
+                         "title":  "P.S. I Hate You",
+                         "duration":  1373581
+                     },
+                     {
+                         "id":  "3",
+                         "season":  36,
+                         "episode":  15,
+                         "title":  "Abe League of Their Moe",
+                         "duration":  1371662
+                     },
+                     {
+                         "id":  "0",
+                         "season":  36,
+                         "episode":  16,
+                         "title":  "Stew Lies",
+                         "duration":  1361819
+                     },
+                     {
+                         "id":  "7",
+                         "season":  36,
+                         "episode":  17,
+                         "title":  "Full Heart, Empty Pool",
+                         "duration":  1373790
+                     },
+                     {
+                         "id":  "f",
+                         "season":  36,
+                         "episode":  18,
+                         "title":  "Estranger Things",
+                         "duration":  1393601
+                     }
+                 ]
+}

@@ -2,6 +2,7 @@
 
     const HOMEPAGE_TITLE = "The Simpsons | Disney+";
 
+    var episodeInfo = undefined;
     var currentURL = undefined;
     var portReady = false;
     var isHomePage = false;
@@ -37,12 +38,24 @@
         btnWatchMarathon.setAttribute("id","btnWatchMarathon");
         btnWatchMarathon.innerHTML = "Watch 24/7 Simpsons Streamer";
         disneyPageActions.appendChild(btnWatchMarathon);
-
         btnWatchMarathon.addEventListener("click", function() {
             SendMessageToBackground(MessageType.OPENEP,null);
         });
 
+        let txtWatchMarathon = document.createElement("h2");
+        txtWatchMarathon.setAttribute("id","txtWatchMarathon");
+        disneyPageActions.appendChild(txtWatchMarathon);
+
         console.log("Home Page Ext Loaded");
+    }
+
+    function updateEpisodeInfo()
+    {
+        let txtWatchMarathon = document.getElementById("txtWatchMarathon");
+        if (txtWatchMarathon)
+        {
+            txtWatchMarathon.innerHTML = "S" + episodeInfo.season + "E" + episodeInfo.episode + " : " + episodeInfo.title;
+        }
     }
 
     function SendMessageToBackground(type,value)
@@ -68,6 +81,10 @@
                 case MessageType.HELLO:
                     portReady = true;
                     console.log("Port connection successful");
+                    break;
+                case MessageType.GETINFO:
+                    episodeInfo = value.episodeInfo;
+                    updateEpisodeInfo();
                     break;
             }
         });

@@ -31,7 +31,7 @@ function syncWorldTime() {
 function getSyncDate() {
     startTimeSync();
     if (!worldTimeOffset)
-        return null;
+        return new Date();
 
     var currentDate = new Date();
     if ((worldTimeOffset > 1) || (worldTimeOffset < -1))
