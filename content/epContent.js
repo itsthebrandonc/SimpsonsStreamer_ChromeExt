@@ -22,12 +22,13 @@
         console.log("Content::CheckPageLoaded");
         if (isEpisode && !loadedPage)
         {
-            if (!document.querySelector('video#hivePlayer'))
+            if (!document.querySelector('video#hivePlayer1'))
             {
                 loadedPageInterval = setInterval(checkPageLoaded, 1000);
             }
             else
             {
+                console.log("Content::CheckPageLoaded: Page Loaded");
                 loadedPage = true;
                 connectToPort();
                 initEpisode();
@@ -37,7 +38,7 @@
 
     function initEpisode()
     {
-        disneyPlayer = document.querySelector('video#hivePlayer');
+        disneyPlayer = document.querySelector('video#hivePlayer1');
         if (!disneyPlayer)
             return;
 
@@ -139,6 +140,11 @@
             else
                 console.error("DisneyEpTitle not found");
 
+            //let disneyEpSubTitle = document.querySelector('div.subtitle-field > span');
+            //if (disneyEpSubTitle)
+            //    disneyEpSubTitle.innerHTML += '\t\t\t\t TEST';
+
+
             let disneyFooter = document.querySelector('div.controls__footer.display-flex');
             if (disneyFooter)
             {
@@ -200,7 +206,8 @@
             return -1;
         }
     
-        const progressBar = document.querySelector('.slider-handle-container.from-left');
+        const progressBar = document.querySelector('progress-bar').shadowRoot.querySelector('div.progress-bar__seekable-range > div.progress-bar__progress');
+
         if (!progressBar)
         {
             console.error("Progress Bar not found");
@@ -211,7 +218,7 @@
         //let rawPercentage = width.substring(7,width.length-1);
         let percentage = parseFloat(width.substring(7,width.length-1)) / 100; //width: 28.8355% -> 28.8335 -> 0.288335
 
-        //console.log("CurrentEpTime:: Width: " + width + " ... " + rawPercentage + " * " + epDuration + " = " + (percentage * epDuration));
+        console.log("CurrentEpTime:: Width: " + width + " ... " + percentage + " ...(" + (percentage * episodeInfo.duration) +")");
 
         return percentage * episodeInfo.duration;
     }
@@ -434,6 +441,14 @@
             case MessageType.SYNC:
                 syncEpisode();
                 break;
+        }
+    });
+
+    window.addEventListener('pageshow', (event) => {
+        if (event.persisted) {
+            // Re-establish connection
+            console.log("Re-establishing connection");
+            connectToPort();
         }
     });
 

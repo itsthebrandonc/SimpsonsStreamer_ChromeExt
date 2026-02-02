@@ -11,7 +11,7 @@ function tickSeconds()
 
     episodeTime = episodeInfo.time + (new Date().getTime() - updatedTime);
     setTimeText();
-    console.log("Tick: " + episodeTime);
+    //console.log("Tick: " + episodeTime);
     setTimeout(tickSeconds,1000);
 }
 
@@ -58,8 +58,28 @@ function SendMessageToBackground(type,value)
         function(response) {
           var lastError = chrome.runtime.lastError;
           if (lastError)
+          {
             console.log("BG>PU: " + lastError.message);
+            AddListener(); //Try reconnecting
+          }
         });
+}
+
+function AddListener()
+{
+    chrome.runtime.onMessage.addListener((obj, sender, response) => {
+        const {type, value} = obj;
+
+        switch (type)
+        {
+            case "GETINFO":
+                episodeInfo = value.episodeInfo;
+                updatedTime = value.timestamp;
+                setTimeText();
+                tickSeconds();
+            break;
+        }
+    });
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -74,18 +94,4 @@ document.addEventListener("DOMContentLoaded", async () => {
     $("btnSync").addEventListener("click", () => {
         SendMessageToBackground(MessageType.SYNC,null);
     });
-});
-
-chrome.runtime.onMessage.addListener((obj, sender, response) => {
-    const {type, value} = obj;
-
-    switch (type)
-    {
-        case "GETINFO":
-            episodeInfo = value.episodeInfo;
-            updatedTime = value.timestamp;
-            setTimeText();
-            tickSeconds();
-        break;
-    }
 });

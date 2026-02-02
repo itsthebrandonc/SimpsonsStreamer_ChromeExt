@@ -34,10 +34,14 @@ function openEpisode()
   chrome.tabs.query({}, tabs => {
       foreach(tab in tabs)
       {
-        chrome.tabs.update(tab.id, {active: true});
-        return;
+        if (tab.url == EP_URL_HEADER + episodeInfo.id || tab.url == HOMEPAGE_URL)
+        {
+          chrome.tabs.update(tab.id, {active: true});
+          return;
+        }
       }
   });
+  //chrome.tabs.create({url: HOMEPAGE_URL});
   chrome.tabs.create({url: EP_URL_HEADER + episodeInfo.id});
 }
 
